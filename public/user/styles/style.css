@@ -1106,7 +1106,7 @@ input[type=range]::-webkit-slider-thumb {
   opacity: 0.5 !important;
 }
 
-.bg-1 {
+/* .bg-1 {
   background-image: url(../images/pictures/1.jpg);
 }
 
@@ -1116,7 +1116,7 @@ input[type=range]::-webkit-slider-thumb {
 
 .bg-3 {
   background-image: url(../images/pictures/3.jpg);
-}
+} */
 
 .bg-4 {
   background-image: url(../images/pictures/4.jpg);

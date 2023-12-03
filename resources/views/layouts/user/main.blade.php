@@ -13,7 +13,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="manifest" href="_manifest.json">
 <meta id="theme-check" name="theme-color" content="#FFFFFF">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('user/app/icons/icon-192x192.png') }}"></head>
+{{-- <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('user/images/pictures/logo.png') }}"> --}}
+<link rel="icon" type="image/x-icon" href="{{asset('user/images/pictures/logo.png')}}">
+</head>
 
 <body class="theme-light">
 
@@ -23,23 +25,23 @@
 <div id="page">
 
     <!-- Footer Bar -->
-    <div id="footer-bar" class="footer-bar-1 footer-bar-detached">
-        <a href="page-wallet.html"><i class="bi bi-wallet2"></i><span>Cards</span></a>
-        <a href="page-activity.html"><i class="bi bi-graph-up"></i><span>Activity</span></a>
-        <a href="index-waves.html" class="circle-nav-2"><i class="bi bi-house-fill"></i><span>Home</span></a>
-        <a href="page-payments.html"><i class="bi bi-receipt"></i><span>Payments</span></a>
-        <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-sidebar"><i class="bi bi-three-dots"></i><span>More</span></a>
+    <div id="footer-bar" style="max-width: 990px; margin: 0 auto;" class="footer-bar-1 footer-bar-detached">
+        <a href="/"><i class="bi bi-house-door"></i><span>Home</span></a>
+        <a href="/informasi"><i class="bi bi-info-square"></i><span>Informasi</span></a>
+        <a href="/menu" class="circle-nav-2"><i class="bi bi-grid-3x3-gap"></i><span>Menu</span></a>
+        <a href="/marketplace"><i class="bi bi-shop-window"></i><span>Market</span></a>
+        <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-sidebar"><i class="bi bi-person"></i><span>Akun</span></a>
     </div>
 
     <!-- Page Content - Only Page Elements Here-->
-    <div class="page-content footer-clear">
+    <div class="page-content footer-clear" style="max-width: 1000px; margin: 0 auto;">
 
         <!-- Page Title-->
         <div class="pt-3">
             <div class="page-title d-flex">
                 <div class="align-self-center me-auto">
                     <p class="color-black opacity-80 header-date"></p>
-                    <h1 class="color-black">Welcome</h1>
+                    <h1 class="color-black">Desa Satu</h1>
                 </div>
                 <div class="align-self-center ms-auto">
                     <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-highlights" class="icon bg-white color-theme rounded-m shadow-xl">
@@ -52,13 +54,13 @@
                         <i class="bi bi-bell-fill font-17"></i>
                         <em class="badge bg-red-dark color-white scale-box">3</em>
                     </a> --}}
-                    <a href="#"
-                    data-bs-toggle="dropdown"
+                    <a href="/"
+                    {{-- data-bs-toggle="dropdown" --}}
                     class="icon gradient-blue shadow-bg shadow-bg-s rounded-m">
-                        <img src="{{ asset('user/images/pictures/25s.jpg') }}" width="45" class="rounded-m" alt="img">
+                        <img src="{{ asset('user/images/pictures/logo.png') }}" width="45" class="rounded-m" alt="img">
                     </a>
                     <!-- Page Title Dropdown Menu-->
-                    <div class="dropdown-menu">
+                    {{-- <div class="dropdown-menu">
                         <div class="card card-style shadow-m mt-1 me-1">
                             <div class="list-group list-custom list-group-s list-group-flush rounded-xs px-3 py-1">
                                 <a href="page-wallet.html" class="list-group-item">
@@ -79,7 +81,7 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -148,7 +150,7 @@
                 </div>
             </div>
         </div> --}}
-
+        @yield('content')
         <!-- Quick Actions -->
         {{-- <div class="content py-2">
             <div class="d-flex text-center">
@@ -296,7 +298,7 @@
                 </div>
             </div>
         </div> --}}
-        @yield('content')
+
     </div>
     <!-- End of Page Content-->
 
@@ -319,9 +321,9 @@
     </div>
     
     <!-- Card Menu More -->
-    <div id="menu-card-more" class="offcanvas offcanvas-bottom offcanvas-detached rounded-m">
+    {{-- <div id="menu-card-more" class="offcanvas offcanvas-bottom offcanvas-detached rounded-m">
         @include('layouts.user.partials.menu-card-settings')
-    </div>
+    </div> --}}
 
     <!-- Transfer Button Menu -->
     <div id="menu-transfer" class="offcanvas offcanvas-bottom offcanvas-detached rounded-m">

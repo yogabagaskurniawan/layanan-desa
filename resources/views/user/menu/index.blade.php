@@ -12,64 +12,192 @@
     <div class="splide__track">
         <div class="splide__list">
             <div class="splide__slide">
-                <div class="card card-style m-0 bg-5 shadow-card shadow-card-m" style="height:200px">
-                    <div class="card-top p-3">
-                        <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-card-more" class="icon icon-xxs bg-white color-black float-end"><i class="bi bi-three-dots font-18"></i></a>
+                <a href="https://desasatu.404official.com/">
+                    <div class="card card-style m-0 shadow-card shadow-card-m" style="height:200px; background-image: url('{{ asset('user/images/pictures/iklan1.jpeg') }}')">
+                        {{-- <div class="card-top p-3"> --}}
+                            {{-- <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-card-more" class="icon icon-xxs bg-white color-black float-end"><i class="bi bi-three-dots font-18"></i></a> --}}
+                        {{-- </div> --}}
+                        {{-- <div class="card-center">
+                            <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
+                                <h1 class="font-13 my-n1">
+                                    <a class="color-theme" data-bs-toggle="collapse" href="#balance3" aria-controls="balance2">Click for Balance</a>
+                                </h1>
+                                <div class="collapse" id="balance3"><h2 class="color-theme font-26">$26,315</h2></div>
+                            </div>
+                        </div> --}}
+                        {{-- <strong class="card-top no-click font-12 p-3 color-white font-monospace">Main Account</strong> --}}
+                        {{-- {{-- <strong class="card-bottom no-click p-3 text-start color-white font-monospace">1234 5678 1234 5661</strong> --}} 
+                        {{-- {{-- <strong class="card-bottom no-click p-3 text-end color-white font-monospace">08 / 2025</strong> --}}
+                        <div class="card-overlay opacity-50"></div>
                     </div>
-                    <div class="card-center">
-                        <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
-                            <h1 class="font-13 my-n1">
-                                <a class="color-theme" data-bs-toggle="collapse" href="#balance3" aria-controls="balance2">Click for Balance</a>
-                            </h1>
-                            <div class="collapse" id="balance3"><h2 class="color-theme font-26">$26,315</h2></div>
-                        </div>
-                    </div>
-                    <strong class="card-top no-click font-12 p-3 color-white font-monospace">Main Account</strong>
-                    <strong class="card-bottom no-click p-3 text-start color-white font-monospace">1234 5678 1234 5661</strong>
-                    <strong class="card-bottom no-click p-3 text-end color-white font-monospace">08 / 2025</strong>
-                    <div class="card-overlay bg-black opacity-50"></div>
-                </div>
+                </a>
             </div>
             <div class="splide__slide">
-                <div class="card card-style m-0 bg-9 shadow-card shadow-card-m" style="height:200px">
-                    <div class="card-top p-3">
-                        <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-card-more" class="icon icon-xxs bg-white color-black float-end"><i class="bi bi-three-dots font-18"></i></a>
+                <a href="https://desasatu.404official.com/">
+                    <div class="card card-style m-0 shadow-card shadow-card-m" style="height:200px; background-image: url('{{ asset('user/images/pictures/iklan2.jpeg') }}')"">
+                        {{-- <div class="card-top p-3"> --}}
+                            {{-- <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-card-more" class="icon icon-xxs bg-white color-black float-end"><i class="bi bi-three-dots font-18"></i></a> --}}
+                        {{-- </div> --}}
+                        {{-- <div class="card-center">
+                            <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
+                                <h1 class="font-13 my-n1">
+                                    <a class="color-theme" data-bs-toggle="collapse" href="#balance1" aria-controls="balance1">Click for Balance</a>
+                                </h1>
+                                <div class="collapse" id="balance1"><h2 class="color-theme font-26">$65,500</h2></div>
+                            </div>
+                        </div> --}}
+                        {{-- {{-- <strong class="card-top no-click font-12 p-3 color-white font-monospace">Company Account</strong> --}}
+                        {{-- {{-- <strong class="card-bottom no-click p-3 text-start color-white font-monospace">1234 5678 1234 5661</strong> --}}
+                        {{-- {{-- <strong class="card-bottom no-click p-3 text-end color-white font-monospace">08 / 2025</strong> --}}
+                        <div class="card-overlay opacity-50"></div>
                     </div>
-                    <div class="card-center">
-                        <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
-                            <h1 class="font-13 my-n1">
-                                <a class="color-theme" data-bs-toggle="collapse" href="#balance1" aria-controls="balance1">Click for Balance</a>
-                            </h1>
-                            <div class="collapse" id="balance1"><h2 class="color-theme font-26">$65,500</h2></div>
-                        </div>
-                    </div>
-                    <strong class="card-top no-click font-12 p-3 color-white font-monospace">Company Account</strong>
-                    <strong class="card-bottom no-click p-3 text-start color-white font-monospace">1234 5678 1234 5661</strong>
-                    <strong class="card-bottom no-click p-3 text-end color-white font-monospace">08 / 2025</strong>
-                    <div class="card-overlay bg-black opacity-50"></div>
-                </div>
+                </a>
             </div>
             <div class="splide__slide">
-                <div class="card card-style m-0 bg-7 shadow-card shadow-card-m" style="height:200px">
-                    <div class="card-top p-3">
-                        <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-card-more" class="icon icon-xxs bg-white color-black float-end"><i class="bi bi-three-dots font-18"></i></a>
+                <a href="https://desasatu.404official.com/">
+                    <div class="card card-style m-0 shadow-card shadow-card-m" style="height:200px; background-image: url('{{ asset('user/images/pictures/iklan1.jpeg') }}')"">
+                        {{-- <div class="card-top p-3"> --}}
+                            {{-- <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-card-more" class="icon icon-xxs bg-white color-black float-end"><i class="bi bi-three-dots font-18"></i></a> --}}
+                        {{-- </div> --}}
+                        {{-- <div class="card-center">
+                            <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
+                                <h1 class="font-13 my-n1">
+                                    <a class="color-theme" data-bs-toggle="collapse" href="#balance2" aria-controls="balance2">Click for Balance</a>
+                                </h1>
+                                <div class="collapse" id="balance2"><h2 class="color-theme font-26">$15,100</h2></div>
+                            </div>
+                        </div> --}}
+                        {{-- {{-- <strong class="card-top no-click font-12 p-3 color-white font-monospace">Savings Account</strong> --}}
+                        {{-- {{-- <strong class="card-bottom no-click p-3 text-start color-white font-monospace">1234 5678 1234 5661</strong> --}}
+                        {{-- <strong class="card-bottom no-click p-3 text-end color-white font-monospace">08 / 2025</strong> --}}
+                        <div class="card-overlay opacity-50"></div>
                     </div>
-                    <div class="card-center">
-                        <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
-                            <h1 class="font-13 my-n1">
-                                <a class="color-theme" data-bs-toggle="collapse" href="#balance2" aria-controls="balance2">Click for Balance</a>
-                            </h1>
-                            <div class="collapse" id="balance2"><h2 class="color-theme font-26">$15,100</h2></div>
-                        </div>
-                    </div>
-                    <strong class="card-top no-click font-12 p-3 color-white font-monospace">Savings Account</strong>
-                    <strong class="card-bottom no-click p-3 text-start color-white font-monospace">1234 5678 1234 5661</strong>
-                    <strong class="card-bottom no-click p-3 text-end color-white font-monospace">08 / 2025</strong>
-                    <div class="card-overlay bg-black opacity-50"></div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
 </div>
-<h1>Hello world</h1>
+
+<div class="row text-center" style="margin: 60px 4px 0 4px">
+    <div class="col-4 mb-4 ">
+        <a href="#" class="card card-style m-0" style="height:130px;">
+            <div class="card-center">
+                <span class="icon icon-xl rounded-m gradient-green shadow-bg shadow-bg-xs"><i class="bi bi-arrow-clockwise font-24 color-white"></i></span>
+                <h3 class="font-16 pt-3">Exchange</h3>
+            </div>
+        </a>
+    </div>
+    <div class="col-4 mb-4 ">
+        <a href="#" class="card card-style m-0" style="height:130px;">
+            <div class="card-center">
+                <span class="icon icon-xl rounded-m gradient-orange shadow-bg shadow-bg-xs"><i class="bi bi-receipt font-24 color-white"></i></span>
+                <h3 class="font-16 pt-3">Pay a Bill</h3>
+            </div>
+        </a>
+    </div>
+    <div class="col-4 mb-4 ">
+        <a href="#" class="card card-style m-0" style="height:130px;">
+            <div class="card-center">
+                <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span>
+                <h3 class="font-16 pt-3">Request</h3>
+            </div>
+        </a>
+    </div>
+    <div class="col-4 mb-4 ">
+        <a href="#" class="card card-style m-0" style="height:130px;">
+            <div class="card-center">
+                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
+                <h3 class="font-16 pt-3">Transfer</h3>
+            </div>
+        </a>
+    </div>
+    <div class="col-4 mb-4 ">
+        <a href="#" class="card card-style m-0" style="height:130px;">
+            <div class="card-center">
+                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
+                <h3 class="font-16 pt-3">Transfer</h3>
+            </div>
+        </a>
+    </div>
+    <div class="col-4 mb-4 ">
+        <a href="#" class="card card-style m-0" style="height:130px;">
+            <div class="card-center">
+                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
+                <h3 class="font-16 pt-3">Transfer</h3>
+            </div>
+        </a>
+    </div>
+    <div class="col-4 mb-4 ">
+        <a href="#" class="card card-style m-0" style="height:130px;">
+            <div class="card-center">
+                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
+                <h3 class="font-16 pt-3">Transfer</h3>
+            </div>
+        </a>
+    </div>
+    <div class="col-4 mb-4 ">
+        <a href="#" class="card card-style m-0" style="height:130px;">
+            <div class="card-center">
+                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
+                <h3 class="font-16 pt-3">Transfer</h3>
+            </div>
+        </a>
+    </div>
+    <div class="col-4 mb-4 ">
+        <a href="#" class="card card-style m-0" style="height:130px;">
+            <div class="card-center">
+                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
+                <h3 class="font-16 pt-3">Transfer</h3>
+            </div>
+        </a>
+    </div>
+    <div class="col-4 mb-4 ">
+        <a href="#" class="card card-style m-0" style="height:130px;">
+            <div class="card-center">
+                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
+                <h3 class="font-16 pt-3">Transfer</h3>
+            </div>
+        </a>
+    </div>
+    <div class="col-4 mb-4 ">
+        <a href="#" class="card card-style m-0" style="height:130px;">
+            <div class="card-center">
+                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
+                <h3 class="font-16 pt-3">Transfer</h3>
+            </div>
+        </a>
+    </div>
+    <div class="col-4 mb-4 ">
+        <a href="#" class="card card-style m-0" style="height:130px;">
+            <div class="card-center">
+                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
+                <h3 class="font-16 pt-3">Transfer</h3>
+            </div>
+        </a>
+    </div>
+    <div class="col-4 mb-4 ">
+        <a href="#" class="card card-style m-0" style="height:130px;">
+            <div class="card-center">
+                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
+                <h3 class="font-16 pt-3">Transfer</h3>
+            </div>
+        </a>
+    </div>
+    <div class="col-4 mb-4 ">
+        <a href="#" class="card card-style m-0" style="height:130px;">
+            <div class="card-center">
+                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
+                <h3 class="font-16 pt-3">Transfer</h3>
+            </div>
+        </a>
+    </div>
+    <div class="col-4 mb-4 ">
+        <a href="#" class="card card-style m-0" style="height:130px;">
+            <div class="card-center">
+                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
+                <h3 class="font-16 pt-3">Transfer</h3>
+            </div>
+        </a>
+    </div>
+</div>
 @endsection
