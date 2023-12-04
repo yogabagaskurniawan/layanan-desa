@@ -77,7 +77,9 @@ Route::get('/wisata', function () {
     return view('user.menu.wisata.allWisata');
 });
 Route::get('/detail-wisata', function () {
-    return view('user.menu.wisata.detail-Wisata');
+    return view('user.menu.wisata.detail-Wisata',[
+        "namaBtn" => "Wisata"
+    ]);
 });
 // bagian menu untuk layanan
 Route::get('/layanan', function () {
