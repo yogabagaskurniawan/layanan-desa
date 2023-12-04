@@ -80,122 +80,128 @@
 
 <div class="row text-center" style="margin: 60px 4px 0 4px">
     <div class="col-4 mb-4 ">
-        <a href="#" class="card card-style m-0" style="height:130px;">
+        <a href="/marketplace" class="card card-style m-0" style="height:130px;">
             <div class="card-center">
-                <span class="icon icon-xl rounded-m gradient-green shadow-bg shadow-bg-xs"><i class="bi bi-arrow-clockwise font-24 color-white"></i></span>
-                <h3 class="font-16 pt-3">Exchange</h3>
+                {{-- <span class="icon icon-xl rounded-m gradient-green shadow-bg shadow-bg-xs"><i class="bi bi-arrow-clockwise font-24 color-white"></i></span> --}}
+                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/marketplace.png') }}" alt="img marketplace">
+                <h3 class="font-16 pt-3">Marketplace</h3>
             </div>
         </a>
     </div>
     <div class="col-4 mb-4 ">
-        <a href="#" class="card card-style m-0" style="height:130px;">
+        <a href="/informasi" class="card card-style m-0" style="height:130px;">
             <div class="card-center">
-                <span class="icon icon-xl rounded-m gradient-orange shadow-bg shadow-bg-xs"><i class="bi bi-receipt font-24 color-white"></i></span>
-                <h3 class="font-16 pt-3">Pay a Bill</h3>
+                {{-- <span class="icon icon-xl rounded-m gradient-orange shadow-bg shadow-bg-xs"><i class="bi bi-receipt font-24 color-white"></i></span> --}}
+                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/informasi.png') }}" alt="img informasi">
+                <h3 class="font-16 pt-3">Informasi</h3>
             </div>
         </a>
     </div>
     <div class="col-4 mb-4 ">
-        <a href="#" class="card card-style m-0" style="height:130px;">
+        <a href="/kurir" class="card card-style m-0" style="height:130px;">
             <div class="card-center">
-                <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span>
-                <h3 class="font-16 pt-3">Request</h3>
+                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
+                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/kurir.png') }}" alt="imag kurir">
+                <h3 class="font-16 pt-3">Kurir</h3>
             </div>
         </a>
     </div>
     <div class="col-4 mb-4 ">
-        <a href="#" class="card card-style m-0" style="height:130px;">
+        <a href="/umkm" class="card card-style m-0" style="height:130px;">
             <div class="card-center">
-                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
-                <h3 class="font-16 pt-3">Transfer</h3>
+                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
+                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/umkm.png') }}" alt="imag umkm">
+                <h3 class="font-16 pt-3">Umkm</h3>
             </div>
         </a>
     </div>
     <div class="col-4 mb-4 ">
-        <a href="#" class="card card-style m-0" style="height:130px;">
+        <a href="/loker" class="card card-style m-0" style="height:130px;">
             <div class="card-center">
-                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
-                <h3 class="font-16 pt-3">Transfer</h3>
+                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
+                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/loker.png') }}" alt="imag loker">
+                <h3 class="font-16 pt-3">Loker</h3>
             </div>
         </a>
     </div>
     <div class="col-4 mb-4 ">
-        <a href="#" class="card card-style m-0" style="height:130px;">
+        <a href="/wisata" class="card card-style m-0" style="height:130px;">
             <div class="card-center">
-                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
-                <h3 class="font-16 pt-3">Transfer</h3>
+                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
+                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/wisata.png') }}" alt="imag wisata">
+                <h3 class="font-16 pt-3">Wisata</h3>
             </div>
         </a>
     </div>
     <div class="col-4 mb-4 ">
-        <a href="#" class="card card-style m-0" style="height:130px;">
+        <a href="/layanan" class="card card-style m-0" style="height:130px;">
             <div class="card-center">
-                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
-                <h3 class="font-16 pt-3">Transfer</h3>
+                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
+                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/layanan.png') }}" alt="imag layanan">
+                <h3 class="font-16 pt-3">Layanan</h3>
             </div>
         </a>
     </div>
     <div class="col-4 mb-4 ">
-        <a href="#" class="card card-style m-0" style="height:130px;">
+        <a href="/bumdes" class="card card-style m-0" style="height:130px;">
             <div class="card-center">
-                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
-                <h3 class="font-16 pt-3">Transfer</h3>
+                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
+                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/marketplace.png') }}" alt="imag bumdes">
+                <h3 class="font-16 pt-3">Bumdes</h3>
             </div>
         </a>
     </div>
     <div class="col-4 mb-4 ">
-        <a href="#" class="card card-style m-0" style="height:130px;">
+        <a href="/jasa" class="card card-style m-0" style="height:130px;">
             <div class="card-center">
-                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
-                <h3 class="font-16 pt-3">Transfer</h3>
+                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
+                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/jasa.png') }}" alt="imag jasa">
+                <h3 class="font-16 pt-3">Jasa</h3>
             </div>
         </a>
     </div>
     <div class="col-4 mb-4 ">
-        <a href="#" class="card card-style m-0" style="height:130px;">
+        <a href="/masukan" class="card card-style m-0" style="height:130px;">
             <div class="card-center">
-                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
-                <h3 class="font-16 pt-3">Transfer</h3>
+                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
+                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/masukan.png') }}" alt="imag masukan">
+                <h3 class="font-16 pt-3">Masukan</h3>
             </div>
         </a>
     </div>
     <div class="col-4 mb-4 ">
-        <a href="#" class="card card-style m-0" style="height:130px;">
+        <a href="/buat-surat" class="card card-style m-0" style="height:130px;">
             <div class="card-center">
-                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
-                <h3 class="font-16 pt-3">Transfer</h3>
+                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
+                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/berkas.png') }}" alt="imag buat-surat">
+                <h3 class="font-16 pt-3">Buat surat</h3>
             </div>
         </a>
     </div>
     <div class="col-4 mb-4 ">
-        <a href="#" class="card card-style m-0" style="height:130px;">
+        <a href="/simpedes" class="card card-style m-0" style="height:130px;">
             <div class="card-center">
-                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
-                <h3 class="font-16 pt-3">Transfer</h3>
+                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
+                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/simpedes.png') }}" alt="imag simpedes">
+                <h3 class="font-16 pt-3">Simpedes</h3>
             </div>
         </a>
     </div>
     <div class="col-4 mb-4 ">
-        <a href="#" class="card card-style m-0" style="height:130px;">
+        <a href="/bank-sampah" class="card card-style m-0" style="height:130px;">
             <div class="card-center">
-                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
-                <h3 class="font-16 pt-3">Transfer</h3>
+                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
+                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/bank-sampah.png') }}" alt="imag bank sampah">
+                <h3 class="font-16 pt-3">B-sampah</h3>
             </div>
         </a>
     </div>
     <div class="col-4 mb-4 ">
-        <a href="#" class="card card-style m-0" style="height:130px;">
+        <a href="/desa-lain" class="card card-style m-0" style="height:130px;">
             <div class="card-center">
-                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
-                <h3 class="font-16 pt-3">Transfer</h3>
-            </div>
-        </a>
-    </div>
-    <div class="col-4 mb-4 ">
-        <a href="#" class="card card-style m-0" style="height:130px;">
-            <div class="card-center">
-                <span class="icon icon-xl rounded-m gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-arrow-up-circle font-24 color-white"></i></span>
-                <h3 class="font-16 pt-3">Transfer</h3>
+                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
+                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/desa.png') }}" alt="imag desa-lain">
+                <h3 class="font-16 pt-3">Desa lain</h3>
             </div>
         </a>
     </div>
