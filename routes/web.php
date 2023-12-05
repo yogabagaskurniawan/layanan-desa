@@ -100,7 +100,9 @@ Route::get('/jasa', function () {
     return view('user.menu.jasa.alljasa');
 });
 Route::get('/detail-jasa', function () {
-    return view('user.menu.jasa.detail-jasa');
+    return view('user.menu.jasa.detail-jasa',[
+        "namaBtn" => "Jasa"
+    ]);
 });
 Route::get('/tambah-jasa', function () {
     return view('user.menu.jasa.tambah-jasa');

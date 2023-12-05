@@ -30,11 +30,12 @@
         <div class="pb-2"></div>
     </div>
 </div>
-{{-- <img src="{{ asset('user/images/pictures/iklan2.jpeg') }}" class="img-fluid"> --}}
 <div class="row mb-0 mx-1">
     <div class="col-6 col-sm-4 col-lg-3 mb-4">
         <div class="card card-style m-0 rounded-3">
-            <img src="{{ asset('user/images/pictures/iklan2.jpeg') }}" class="img-fluid">
+            <a href="/detail-jasa">
+                <img src="{{ asset('user/images/pictures/iklan2.jpeg') }}" class="img-fluid">
+            </a>
             <div class="content pb-0 text-center">
                 <h2 class="text-truncate" style="max-width: 100%;">Fotografi</h2>
                 <p class="mb-0 font-14">Batang<br>Desa Satu <br><span class="text-primary font-16"> Rp 250.000</span></p>
@@ -43,7 +44,9 @@
     </div>
     <div class="col-6 col-sm-4 col-lg-3 mb-4">
         <div class="card card-style m-0 rounded-3">
-            <img src="{{ asset('user/images/pictures/iklan2.jpeg') }}" class="img-fluid">
+            <a href="/detail-jasa">
+                <img src="{{ asset('user/images/pictures/iklan2.jpeg') }}" class="img-fluid">
+            </a>
             <div class="content pb-0 text-center">
                 <h2 class="text-truncate" style="max-width: 100%;">Jasa Desain Interior hshshsh</h2>
                 <p class="mb-0 font-14">Batang<br>Desa Satu <br><span class="text-primary font-16"> Rp 250.000</span></p>
@@ -52,7 +55,9 @@
     </div>
     <div class="col-6 col-sm-4 col-lg-3 mb-4">
         <div class="card card-style m-0 rounded-3">
-            <img src="{{ asset('user/images/pictures/iklan2.jpeg') }}" class="img-fluid">
+            <a href="/detail-jasa">
+                <img src="{{ asset('user/images/pictures/iklan2.jpeg') }}" class="img-fluid">
+            </a>
             <div class="content pb-0 text-center">
                 <h2 class="text-truncate" style="max-width: 100%;">Jasa Desain Interior hshshsh</h2>
                 <p class="mb-0 font-14">Batang<br>Desa Satu <br><span class="text-primary font-16"> Rp 250.000</span></p>
@@ -61,7 +66,9 @@
     </div>
     <div class="col-6 col-sm-4 col-lg-3 mb-4">
         <div class="card card-style m-0 rounded-3">
-            <img src="{{ asset('user/images/pictures/iklan2.jpeg') }}" class="img-fluid">
+            <a href="/detail-jasa">
+                <img src="{{ asset('user/images/pictures/iklan2.jpeg') }}" class="img-fluid">
+            </a>
             <div class="content pb-0 text-center">
                 <h2 class="text-truncate" style="max-width: 100%;">Jasa Desain Interior hshshsh</h2>
                 <p class="mb-0 font-14">Batang<br>Desa Satu <br><span class="text-primary font-16"> Rp 250.000</span></p>

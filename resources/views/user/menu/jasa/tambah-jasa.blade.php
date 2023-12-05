@@ -51,9 +51,9 @@
                       data-text-before="<i class='bi bi-check-circle-fill color-green-dark pe-2'></i> Image:"
                       data-text-after=" is ready.">
                 </span>
-                <div>
+                <div class="text-center">
                     <input type="file" class="upload-file" accept="image/*">
-                    <p class="btn btn-full btn-m text-uppercase font-700 rounded-s upload-file-text bg-highlight">Upload Image</p>
+                    <p class="btn btn-xxs text-uppercase rounded-s upload-file-text bg-highlight">Upload Image</p>
                 </div>
             </div>
             <button class="btn btn-full bg-mint-dark rounded-xs text-uppercase font-700 w-100 btn-s mt-4" type="submit">Daftar</button>
