@@ -93,7 +93,9 @@ Route::get('/bumdes', function () {
     return view('user.menu.bumdes.allbumdes');
 });
 Route::get('/detail-bumdes', function () {
-    return view('user.menu.bumdes.detail-bumdes');
+    return view('user.menu.bumdes.detail-bumdes',[
+        "namaBtn" => "Bumdes"
+    ]);
 });
 // bagian menu untuk jasa
 Route::get('/jasa', function () {
