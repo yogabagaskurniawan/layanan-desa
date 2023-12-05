@@ -33,8 +33,8 @@
         <div class="pt-3">
             <div class="page-title d-flex">
                 <div class="align-self-center me-auto">
-                    <p class="color-black opacity-80 header-date"></p>
-                    <h1 class="color-black">Desa Satu</h1>
+                    <p class="color-theme header-date"></p>
+                    <h1 class="color-theme">Desa Satu</h1>
                 </div>
                 <div class="align-self-center ms-auto">
                     <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-highlights" class="icon bg-white color-theme rounded-m shadow-xl">
