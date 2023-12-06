@@ -14,11 +14,7 @@
         <p class="text-center">
             <strong>Jobdes yang Harus Diketahui oleh ART (<strong>Progammer</strong>)</strong>
         </p>
-        {{-- <p class="text-center">
-            Harus bisa minimal 7 bahasa pemograman
-            <br>punya attitude yang baik
-            <br>sopan terhadap rekan kerja
-        </p> --}}
+        
         <div style="text-align: center;">
             <ul style="list-style: none; padding: 0;">
                 <li style="margin-bottom: 10px;"><strong>1.</strong>harus bisa minimal 7 bahasa pemrograman</li>
