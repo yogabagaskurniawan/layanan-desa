@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="my-2 d-flex justify-content-center">
-            <a href="/tambah-loker" class="btn btn-xxs bg-mint-dark shadow-bg-m text-center mx-1">Buat Lowongan Kerja</a>
+            <a href="/buat-loker" class="btn btn-xxs bg-mint-dark shadow-bg-m text-center mx-1">Buat Lowongan Kerja</a>
         </div>        
         <div class="pb-2"></div>
     </div>
