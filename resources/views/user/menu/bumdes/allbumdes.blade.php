@@ -37,58 +37,38 @@
 <div class="divider mx-3"></div>
 
 <div class="row me-0 ms-0 mb-0">
-    <div class="col-3 ps-0 pe-0">
-        <div class="card card-style">
+    <div class="col-6 col-sm-4 col-lg-3 mb-4">
+        <div class="card card-style m-0 rounded-3">
             <a href="/detail-bumdes">
-                <img src="{{ asset('user/images/pictures/23.jpg') }}" class="img-fluid">
+                <img src="{{ asset('user/images/pictures/24.jpg')}}" class="img-fluid">
             </a>
-            <div class="content pb-0">
-                <h4 class="text-center">bumdes 1</h4>
-                <p class="mb-0 text-center"style="color: green;">Batang.</p>
-                <p class="mb-0 text-center">desa satu.</p>
-                <p class="mb-0 text-center"style="color: blue;font-size:18px;">Rp.10000</p>
+            <div class="content pb-0 text-center">
+                <h2 class="text-truncate" style="max-width: 100%;">Bumdes 1</h2>
+                <p class="mb-0 font-14">Batang<br>Desa Satu <br><span class="text-primary font-16"> Rp 250.000</span></p>
             </div>
         </div>
     </div>
 
-    <div class="col-3 pe-0 ps-0">
-        <div class="card card-style">
+    <div class="col-6 col-sm-4 col-lg-3 mb-4">
+        <div class="card card-style m-0 rounded-3">
             <a href="/detail-bumdes">
                 <img src="{{ asset('user/images/pictures/24.jpg')}}" class="img-fluid">
             </a>
-            <div class="content pb-0">
-                <h4 class="text-center">bumdes 2</h4>
-                <p class="mb-0 text-center"style="color: green;">tulis.</p>
-                <p class="mb-0 text-center">desa satu.</p>
-                <p class="mb-0 text-center"style="color: blue;font-size:18px;">Rp.20000</p>
+            <div class="content pb-0 text-center">
+                <h2 class="text-truncate" style="max-width: 100%;">Bumdes 2</h2>
+                <p class="mb-0 font-14">Batang<br>Desa Satu <br><span class="text-primary font-16"> Rp 250.000</span></p>
             </div>
         </div>
     </div>
 
-    <div class="col-3 pe-0 ps-0">
-        <div class="card card-style">
+    <div class="col-6 col-sm-4 col-lg-3 mb-4">
+        <div class="card card-style m-0 rounded-3">
             <a href="/detail-bumdes">
                 <img src="{{ asset('user/images/pictures/24.jpg')}}" class="img-fluid">
             </a>
-            <div class="content pb-0">
-                <h4 class="text-center">bumdes 3</h4>
-                <p class="mb-0 text-center"style="color: green;">subah.</p>
-                <p class="mb-0 text-center">desa satu.</p>
-                <p class="mb-0 text-center"style="color: blue;font-size:18px;">Rp.30000</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-3 pe-0 ps-0">
-        <div class="card card-style">
-            <a href="/detail-bumdes">
-                <img src="{{ asset('user/images/pictures/24.jpg')}}" class="img-fluid">
-            </a>
-            <div class="content pb-0">
-                <h4 class="text-center">bumdes 4</h4>
-                <p class="mb-0 text-center"style="color: green;">kandeman.</p>
-                <p class="mb-0 text-center">desa satu.</p>
-                <p class="mb-0 text-center"style="color: blue;font-size:18px;">Rp.30000</p>
+            <div class="content pb-0 text-center">
+                <h2 class="text-truncate" style="max-width: 100%;">Bumdes 3</h2>
+                <p class="mb-0 font-14">Batang<br>Desa Satu <br><span class="text-primary font-16"> Rp 250.000</span></p>
             </div>
         </div>
     </div>

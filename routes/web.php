@@ -70,7 +70,9 @@ Route::get('/loker-saya', function () {
     return view('user.menu.loker.loker-saya');
 });
 Route::get('/detail-loker', function () {
-    return view('user.menu.loker.detail-loker');
+    return view('user.menu.loker.detail-loker',[
+        "namaBtn" => "Loker"
+    ]);
 });
 // bagian menu untuk wisata
 Route::get('/wisata', function () {
