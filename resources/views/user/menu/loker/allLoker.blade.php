@@ -19,9 +19,12 @@
                 </div>
             </div>
         </div>
+        
         <div class="my-2 d-flex justify-content-center">
             <a href="/buat-loker" class="btn btn-xxs bg-mint-dark shadow-bg-m text-center mx-1">Buat Lowongan Kerja</a>
-        </div>        
+            <a href="/loker-saya" class="btn btn-xxs bg-blue-dark shadow-bg-m text-center mx-1">Lowongan Kerja Saya</a>
+        </div>   
+
         <div class="pb-2"></div>
     </div>
 </div>
