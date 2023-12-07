@@ -34,60 +34,49 @@
     </div>
 </div>
 
-<div class="card card-style mb-3">
-    <div class="content">
-        <div class="d-flex">
-            <div class="pt-1 ms-auto">
-                <img src="{{ asset('user/images/pictures/5l.jpg')}}" class="img-fluid rounded-s" width="110">
-            </div>
-            <div class="ps-3 me-auto">
-                <h3 class="mt-n2 pb-2">Pembangunan desa</h3>
-                <p style="margin: 0;">Selasa, 7 Juni 2022</p>
-                <p style="margin: 0;">Batang</p>
-                <p style="margin: 0;">Desa : Satu</p>
-                <div class="my-2 d-flex">
-                    <a href="/detail-informasi" class="btn btn-xxs bg-mint-dark shadow-bg-m text-center mx-1">Selengkapnya</a>
+<div class="card card-style">
+    <div class="content mb-0">
+        {{-- <div class="form-custom form-label no-icon mb-3">
+            <input type="text" class="form-control rounded-xs fs-6" id="c1" placeholder="Cari nama wisata / nama desa">
+            <label for="c1" class="color-theme ">Search</label>
+        </div> --}}
+        <div class="card card-style bg-5 shadow-card shadow-card-l" style="height:300px;background-image: url('{{ asset('user/images/pictures/5l.jpg')}}')">
+            <div class="card-center">
+                <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
+                    <h1 class="font-13 my-n1">
+                        <a class="color-theme" href="/detail-informasi" aria-controls="balance2">Selengkapnya</a>
+                    </h1>
                 </div>
             </div>
+            <strong class="card-top no-click font-20 p-3 color-white font-monospace">Kumpulan Desa</strong>
+            <strong class="font-14 card-bottom no-click p-3 text-start color-white font-monospace">Kota Batang<br> Desa Satu <br> Tanggal : <strong class="col-6 text-end mb-0 font-14 font-400"><p class="bg-orange-dark px-1 rounded-s d-inline-block">Senin, 6 Juni 2022</p></strong></strong>
+            <div class="card-overlay bg-black opacity-30"></div>
         </div>
-    </div>
-</div>
-
-<div class="card card-style mb-3">
-    <div class="content">
-        <div class="d-flex">
-            <div class="pt-1 ms-auto">
-                <img src="{{ asset('user/images/pictures/5l.jpg')}}" class="img-fluid rounded-s" width="110">
-            </div>
-            <div class="ps-3 me-auto">
-                <h3 class="mt-n2 pb-2">Gotong royong</h3>
-                <p style="margin: 0;">Senin, 6 Juni 2022</p>
-                <p style="margin: 0;">Batang</p>
-                <p style="margin: 0;">Desa : Satu</p>
-                <div class="my-2 d-flex">
-                    <a href="/detail-informasi" class="btn btn-xxs bg-mint-dark shadow-bg-m text-center mx-1">Selengkapnya</a>
+        <div class="card card-style bg-5 shadow-card shadow-card-l" style="height:300px;background-image: url('{{ asset('user/images/pictures/5l.jpg')}}')">
+            <div class="card-center">
+                <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
+                    <h1 class="font-13 my-n1">
+                        <a class="color-theme" href="/detail-informasi" aria-controls="balance2">Selengkapnya</a>
+                    </h1>
                 </div>
             </div>
+            <strong class="card-top no-click font-20 p-3 color-white font-monospace">Pembangunan desa</strong>
+            <strong class="font-14 card-bottom no-click p-3 text-start color-white font-monospace">Kota Batang<br> Desa Satu <br> Tanggal : <strong class="col-6 text-end mb-0 font-14 font-400"><p class="bg-orange-dark px-1 rounded-s d-inline-block">Senin, 6 Juni 2022</p></strong></strong>
+            <div class="card-overlay bg-black opacity-30"></div>
         </div>
-    </div>
-</div>
-
-<div class="card card-style mb-3">
-    <div class="content">
-        <div class="d-flex">
-            <div class="pt-1 ms-auto">
-                <img src="{{ asset('user/images/pictures/5l.jpg')}}" class="img-fluid rounded-s" width="110">
-            </div>
-            <div class="ps-3 me-auto">
-                <h3 class="mt-n2 pb-2">Kumpulan Desa</h3>
-                <p style="margin: 0;">Sabtu, 11 Juni 2022</p>
-                <p style="margin: 0;">Batang</p>
-                <p style="margin: 0;">Desa : Satu</p>
-                <div class="my-2 d-flex">
-                    <a href="/detail-informasi" class="btn btn-xxs bg-mint-dark shadow-bg-m text-center mx-1">Selengkapnya</a>
+        <div class="card card-style bg-5 shadow-card shadow-card-l" style="height:300px;background-image: url('{{ asset('user/images/pictures/5l.jpg')}}')">
+            <div class="card-center">
+                <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
+                    <h1 class="font-13 my-n1">
+                        <a class="color-theme" href="/detail-informasi" aria-controls="balance2">Selengkapnya</a>
+                    </h1>
                 </div>
             </div>
+            <strong class="card-top no-click font-20 p-3 color-white font-monospace">Gotong royong</strong>
+            <strong class="font-14 card-bottom no-click p-3 text-start color-white font-monospace">Kota Batang<br> Desa Satu <br> Tanggal : <strong class="col-6 text-end mb-0 font-14 font-400"><p class="bg-orange-dark px-1 rounded-s d-inline-block">Senin, 6 Juni 2022</p></strong></strong>
+            <div class="card-overlay bg-black opacity-30"></div>
         </div>
+        <div class="pb-2"></div>
     </div>
 </div>
 
