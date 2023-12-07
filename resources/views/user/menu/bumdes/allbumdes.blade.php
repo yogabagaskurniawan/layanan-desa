@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-8">
                 <div class="form-custom form-label no-icon mb-3">
-                    <input type="text" class="form-control rounded-xs fs-6" id="c1" placeholder="Cari jasa / desa / kota">
+                    <input type="text" class="form-control rounded-xs fs-6" id="c1" placeholder="Cari produk / desa / kota">
                     <label for="c1" class="color-theme ">Search</label>
                 </div>
             </div>

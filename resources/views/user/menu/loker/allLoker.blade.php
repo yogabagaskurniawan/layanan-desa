@@ -4,7 +4,7 @@
 @include('layouts.user.partials.footer-bar')
 
 <div class="header-bar header-center shadow-m">
-    <h2 class="m-auto">Daftar Loker</h2>
+    <h2 class="m-auto">Daftar Lowongan Kerja</h2>
 </div>
 
 <div class="divider mx-4"></div>

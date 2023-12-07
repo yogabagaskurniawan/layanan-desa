@@ -11,11 +11,11 @@
             <p class="mb-0 font-14"><span>Selasa, 7 Juni 2022</span></p>
         </div>
         <div class="divider my-3"></div>
-        <p class="text-center">
+        <p class="">
             <strong>Jobdes yang Harus Diketahui oleh ART (<strong>Progammer</strong>)</strong>
         </p>
         
-        <div style="text-align: center;">
+        <div>
             <ul style="list-style: none; padding: 0;">
                 <li style="margin-bottom: 10px;"><strong>1.</strong>harus bisa minimal 7 bahasa pemrograman</li>
                 <li style="margin-bottom: 10px;"><strong>2.</strong>Harus bisa minimal 7 bahasa pemrograman</li>
