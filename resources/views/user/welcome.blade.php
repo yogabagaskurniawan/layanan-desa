@@ -10,7 +10,7 @@
     </svg>
 @include('layouts.user.partials.footer-bar')
 
-<div class="page-content footer-clear">
+<div class="page-content ">
 
         <!-- Card Stack - The Stack Height Below will be the card height-->
         <div class="card-stack" data-stack-height="180">
@@ -192,6 +192,67 @@
                     </li>
                 </ul>
             </div>
+        </div>
+
+        <div class="header-bar header-center shadow-m mt-0">
+            <h2 class="m-auto">Daftar Pengurus Desa</h2>
+        </div>
+
+        <div class="divider mx-4"></div>
+        
+        <div class="page-content footer-clear">
+        
+            <div class="row text-center">
+                <div class="col-6 mb-n2">
+                    <a class="card card-style me-0" style="height:180px">
+                        <div class="card-center">
+                            <img src="{{ asset('user/images/avatar.jpg')}}" alt="" style="width:80px; height:80px; object-fit: cover;">
+                            <h1 class="font-22 pt-3 mb-3">ASIN</h1>
+                        </div>
+                        <div class="card-bottom">
+                            <p class="font-11 mb-2 bg-mint-dark px-1 rounded-s d-inline-block">Kepala Desa</p>
+                            {{-- <p class="font-11 mb-0 opacity-40">Kepala Desa</p> --}}
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 mb-n2">
+                    <a class="card card-style ms-0" style="height:180px">
+                        <div class="card-center">
+                            <img src="{{ asset('user/images/avatar.jpg')}}" alt="" style="width:80px; height:80px; object-fit: cover;">
+                            <h1 class="font-22 pt-3 mb-3">TRESI</h1>
+                        </div>
+                        <div class="card-bottom">
+                            <p class="font-11 mb-2 bg-mint-dark px-1 rounded-s d-inline-block">Wakil Desa</p>
+                            {{-- <p class="font-11 mb-0 opacity-40">Wakil Desa</p> --}}
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 mb-n2">
+                    <a class="card card-style me-0" style="height:180px">
+                        <div class="card-center">
+                            <img src="{{ asset('user/images/avatar.jpg')}}" alt="" style="width:80px; height:80px; object-fit: cover;">
+                            <h1 class="font-22 pt-3 mb-3">SLAMET</h1>
+                        </div>
+                        <div class="card-bottom">
+                            <p class="font-11 mb-2 bg-mint-dark px-1 rounded-s d-inline-block">Bendahara Desa</p>
+                            {{-- <p class="font-11 mb-0 opacity-40">Bendahara Desa</p> --}}
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 mb-n2">
+                    <a class="card card-style ms-0" style="height:180px">
+                        <div class="card-center">
+                            <img src="{{ asset('user/images/avatar.jpg')}}" alt="" style="width:80px; height:80px; object-fit: cover;">
+                            <h1 class="font-22 pt-3 mb-3">OMPLOK</h1>
+                        </div>
+                        <div class="card-bottom">
+                            <p class="font-11 mb-2 bg-mint-dark px-1 rounded-s d-inline-block">Sekretaris</p>
+                            {{-- <p class="font-11 mb-0 opacity-40">Sekretaris</p> --}}
+                        </div>
+                    </a>
+                </div>
+            </div>
+        
         </div>
 </div>
 
