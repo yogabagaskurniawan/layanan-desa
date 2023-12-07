@@ -24,9 +24,9 @@
                 {{-- <h6 class="mt-n2  opacity-80 color-highlight">Cards are Awesome</h6> --}}
             </div>
 
-            <div class="d-flex align-self-center ms-md-auto mt-2 mt-md-0">
-                <a href="/detail-loker" class="btn btn-xxs bg-mint-dark btn-sm me-2 mx-1">Detail</a>
-                <a href="" class="btn btn-xxs bg-red-dark shadow-bg-m text-center mx-1">Hapus</a>
+            <div class="align-self-center ms-auto">
+                <a href="/detail-loker" class="btn btn-xxs bg-mint-dark btn-sm mx-1">Detail</a>
+                <a href="" class="btn btn-xxs bg-red-dark shadow-bg-m mx-1">Hapus</a>
             </div>
         </div>
         <p>Kota Batang<span>/</span>Desa satu</p>
@@ -42,9 +42,9 @@
                 {{-- <h6 class="mt-n2  opacity-80 color-highlight">Cards are Awesome</h6> --}}
             </div>
 
-            <div class="d-flex align-self-center ms-md-auto mt-2 mt-md-0">
-                <a href="/detail-loker" class="btn btn-xxs bg-mint-dark btn-sm me-2 mx-1">Detail</a>
-                <a href="" class="btn btn-xxs bg-red-dark shadow-bg-m text-center mx-1">Hapus</a>
+            <div class="align-self-center ms-auto">
+                <a href="/detail-loker" class="btn btn-xxs bg-mint-dark btn-sm mx-1">Detail</a>
+                <a href="" class="btn btn-xxs bg-red-dark shadow-bg-m mx-1">Hapus</a>
             </div>
         </div>
         <p>Kota Batang<span>/</span>Desa satu</p>
@@ -60,9 +60,9 @@
                 {{-- <h6 class="mt-n2  opacity-80 color-highlight">Cards are Awesome</h6> --}}
             </div>
 
-            <div class="d-flex align-self-center ms-md-auto mt-2 mt-md-0">
-                <a href="/detail-loker" class="btn btn-xxs bg-mint-dark btn-sm me-2 mx-1">Detail</a>
-                <a href="" class="btn btn-xxs bg-red-dark shadow-bg-m text-center mx-1">Hapus</a>
+            <div class="align-self-center ms-auto">
+                <a href="/detail-loker" class="btn btn-xxs bg-mint-dark btn-sm mx-1">Detail</a>
+                <a href="" class="btn btn-xxs bg-red-dark shadow-bg-m mx-1">Hapus</a>
             </div>
         </div>
         <p>Kota Batang<span>/</span>Desa satu</p>

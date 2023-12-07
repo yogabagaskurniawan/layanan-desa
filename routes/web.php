@@ -25,7 +25,9 @@ Route::get('/informasi', function () {
     return view('user.informasi.index');
 });
 Route::get('/detail-informasi', function () {
-    return view('user.informasi.detail');
+    return view('user.informasi.detail',[
+        "namaBtn" => "Informasi"
+    ]);
 });
 
 // bagian menu
