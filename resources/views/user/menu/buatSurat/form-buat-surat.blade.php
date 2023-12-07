@@ -121,7 +121,7 @@
     </div>
 </div>
 
-<div id="menu-modal-window" style="height: 380px; width: 320px; display: block;" class="offcanvas offcanvas-modal rounded-m show">
+<div id="menu-modal-window" style="height: 380px; width: 320px; display: block;" class="offcanvas offcanvas-modal rounded-m ">
     <div class="header-bar header-center shadow-m">
         <h2 class="m-auto">Detail surat</h2>
         <button class="btn btn-close p-1 ms-auto" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
