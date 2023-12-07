@@ -140,13 +140,13 @@ Route::get('/akun', function () {
     return view('user.akun.index');
 });
 Route::get('/toko-saya', function () {
-    return view('user.akun.toko-saya');
+    return view('user.akun.tokoSaya.toko-saya');
 });
 Route::get('/toko-edit', function () {
-    return view('user.akun.toko-edit');
+    return view('user.akun.tokoSaya.toko-edit');
 });
 Route::get('/toko-add', function () {
-    return view('user.akun.toko-add');
+    return view('user.akun.tokoSaya.toko-add');
 });
 
 Auth::routes();
