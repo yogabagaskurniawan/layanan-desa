@@ -19,10 +19,6 @@
                 </div>
             </div>
         </div>
-        {{-- <div class="my-2 d-flex justify-content-center">
-            <a href="/tambah-jasa" class="btn btn-xxs bg-mint-dark shadow-bg-m text-center mx-1">Tambah jasa</a>
-            <a href="/jasa-saya" class="btn btn-xxs bg-blue-dark shadow-bg-m text-center mx-1">Jasa Saya</a>
-        </div>         --}}
         <div class="pb-2"></div>
     </div>
 </div>
@@ -32,39 +28,39 @@
 <div class="row me-0 ms-0 mb-0">
     <div class="col-6 col-sm-4 col-lg-3 mb-4">
         <div class="card card-style m-0 rounded-3">
-            <a href="/detail-bumdes">
+            <a href="/">
                 <img src="{{ asset('user/images/pictures/24.jpg')}}" class="img-fluid">
             </a>
             <div class="content pb-0 text-center">
                 <h2 class="text-truncate" style="max-width: 100%;">Desa Satu</h2>
                 <p class="mb-0 font-14">Kota : Batang<br>Kecamatan : Tulis <br></p>
-                <a class="btn bg-mint-dark btn-xxs w-100" href="#">Kunjungi</a>
+                <a class="btn bg-mint-dark btn-xxs w-100" href="/">Kunjungi</a>
             </div>
         </div>
     </div>
 
     <div class="col-6 col-sm-4 col-lg-3 mb-4">
         <div class="card card-style m-0 rounded-3">
-            <a href="/detail-bumdes">
+            <a href="/">
                 <img src="{{ asset('user/images/pictures/24.jpg')}}" class="img-fluid">
             </a>
             <div class="content pb-0 text-center">
                 <h2 class="text-truncate" style="max-width: 100%;">Desa Satu</h2>
                 <p class="mb-0 font-14">Kota : Batang<br>Kecamatan : Tulis <br></p>
-                <a class="btn bg-mint-dark btn-xxs w-100" href="#">Kunjungi</a>
+                <a class="btn bg-mint-dark btn-xxs w-100" href="/">Kunjungi</a>
             </div>
         </div>
     </div>
 
     <div class="col-6 col-sm-4 col-lg-3 mb-4">
         <div class="card card-style m-0 rounded-3">
-            <a href="/detail-bumdes">
+            <a href="/">
                 <img src="{{ asset('user/images/pictures/24.jpg')}}" class="img-fluid">
             </a>
             <div class="content pb-0 text-center">
                 <h2 class="text-truncate" style="max-width: 100%;">Desa Satu</h2>
                 <p class="mb-0 font-14">Kota : Batang<br>Kecamatan : Tulis <br></p>
-                <a class="btn bg-mint-dark btn-xxs w-100" href="#">Kunjungi</a>
+                <a class="btn bg-mint-dark btn-xxs w-100" href="/">Kunjungi</a>
             </div>
         </div>
     </div>
