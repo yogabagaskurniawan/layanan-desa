@@ -1,59 +1,66 @@
 <!DOCTYPE HTML>
 <html lang="en">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
-<title>Desa Satu</title>
-<link rel="stylesheet" type="text/css" href="{{ asset('user/styles/bootstrap.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ asset('user/fonts/bootstrap-icons.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ asset('user/styles/style.css') }}">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="manifest" href="_manifest.json">
-<meta id="theme-check" name="theme-color" content="#FFFFFF">
-{{-- <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('user/images/pictures/logo.png') }}"> --}}
-<link rel="icon" type="image/x-icon" href="{{asset('user/images/pictures/logo.png')}}">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <title>Desa Satu</title>
+    <link rel="stylesheet" type="text/css" href="{{ asset('user/styles/bootstrap.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('user/fonts/bootstrap-icons.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('user/styles/style.css') }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="manifest" href="_manifest.json">
+    <meta id="theme-check" name="theme-color" content="#FFFFFF">
+    {{-- <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('user/images/pictures/logo.png') }}"> --}}
+    <link rel="icon" type="image/x-icon" href="{{asset('user/images/pictures/logo.png')}}">
 </head>
 
 <body class="theme-light">
 
-<div id="preloader"><div class="spinner-border color-highlight" role="status"></div></div>
+    <div id="preloader">
+        <div class="spinner-border color-highlight" role="status"></div>
+    </div>
 
-<!-- Page Wrapper-->
-<div id="page">
+    <!-- Page Wrapper-->
+    <div id="page">
 
-    {{-- @include('layouts.user.partials.footer-bar') --}}
+        {{-- @include('layouts.user.partials.footer-bar') --}}
 
-    <!-- Page Content - Only Page Elements Here-->
-    <div class="page-content footer-clear" style="max-width: 1000px; margin: 0 auto;">
+        <!-- Page Content - Only Page Elements Here-->
+        <div class="page-content footer-clear" style="max-width: 1000px; margin: 0 auto;">
 
-        <!-- Page Title-->
-        <div class="pt-3">
-            <div class="page-title d-flex">
-                <div class="align-self-center me-auto">
-                    <p class="color-black opacity-80 header-date"></p>
-                    <h1 class="color-black">Desa Satu</h1>
-                </div>
-                <div class="align-self-center ms-auto">
-                    <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-highlights" class="icon bg-white color-theme rounded-m shadow-xl">
-                        <i class="bi bi-palette-fill color-black font-16"></i>
-                    </a>
-                    {{-- <a href="#"
+            <!-- Page Title-->
+            <div class="pt-3">
+                <div class="page-title d-flex">
+                    <div class="align-self-center me-auto">
+                        <p class="color-black opacity-80 header-date"></p>
+                        <h1 class="color-black">Desa Satu</h1>
+                    </div>
+                    <div class="align-self-center ms-auto">
+                        <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-highlights"
+                            class="icon bg-white color-theme rounded-m shadow-xl">
+                            <i class="bi bi-palette-fill color-black font-16"></i>
+                        </a>
+                        {{-- <a href="#"
                     data-bs-toggle="offcanvas"
                     data-bs-target="#menu-notifications"
                     class="icon bg-white color-theme shadow-bg shadow-bg-xs rounded-m">
                         <i class="bi bi-bell-fill font-17"></i>
                         <em class="badge bg-red-dark color-white scale-box">3</em>
                     </a> --}}
-                    <a href="/"
-                    {{-- data-bs-toggle="dropdown" --}}
-                    class="icon gradient-blue shadow-bg shadow-bg-s rounded-m">
-                        <img src="{{ asset('user/images/pictures/logo.png') }}" width="45" class="rounded-m" alt="img">
-                    </a>
-                    <!-- Page Title Dropdown Menu-->
-                    {{-- <div class="dropdown-menu">
+                        <a href="/" {{-- data-bs-toggle="dropdown" --}}
+                            class="icon gradient-blue shadow-bg shadow-bg-s rounded-m">
+                            <img src="{{ asset('user/images/pictures/logo.png') }}" width="45" class="rounded-m"
+                                alt="img">
+                        </a>
+                        <!-- Page Title Dropdown Menu-->
+                        {{-- <div class="dropdown-menu">
                         <div class="card card-style shadow-m mt-1 me-1">
                             <div class="list-group list-custom list-group-s list-group-flush rounded-xs px-3 py-1">
                                 <a href="page-wallet.html" class="list-group-item">
@@ -75,12 +82,12 @@
                             </div>
                         </div>
                     </div> --}}
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!-- Main Card Slider-->
-        {{-- <div class="splide single-slider slider-no-dots slider-no-arrows slider-visible" id="single-slider-1">
+            <!-- Main Card Slider-->
+            {{-- <div class="splide single-slider slider-no-dots slider-no-arrows slider-visible" id="single-slider-1">
             <div class="splide__track">
                 <div class="splide__list">
                     <div class="splide__slide">
@@ -143,9 +150,9 @@
                 </div>
             </div>
         </div> --}}
-        @yield('content')
-        <!-- Quick Actions -->
-        {{-- <div class="content py-2">
+            @yield('content')
+            <!-- Quick Actions -->
+            {{-- <div class="content py-2">
             <div class="d-flex text-center">
                 <div class="me-auto">
                     <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-transfer" class="icon icon-xxl rounded-m bg-theme shadow-m"><i class="font-28 color-green-dark bi bi-arrow-up-circle"></i></a>
@@ -166,8 +173,8 @@
             </div>
         </div> --}}
 
-        <!-- Recent Activity Title-->
-        {{-- <div class="content my-0 mt-n2 px-1">
+            <!-- Recent Activity Title-->
+            {{-- <div class="content my-0 mt-n2 px-1">
             <div class="d-flex">
                 <div class="align-self-center">
                     <h3 class="font-16 mb-2">Recent Activity</h3>
@@ -178,8 +185,8 @@
             </div>
         </div> --}}
 
-        <!-- Recent Activity Cards-->
-        {{-- <div class="card card-style">
+            <!-- Recent Activity Cards-->
+            {{-- <div class="card card-style">
             <div class="content">
                 <a href="page-activity.html" class="d-flex py-1">
                     <div class="align-self-center">
@@ -225,8 +232,8 @@
             </div>
         </div> --}}
 
-        <!-- Account Activity Title-->
-        {{-- <div class="content my-0 mt-n2 px-1">
+            <!-- Account Activity Title-->
+            {{-- <div class="content my-0 mt-n2 px-1">
             <div class="d-flex">
                 <div class="align-self-center">
                     <h3 class="font-16 mb-2">Account Activity</h3>
@@ -237,8 +244,8 @@
             </div>
         </div> --}}
 
-        <!--Account Activity Notification-->
-        {{-- <div class="card card-style gradient-green shadow-bg shadow-bg-s">
+            <!--Account Activity Notification-->
+            {{-- <div class="card card-style gradient-green shadow-bg shadow-bg-s">
             <div class="content">
                 <a href="page-activity.html" class="d-flex">
                     <div class="align-self-center">
@@ -256,8 +263,8 @@
             </div>
         </div> --}}
 
-        <!-- Send Money Title-->
-        {{-- <div class="content mb-0">
+            <!-- Send Money Title-->
+            {{-- <div class="content mb-0">
             <div class="d-flex">
                 <div class="align-self-center">
                     <h3 class="font-16 mb-2">Send Money</h3>
@@ -268,8 +275,8 @@
             </div>
         </div> --}}
 
-        <!-- Send Money Slider-->
-        {{-- <div class="splide quad-slider slider-no-dots slider-no-arrows slider-visible text-center" id="double-slider-2">
+            <!-- Send Money Slider-->
+            {{-- <div class="splide quad-slider slider-no-dots slider-no-arrows slider-visible text-center" id="double-slider-2">
             <div class="splide__track">
                 <div class="splide__list">
                     <div class="splide__slide">
@@ -292,78 +299,88 @@
             </div>
         </div> --}}
 
-    </div>
-    <!-- End of Page Content-->
+        </div>
+        <!-- End of Page Content-->
 
-    <!-- Off Canvas and Menu Elements-->
-    <!-- Always outside the Page Content-->
+        <!-- Off Canvas and Menu Elements-->
+        <!-- Always outside the Page Content-->
 
-    <!-- Main Sidebar Menu -->
-    <div id="menu-sidebar" data-menu-active="nav-welcome" class="offcanvas offcanvas-start offcanvas-detached rounded-m">
-        @include('layouts.user.partials.menu-sidebar')
-    </div>
+        <!-- Main Sidebar Menu -->
+        <div id="menu-sidebar" data-menu-active="nav-welcome"
+            class="offcanvas offcanvas-start offcanvas-detached rounded-m">
+            @include('layouts.user.partials.menu-sidebar')
+        </div>
 
-	<!-- Highlights Menu -->
-	<div id="menu-highlights" class="offcanvas offcanvas-bottom offcanvas-detached rounded-m">
-        @include('layouts.user.partials.menu-highlights')
-    </div>
+        <!-- Highlights Menu -->
+        <div id="menu-highlights" class="offcanvas offcanvas-bottom offcanvas-detached rounded-m">
+            @include('layouts.user.partials.menu-highlights')
+        </div>
 
-	<!-- Notifications Bell -->
-	<div id="menu-notifications" class="offcanvas offcanvas-top offcanvas-detached rounded-m">
-        @include('layouts.user.partials.menu-notifications')
-    </div>
-    
-    <!-- Card Menu More -->
-    {{-- <div id="menu-card-more" class="offcanvas offcanvas-bottom offcanvas-detached rounded-m">
+        <!-- Notifications Bell -->
+        <div id="menu-notifications" class="offcanvas offcanvas-top offcanvas-detached rounded-m">
+            @include('layouts.user.partials.menu-notifications')
+        </div>
+
+        <!-- Card Menu More -->
+        {{-- <div id="menu-card-more" class="offcanvas offcanvas-bottom offcanvas-detached rounded-m">
         @include('layouts.user.partials.menu-card-settings')
     </div> --}}
 
-    <!-- Transfer Button Menu -->
-    <div id="menu-transfer" class="offcanvas offcanvas-bottom offcanvas-detached rounded-m">
-        @include('layouts.user.partials.menu-transfer')
+        <!-- Transfer Button Menu -->
+        <div id="menu-transfer" class="offcanvas offcanvas-bottom offcanvas-detached rounded-m">
+            @include('layouts.user.partials.menu-transfer')
+        </div>
+
+        <!-- Transfer Friends Menu -->
+        <div id="menu-friends-transfer" class="offcanvas offcanvas-bottom offcanvas-detached rounded-m">
+            @include('layouts.user.partials.menu-friends-transfer')
+        </div>
+
+        <!-- Request Button Menu -->
+        <div id="menu-request" class="offcanvas offcanvas-bottom offcanvas-detached rounded-m">
+            @include('layouts.user.partials.menu-request')
+        </div>
+
+        <!-- Exchange Button Menu -->
+        <div id="menu-exchange" class="offcanvas offcanvas-bottom offcanvas-detached rounded-m">
+            @include('layouts.user.partials.menu-exchange')
+        </div>
+
+        <div class="offcanvas offcanvas-bottom rounded-m offcanvas-detached" id="menu-install-pwa-ios">
+            <div class="content">
+                <img src="{{ asset('user/app/icons/icon-128x128.png') }}" alt="img" width="80"
+                    class="rounded-m mx-auto my-4">
+                <h1 class="text-center">Install PayApp</h1>
+                <p class="boxed-text-xl">
+                    Install PayApp on your home screen, and access it just like a regular app. Open your Safari menu and
+                    tap "Add to Home Screen".
+                </p>
+                <a href="#"
+                    class="pwa-dismiss close-menu color-theme text-uppercase font-900 opacity-50 font-11 text-center d-block mt-n2"
+                    data-bs-dismiss="offcanvas">Maybe Later</a>
+            </div>
+        </div>
+
+        <div class="offcanvas offcanvas-bottom rounded-m offcanvas-detached" id="menu-install-pwa-android">
+            <div class="content">
+                <img src="{{ asset('user/app/icons/icon-128x128.png') }}" alt="img" width="80"
+                    class="rounded-m mx-auto my-4">
+                <h1 class="text-center">Install PayApp</h1>
+                <p class="boxed-text-l">
+                    Install PayApp to your Home Screen to enjoy a unique and native experience.
+                </p>
+                <a href="#"
+                    class="pwa-install btn btn-m rounded-s text-uppercase font-900 gradient-highlight shadow-bg shadow-bg-s btn-full">Add
+                    to Home Screen</a><br>
+                <a href="#" data-bs-dismiss="offcanvas"
+                    class="pwa-dismiss close-menu color-theme text-uppercase font-900 opacity-60 font-11 text-center d-block mt-n1">Maybe
+                    later</a>
+            </div>
+        </div>
+
     </div>
+    <!-- End of Page ID-->
 
-    <!-- Transfer Friends Menu -->
-    <div id="menu-friends-transfer" class="offcanvas offcanvas-bottom offcanvas-detached rounded-m">
-        @include('layouts.user.partials.menu-friends-transfer')
-    </div>
-
-    <!-- Request Button Menu -->
-    <div id="menu-request" class="offcanvas offcanvas-bottom offcanvas-detached rounded-m">
-        @include('layouts.user.partials.menu-request')
-    </div>
-
-    <!-- Exchange Button Menu -->
-    <div id="menu-exchange" class="offcanvas offcanvas-bottom offcanvas-detached rounded-m">
-        @include('layouts.user.partials.menu-exchange')
-    </div>
-
-	<div class="offcanvas offcanvas-bottom rounded-m offcanvas-detached" id="menu-install-pwa-ios">
-		   <div class="content">
-		   <img src="{{ asset('user/app/icons/icon-128x128.png') }}" alt="img" width="80" class="rounded-m mx-auto my-4">
-			  <h1 class="text-center">Install PayApp</h1>
-			  <p class="boxed-text-xl">
-				  Install PayApp on your home screen, and access it just like a regular app. Open your Safari menu and tap "Add to Home Screen".
-			  </p>
-			   <a href="#" class="pwa-dismiss close-menu color-theme text-uppercase font-900 opacity-50 font-11 text-center d-block mt-n2" data-bs-dismiss="offcanvas">Maybe Later</a>
-		   </div>
-	   </div>
-
-	   <div class="offcanvas offcanvas-bottom rounded-m offcanvas-detached" id="menu-install-pwa-android">
-		   <div class="content">
-			   <img src="{{ asset('user/app/icons/icon-128x128.png') }}" alt="img" width="80" class="rounded-m mx-auto my-4">
-			   <h1 class="text-center">Install PayApp</h1>
-			   <p class="boxed-text-l">
-				   Install PayApp to your Home Screen to enjoy a unique and native experience.
-			   </p>
-			   <a href="#" class="pwa-install btn btn-m rounded-s text-uppercase font-900 gradient-highlight shadow-bg shadow-bg-s btn-full">Add to Home Screen</a><br>
-			   <a href="#" data-bs-dismiss="offcanvas" class="pwa-dismiss close-menu color-theme text-uppercase font-900 opacity-60 font-11 text-center d-block mt-n1">Maybe later</a>
-		   </div>
-	   </div>
-
-</div>
-<!-- End of Page ID-->
-
-<script src="{{ asset('user/scripts/bootstrap.min.js') }}"></script>
-<script src="{{ asset('user/scripts/custom.js') }}"></script>
+    <script src="{{ asset('user/scripts/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('user/scripts/custom.js') }}"></script>
 </body>
