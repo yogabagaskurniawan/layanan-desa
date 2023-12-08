@@ -171,26 +171,24 @@
         </div>
 
         <div class="card card-style">
-            <img src="{{ asset('user/images/desasatu.png')}}" class="img-fluid mx-auto d-block mt-4" style="width: 550px; height: auto;">
+            <img src="{{ asset('user/images/desasatu.png')}}" class="img-fluid mx-auto d-block mt-4" style="width: 330px; height: auto;">
             <div class="content pb-0">
                 <h3>Tentang Desa Satu</h3>
-                <ul>
-                    <li>
-                        <p>Asal usul nama DESA SATU Menurut kamus Kawi-Indonesia karangan Prof. Drs. Wojowasito, 
-                            Batang berarti : (1) Plataran, (2) Tempat yang dipertinggi, (3) Dialahkan, (4) Kata bantu bilangan.
-                            Dalam bahasa Indonesia (juga bahasa Melayu) berarti sungai, dalam kamus jawa- Indonesia karangan 
-                            Prawiroatmojo berarti terka, tebak. Atas dasar arti kata tersebut diatas maka dalam hubungan alami
-                            yang ada dilokasi yang ada disekarang ini maka yang agak tepat adalah: plataran (platform) yang agak
-                            ketinggian dibandingkan dengan dataran disekitarnya maupun bila dilihat dari puncak pegunungan di sekitarnya
-                            juga bila dipandang dari laut jawa.
-                            Menurut legenda yang sangat populer, Batang berasal dari kata = Ngembat - Watang
-                            yang berarti mengangkat batang kayu. Hal ini diambil dari peristiwa kepahlawanan Ki Ageng Bahurekso, yang dianggap dari
-                            cikal bakal Batang.
-                        </p>
-                        <hr>
-                        <p>Alamat Balai Desa : Desa Tulis Kecamatan Tulis Kabupaten Batang</p>
-                    </li>
-                </ul>
+                <div class="ps-4">
+                    <p>Asal usul nama DESA SATU Menurut kamus Kawi-Indonesia karangan Prof. Drs. Wojowasito, 
+                        Batang berarti : (1) Plataran, (2) Tempat yang dipertinggi, (3) Dialahkan, (4) Kata bantu bilangan.
+                        Dalam bahasa Indonesia (juga bahasa Melayu) berarti sungai, dalam kamus jawa- Indonesia karangan 
+                        Prawiroatmojo berarti terka, tebak. Atas dasar arti kata tersebut diatas maka dalam hubungan alami
+                        yang ada dilokasi yang ada disekarang ini maka yang agak tepat adalah: plataran (platform) yang agak
+                        ketinggian dibandingkan dengan dataran disekitarnya maupun bila dilihat dari puncak pegunungan di sekitarnya
+                        juga bila dipandang dari laut jawa.
+                        Menurut legenda yang sangat populer, Batang berasal dari kata = Ngembat - Watang
+                        yang berarti mengangkat batang kayu. Hal ini diambil dari peristiwa kepahlawanan Ki Ageng Bahurekso, yang dianggap dari
+                        cikal bakal Batang.
+                    </p>
+                    <hr>
+                    <p>Alamat Balai Desa : Desa Tulis Kecamatan Tulis Kabupaten Batang</p>
+                </div>
             </div>
         </div>
 

@@ -11,7 +11,7 @@
         <form class="demo-animation needs-validation m-0" novalidate="">
             <div class="form-custom mb-3 form-border form-icon form-label">
                 <i class="bi bi-person-circle font-14"></i>
-                <input type="text" class="form-control rounded-xs" id="c1" placeholder="John Doe" pattern="[A-Za-z ]{1,32}" required="">
+                <input type="text" class="form-control rounded-xs" id="c1" placeholder="nama jasa" pattern="[A-Za-z ]{1,32}" required="">
                 <label for="c1" class="color-theme">Nama Jasa</label>
                 <div class="valid-feedback">Excellent!<!-- text for field valid--></div>
                 <div class="invalid-feedback">Name is Missing or Invalid</div>
@@ -19,13 +19,13 @@
             </div>
             <div class="form-custom mb-3 form-border form-icon form-label">
                 <i class="bi bi-file-earmark-plus font-14"></i>
-                <textarea class="form-control rounded-xs" placeholder="Jl. Urip Sumarno" id="c7"></textarea>
+                <textarea class="form-control rounded-xs" placeholder="alamat" id="c7"></textarea>
                 <label for="c7" class="color-theme">Alamat</label>
                 <div class="valid-feedback">HTML5 does not offer Dates Field Validation!<!-- text for field valid--></div>
             </div>
             <div class="form-custom mb-3 form-border form-icon form-label">
                 <i class="bi bi-telephone-fill font-12"></i>
-                <input type="tel" class="form-control rounded-xs" id="c3" placeholder="083130130" pattern="[+ 0-9]{10,15}" required="">
+                <input type="tel" class="form-control rounded-xs" id="c3" placeholder="nomor telephone / whatshapp" pattern="[+ 0-9]{10,15}" required="">
                 <label for="c3" class="color-theme">Nomor Telephone / Whatshapp</label>
                 <div class="valid-feedback">Phone Number looks good!<!-- text for field valid--></div>
                 <div class="invalid-feedback">Phone Number is missing or is invalid.</div>
@@ -33,7 +33,7 @@
             </div>
             <div class="form-custom mb-3 form-border form-icon form-label">
                 <i class="bi bi-currency-dollar font-14"></i>
-                <input type="tel" class="form-control rounded-xs" id="c3" placeholder="12000" pattern="[+ 0-9]{10,15}" required="">
+                <input type="tel" class="form-control rounded-xs" id="c3" placeholder="biaya jasa" pattern="[+ 0-9]{10,15}" required="">
                 <label for="c3" class="color-theme">Biaya Jasa</label>
                 <div class="valid-feedback">Cost Number looks good!<!-- text for field valid--></div>
                 <div class="invalid-feedback">Cost Number is missing or is invalid.</div>
@@ -41,7 +41,7 @@
             </div>
             <div class="form-custom mb-3 form-border form-icon form-label">
                 <i class="bi bi-window-sidebar font-14"></i>
-                <textarea class="form-control rounded-xs" placeholder="Contoh deskripsi" id="c7"></textarea>
+                <textarea class="form-control rounded-xs" placeholder="deskripsi" id="c7"></textarea>
                 <label for="c7" class="color-theme">Deskripsi</label>
                 <div class="valid-feedback">HTML5 does not offer Dates Field Validation!<!-- text for field valid--></div>
             </div>
