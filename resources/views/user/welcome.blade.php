@@ -132,7 +132,7 @@
         </div>
         <div class="divider mx-4"></div>
         <div class="card card-style">
-            <img src="{{ asset('user/images/desasatu.png')}}" class="img-fluid mx-auto d-block mt-4" style="width: 330px; height: auto;">
+            <img src="{{ asset('user/images/desasatu.png')}}" class="img-fluid mx-auto d-block mt-4" style="width: 550px; height: auto;">
             <div class="content pb-0">
                 <h3>Tentang Desa Satu</h3>
                 <div class="px-4">
@@ -178,7 +178,7 @@
                     <a class="card card-style ms-0" style="height:180px">
                         <div class="card-center">
                             <img src="{{ asset('user/images/avatar.jpg')}}" alt="" style="width:80px; height:80px; object-fit: cover;">
-                            <h1 class="font-22 pt-3 mb-3">TRESI</h1>
+                            <h1 class="font-22 pt-3 mb-3">NARTO</h1>
                         </div>
                         <div class="card-bottom">
                             <p class="font-11 mb-2 bg-mint-dark px-1 rounded-s d-inline-block">Wakil Desa</p>

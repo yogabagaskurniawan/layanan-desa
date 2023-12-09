@@ -43,11 +43,11 @@
                 <img src="{{ asset('user/images/assetMenu/pengaturan-wisata.png') }}" width="24px" alt="">
                 <div>Pengaturan Wisata Desa</div>
             </a>
-            <a href="#" id="nav-homes" data-submenu="sub1" class="list-group-item">
+            <a href="/petugas-simpedes" id="nav-homes" data-submenu="sub1" class="list-group-item">
                 <img src="{{ asset('user/images/assetMenu/petugas-simpedes.png') }}" width="24px" alt="">
                 <div>Petugas Simpedas</div>
             </a>
-            <a href="#" id="nav-homes" data-submenu="sub1" class="list-group-item">
+            <a href="/petugas-bankSampah" id="nav-homes" data-submenu="sub1" class="list-group-item">
                 <img src="{{ asset('user/images/assetMenu/akun.png') }}" width="24px" alt="">
                 <div>Petugas Bank Sampah</div>
             </a>
