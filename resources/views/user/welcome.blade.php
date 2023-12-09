@@ -12,121 +12,82 @@
 
 <div class="page-content ">
 
-        <!-- Card Stack - The Stack Height Below will be the card height-->
-        <div class="card-stack" data-stack-height="180">
-           
-            <!-- Card Open on Click-->
-            <div class="card-stack-click"></div>
-            
-            <!-- Card 1-->
-            <div class="card card-style bg-5" style="height: 200px; margin-bottom: -180px; z-index: 70; transform: scale(0.99);">
-                <div class="card-top p-3">
-                    <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-card-more" class="icon icon-xxs bg-white color-black float-end"><i class="bi bi-three-dots font-18"></i></a>
+    <!-- Main Card Slider-->
+    <div class="splide single-slider slider-no-dots slider-no-arrows slider-visible" id="single-slider-1">
+        <div class="splide__track">
+            <div class="splide__list">
+                <div class="splide__slide">
+                    <a href="https://desasatu.404official.com/">
+                        <div class="card card-style m-0 shadow-card shadow-card-m" style="height:200px; background-image: url('{{ asset('user/images/pictures/iklan1.jpeg') }}')">
+                            {{-- <div class="card-top p-3"> --}}
+                                {{-- <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-card-more" class="icon icon-xxs bg-white color-black float-end"><i class="bi bi-three-dots font-18"></i></a> --}}
+                            {{-- </div> --}}
+                            {{-- <div class="card-center">
+                                <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
+                                    <h1 class="font-13 my-n1">
+                                        <a class="color-theme" data-bs-toggle="collapse" href="#balance3" aria-controls="balance2">Click for Balance</a>
+                                    </h1>
+                                    <div class="collapse" id="balance3"><h2 class="color-theme font-26">$26,315</h2></div>
+                                </div>
+                            </div> --}}
+                            {{-- <strong class="card-top no-click font-12 p-3 color-white font-monospace">Main Account</strong> --}}
+                            {{-- {{-- <strong class="card-bottom no-click p-3 text-start color-white font-monospace">1234 5678 1234 5661</strong> --}} 
+                            {{-- {{-- <strong class="card-bottom no-click p-3 text-end color-white font-monospace">08 / 2025</strong> --}}
+                            <div class="card-overlay opacity-50"></div>
+                        </div>
+                    </a>
                 </div>
-                <div class="card-center">
-                    <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
-                        <h1 class="font-13 my-n1">
-                            <a class="color-theme" data-bs-toggle="collapse" href="#balance3" aria-controls="balance2">Click for Balance</a>
-                        </h1>
-                        <div class="collapse" id="balance3"><h2 class="color-theme font-26">$26,315</h2></div>
-                    </div>
+                <div class="splide__slide">
+                    <a href="https://desasatu.404official.com/">
+                        <div class="card card-style m-0 shadow-card shadow-card-m" style="height:200px; background-image: url('{{ asset('user/images/pictures/iklan2.jpeg') }}')"">
+                            {{-- <div class="card-top p-3"> --}}
+                                {{-- <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-card-more" class="icon icon-xxs bg-white color-black float-end"><i class="bi bi-three-dots font-18"></i></a> --}}
+                            {{-- </div> --}}
+                            {{-- <div class="card-center">
+                                <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
+                                    <h1 class="font-13 my-n1">
+                                        <a class="color-theme" data-bs-toggle="collapse" href="#balance1" aria-controls="balance1">Click for Balance</a>
+                                    </h1>
+                                    <div class="collapse" id="balance1"><h2 class="color-theme font-26">$65,500</h2></div>
+                                </div>
+                            </div> --}}
+                            {{-- {{-- <strong class="card-top no-click font-12 p-3 color-white font-monospace">Company Account</strong> --}}
+                            {{-- {{-- <strong class="card-bottom no-click p-3 text-start color-white font-monospace">1234 5678 1234 5661</strong> --}}
+                            {{-- {{-- <strong class="card-bottom no-click p-3 text-end color-white font-monospace">08 / 2025</strong> --}}
+                            <div class="card-overlay opacity-50"></div>
+                        </div>
+                    </a>
                 </div>
-                <strong class="card-top no-click font-12 p-3 color-white font-monospace">Main Account</strong>
-                <strong class="card-bottom no-click p-3 text-start color-white font-monospace">1234 5678 1234 5661</strong>
-                <strong class="card-bottom no-click p-3 text-end color-white font-monospace">08 / 2025</strong>
-                <div class="card-overlay bg-black opacity-50"></div>
-            </div>
-            
-            <!-- Card 2 -->
-            <div class="card card-style bg-7" style="height: 200px; margin-bottom: -180px; z-index: 69; transform: scale(0.89);">
-                <div class="card-top p-3">
-                    <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-card-more" class="icon icon-xxs bg-white color-black float-end"><i class="bi bi-three-dots font-18"></i></a>
+                <div class="splide__slide">
+                    <a href="https://desasatu.404official.com/">
+                        <div class="card card-style m-0 shadow-card shadow-card-m" style="height:200px; background-image: url('{{ asset('user/images/pictures/iklan1.jpeg') }}')"">
+                            {{-- <div class="card-top p-3"> --}}
+                                {{-- <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-card-more" class="icon icon-xxs bg-white color-black float-end"><i class="bi bi-three-dots font-18"></i></a> --}}
+                            {{-- </div> --}}
+                            {{-- <div class="card-center">
+                                <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
+                                    <h1 class="font-13 my-n1">
+                                        <a class="color-theme" data-bs-toggle="collapse" href="#balance2" aria-controls="balance2">Click for Balance</a>
+                                    </h1>
+                                    <div class="collapse" id="balance2"><h2 class="color-theme font-26">$15,100</h2></div>
+                                </div>
+                            </div> --}}
+                            {{-- {{-- <strong class="card-top no-click font-12 p-3 color-white font-monospace">Savings Account</strong> --}}
+                            {{-- {{-- <strong class="card-bottom no-click p-3 text-start color-white font-monospace">1234 5678 1234 5661</strong> --}}
+                            {{-- <strong class="card-bottom no-click p-3 text-end color-white font-monospace">08 / 2025</strong> --}}
+                            <div class="card-overlay opacity-50"></div>
+                        </div>
+                    </a>
                 </div>
-                <div class="card-center">
-                    <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
-                        <h1 class="font-13 my-n1">
-                            <a class="color-theme" data-bs-toggle="collapse" href="#balance1" aria-controls="balance1">Click for Balance</a>
-                        </h1>
-                        <div class="collapse" id="balance1"><h2 class="color-theme font-26">$65,500</h2></div>
-                    </div>
-                </div>
-                <strong class="card-top no-click font-12 p-3 color-white font-monospace">Company Account</strong>
-                <strong class="card-bottom no-click p-3 text-start color-white font-monospace">1234 5678 1234 5661</strong>
-                <strong class="card-bottom no-click p-3 text-end color-white font-monospace">08 / 2025</strong>
-                <div class="card-overlay bg-black opacity-50"></div>
-            </div>
-            
-            <!-- Card 3 -->
-            <div class="card card-style bg-1" style="height: 200px; margin-bottom: -180px; z-index: 68; transform: scale(0.79);">
-                <div class="card-top p-3">
-                    <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-card-more" class="icon icon-xxs bg-white color-black float-end"><i class="bi bi-three-dots font-18"></i></a>
-                </div>
-                <div class="card-center">
-                    <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
-                        <h1 class="font-13 my-n1">
-                            <a class="color-theme" data-bs-toggle="collapse" href="#balance2" aria-controls="balance2">Click for Balance</a>
-                        </h1>
-                        <div class="collapse" id="balance2"><h2 class="color-theme font-26">$15,100</h2></div>
-                    </div>
-                </div>
-                <strong class="card-top no-click font-12 p-3 color-white font-monospace">Savings Account</strong>
-                <strong class="card-bottom no-click p-3 text-start color-white font-monospace">1234 5678 1234 5661</strong>
-                <strong class="card-bottom no-click p-3 text-end color-white font-monospace">08 / 2025</strong>
-                <div class="card-overlay bg-black opacity-50"></div>
             </div>
         </div>
+    </div>
+    {{-- <div class="card card-style">
         
-        <!-- Card Stack Info Message / Hides when deployed -->
-        <h6 class="btn-stack-info color-theme opacity-80 text-center mt-n2 mb-3">Tap the Cards to Expand your Wallet</h6>
-        <!-- Card Stack Button / shows when deployed -->
-        <a href="#" class="disabled btn-stack-click btn mx-3 mb-4 btn-full gradient-highlight shadow-bg shadow-bg-xs">Close my Wallet</a>
-
-        
-        {{-- <div class="container direction-rtl">
-            <div class="card mb-3">
-                <div class="card-body">
-                    <div class="row g-3">
-                        <div class="col-4">
-                            <a href="/all-marketplace">
-                                <div class="feature-card mx-auto text-center">
-                                    <div class="rounded-circle overflow-hidden mx-auto bg-gray" style="width: 80px; height: 80px;">
-                                        <img src="{{ asset('user/images/assetMenu/marketplace.png') }}" alt="" style="width: 100%; height: 100%; object-fit: cover;">
-                                    </div>
-                                    <p class="mb-0">Marketplace</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-4">
-                            <a href="/umkm">
-                                <div class="feature-card mx-auto text-center">
-                                    <div class="rounded-circle overflow-hidden mx-auto bg-gray" style="width: 80px; height: 80px;">
-                                        <img src="{{ asset('user/images/assetMenu/umkm.png') }}" alt="" style="width: 100%; height: 100%; object-fit: cover;">
-                                    </div>
-                                    <p class="mb-0">Umkm</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-4">
-                            <a href="/layanan">
-                                <div class="feature-card mx-auto text-center">
-                                    <div class="rounded-circle overflow-hidden mx-auto bg-gray" style="width: 80px; height: 80px;">
-                                        <img src="{{ asset('user/images/assetMenu/layanan.png') }}" alt="" style="width: 100%; height: 100%; object-fit: cover;">
-                                    </div>
-                                    <p class="mb-0">Layanan</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="text-center">
-                        <hr>
-                        <a href="/menu" class="btn btn-xxs btn-success">Semua Menu</a>
-                    </div>
-                </div>
-            </div>
-        </div> --}}
-        <div class="container direction-rtl">
-            <div class="card mb-3">
-                <div class="card-body">
+    </div> --}}
+        <div class="card card-style" style="margin: 60px 15px 0 15px; padding: 0; ">
+            <div class=" mb-3">
+                <div class="card-body px-0">
                     <div class="row g-3">
                         <div class="col-3">
                             <a href="/all-marketplace">
@@ -169,12 +130,12 @@
                 </div>
             </div>
         </div>
-
+        <div class="divider mx-4"></div>
         <div class="card card-style">
             <img src="{{ asset('user/images/desasatu.png')}}" class="img-fluid mx-auto d-block mt-4" style="width: 330px; height: auto;">
             <div class="content pb-0">
                 <h3>Tentang Desa Satu</h3>
-                <div class="ps-4">
+                <div class="px-4">
                     <p>Asal usul nama DESA SATU Menurut kamus Kawi-Indonesia karangan Prof. Drs. Wojowasito, 
                         Batang berarti : (1) Plataran, (2) Tempat yang dipertinggi, (3) Dialahkan, (4) Kata bantu bilangan.
                         Dalam bahasa Indonesia (juga bahasa Melayu) berarti sungai, dalam kamus jawa- Indonesia karangan 

@@ -1,7 +1,7 @@
 @extends('layouts.user.main')
 
 @section('content')
-@include('layouts.user.partials.footer-btn')
+@include('layouts.user.partials.footer-bar')
 
 <div class="card card-style bg-5 shadow-card shadow-card-l" style="height:300px;background-image: url('{{ asset('user/images/pictures/23.jpg') }}')"></div>
 <div class="pb-2"></div>

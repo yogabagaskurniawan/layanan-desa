@@ -25,9 +25,7 @@ Route::get('/informasi', function () {
     return view('user.informasi.index');
 });
 Route::get('/detail-informasi', function () {
-    return view('user.informasi.detail',[
-        "namaBtn" => "Informasi"
-    ]);
+    return view('user.informasi.detail');
 });
 
 // !!! bagian menu
@@ -148,8 +146,11 @@ Route::get('/toko-saya', function () {
 Route::get('/toko-edit', function () {
     return view('user.akun.tokoSaya.toko-edit');
 });
-Route::get('/toko-add', function () {
-    return view('user.akun.tokoSaya.toko-add');
+Route::get('/toko-produkAdd', function () {
+    return view('user.akun.tokoSaya.produkAdd');
+});
+Route::get('/toko-produkEdit', function () {
+    return view('user.akun.tokoSaya.produkEdit');
 });
 // pengaturan umkm
 Route::get('/petugas-umkm', function () {
@@ -227,7 +228,17 @@ Route::get('/bankSampah-pembayaran', function () {
 Route::get('/bankSampah-historyPembayaran', function () {
     return view('user.akun.pengaturanBankSampah.historyPembayaran');
 });
+// pengaturan Kurir
+Route::get('/petugas-kurir', function () {
+    return view('user.akun.pengaturanKurir.kurir');
+});
+
+// ===== verifikasi akun
+Route::get('/verivikasi-akun', function () {
+    return view('user.verivikasi-akun');
+});
 
 Auth::routes();
 
+// ======= Tampilan Admin ========
 Route::get('/home', 'HomeController@index')->name('home');
