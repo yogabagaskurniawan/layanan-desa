@@ -7,7 +7,7 @@
         <div class="form-custom form-label no-icon mb-3">
             <input type="text" class="form-control rounded-xs" id="c1" placeholder="Cari Produk" data-search />
             <label for="c1" class="color-theme">Search</label>
-            <span>(required)</span>
+            {{-- <span>(required)</span> --}}
         </div>
         <div class="row mb-0">
             <div class="col-6 pe-0 ps-0">

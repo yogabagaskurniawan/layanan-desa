@@ -189,7 +189,7 @@
         </a>
     </div>
     <div class="col-4 mb-4 ">
-        <a href="/bank-sampah" class="card card-style m-0" style="height:130px;">
+        <a href="/bankSampah" class="card card-style m-0" style="height:130px;">
             <div class="card-center">
                 {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
                 <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/bank-sampah.png') }}" alt="imag bank sampah">

@@ -50,6 +50,39 @@
 
 <div class="card card-style mb-3">
     <div class="content">
+        <h4>Bagikan produk ini</h4>
+        <div class="d-flex justify-content-center align-items-center flex-column">
+            <div class="d-flex mb-3"> 
+                <div class="align-self-center me-2">
+                    <a href="">
+                        <span class="icon icon-m rounded-s gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-facebook font-20 color-white"></i></span>
+                    </a>
+                </div>
+                <div class="align-self-center me-2">
+                    <a href="">
+                        <span class="icon icon-m rounded-s gradient-teal shadow-bg shadow-bg-xs"><i class="bi bi-twitter font-20 color-white"></i></span>
+                    </a>
+                </div>
+                <div class="align-self-center me-2">
+                    <a href="">
+                        <span class="icon icon-m rounded-s gradient-blue shadow-bg shadow-bg-xs"><i class="bi bi-telegram font-20 color-white"></i></span>
+                    </a>
+                </div>
+                <div class="align-self-center me-2">
+                    <a href="">
+                        <span class="icon icon-m rounded-s gradient-mint shadow-bg shadow-bg-xs"><i class="bi bi-whatsapp font-20 color-white"></i></span>
+                    </a>
+                </div>
+            </div>
+            <div class="mb-2"> 
+                <a href="/marketplace/detail-produk/hubungi-kurir " class="btn btn-3d bg-blue-light border-blue-dark">hubungi kurir</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card card-style mb-3">
+    <div class="content">
         <div class="d-flex justify-content-between align-items-center">
             <div class="pt-1">
                 <img src="{{ asset('user/images/pictures/11t.jpg') }}" class="img-fluid rounded-s" width="110">
@@ -59,7 +92,7 @@
                 <p class="card-text">DesaSatu</p>
             </div>
             <div>
-                <a href="#" class="btn border-green-dark color-green-dark">Lihat</a>
+                <a href="/marketplace/detail-produk/kunjungi-toko" class="btn border-green-dark color-green-dark">Lihat</a>
             </div>
         </div>
     </div>
