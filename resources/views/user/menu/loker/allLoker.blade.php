@@ -29,68 +29,74 @@
     </div>
 </div>
 
-<div class="card card-style">
-    <div class="content">
-        <div class="d-flex pb-1">
-            <div>
-                <span class="badge mb-2 bg-mint-dark rounded-pill">Selasa, 7 Juni 2022</span>
-                <h3>Progammer</h3>
-                {{-- <h6 class="mt-n2  opacity-80 color-highlight">Cards are Awesome</h6> --}}
-            </div>
-            <div class="align-self-center ms-auto">
-                <a href="/detail-loker" class="btn bg-mint-dark btn-sm">Detail</a>
-            </div>
-        </div>
-        <p>Kota Batang<span>/</span>Desa satu</p>
-    </div>
-</div>
-
-<div class="card card-style">
-    <div class="content">
-        <div class="d-flex pb-1">
-            <div>
-                <span class="badge mb-2 bg-mint-dark rounded-pill">Jumat, 8 Juni 2022</span>
-                <h3>Masak</h3>
-                {{-- <h6 class="mt-n2  opacity-80 color-highlight">Cards are Awesome</h6> --}}
-            </div>
-            <div class="align-self-center ms-auto">
-                <a href="/detail-loker" class="btn bg-mint-dark btn-sm">Detail</a>
+<div class="row mx-1">
+    <div class="col-md-6  ">
+        <div class="card card-style mx-0 mb-4">
+            <div class="content">
+                <div class="d-flex pb-1">
+                    <div>
+                        <span class="badge mb-2 bg-mint-dark rounded-pill">Selasa, 7 Juni 2022</span>
+                        <h3>Progammer</h3>
+                        {{-- <h6 class="mt-n2  opacity-80 color-highlight">Cards are Awesome</h6> --}}
+                    </div>
+                    <div class="align-self-center ms-auto">
+                        <a href="/detail-loker" class="btn bg-mint-dark btn-xxs">Detail</a>
+                    </div>
+                </div>
+                <p>Kota Batang<span>/</span>Desa satu</p>
             </div>
         </div>
-        <p>Kota Batang<span>/</span>Desa satu</p>
     </div>
-</div>
-
-<div class="card card-style">
-    <div class="content">
-        <div class="d-flex pb-1">
-            <div>
-                <span class="badge mb-2 bg-mint-dark rounded-pill">Senin, 9 Juni 2022</span>
-                <h3>Karyawan</h3>
-                {{-- <h6 class="mt-n2  opacity-80 color-highlight">Cards are Awesome</h6> --}}
-            </div>
-            <div class="align-self-center ms-auto">
-                <a href="/detail-loker" class="btn bg-mint-dark btn-sm">Detail</a>
+    <div class="col-md-6  ">
+        <div class="card card-style mx-0 mb-4">
+            <div class="content">
+                <div class="d-flex pb-1">
+                    <div>
+                        <span class="badge mb-2 bg-mint-dark rounded-pill">Jumat, 8 Juni 2022</span>
+                        <h3>Masak</h3>
+                        {{-- <h6 class="mt-n2  opacity-80 color-highlight">Cards are Awesome</h6> --}}
+                    </div>
+                    <div class="align-self-center ms-auto">
+                        <a href="/detail-loker" class="btn bg-mint-dark btn-xxs">Detail</a>
+                    </div>
+                </div>
+                <p>Kota Batang<span>/</span>Desa satu</p>
             </div>
         </div>
-        <p>Kota Batang<span>/</span>Desa satu</p>
     </div>
-</div>
-
-<div class="card card-style">
-    <div class="content">
-        <div class="d-flex pb-1">
-            <div>
-                <span class="badge mb-2 bg-mint-dark rounded-pill">Sabtu, 10 Juni 2022</span>
-                <h3>Gojek</h3>
-                {{-- <h6 class="mt-n2  opacity-80 color-highlight">Cards are Awesome</h6> --}}
-            </div>
-            <div class="align-self-center ms-auto">
-                <a href="/detail-loker" class="btn bg-mint-dark btn-sm">Detail</a>
+    <div class="col-md-6  ">
+        <div class="card card-style mx-0 mb-4">
+            <div class="content">
+                <div class="d-flex pb-1">
+                    <div>
+                        <span class="badge mb-2 bg-mint-dark rounded-pill">Jumat, 8 Juni 2022</span>
+                        <h3>Masak</h3>
+                        {{-- <h6 class="mt-n2  opacity-80 color-highlight">Cards are Awesome</h6> --}}
+                    </div>
+                    <div class="align-self-center ms-auto">
+                        <a href="/detail-loker" class="btn bg-mint-dark btn-xxs">Detail</a>
+                    </div>
+                </div>
+                <p>Kota Batang<span>/</span>Desa satu</p>
             </div>
         </div>
-        <p>Kota Batang<span>/</span>Desa satu</p>
+    </div>
+    <div class="col-md-6  ">
+        <div class="card card-style mx-0 mb-4">
+            <div class="content">
+                <div class="d-flex pb-1">
+                    <div>
+                        <span class="badge mb-2 bg-mint-dark rounded-pill">Jumat, 8 Juni 2022</span>
+                        <h3>Masak</h3>
+                        {{-- <h6 class="mt-n2  opacity-80 color-highlight">Cards are Awesome</h6> --}}
+                    </div>
+                    <div class="align-self-center ms-auto">
+                        <a href="/detail-loker" class="btn bg-mint-dark btn-xxs">Detail</a>
+                    </div>
+                </div>
+                <p>Kota Batang<span>/</span>Desa satu</p>
+            </div>
+        </div>
     </div>
 </div>
-
 @endsection

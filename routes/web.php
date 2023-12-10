@@ -25,9 +25,7 @@ Route::get('/informasi', function () {
     return view('user.informasi.index');
 });
 Route::get('/detail-informasi', function () {
-    return view('user.informasi.detail',[
-        "namaBtn" => "Informasi"
-    ]);
+    return view('user.informasi.detail');
 });
 
 // !!! bagian menu
@@ -39,7 +37,9 @@ Route::get('/all-marketplace', function () {
     return view('user.menu.marketplace.allMarketplace');
 });
 Route::get('/marketplace/detail-produk', function () {
-    return view('user.menu.marketplace.detailProduk');
+    return view('user.menu.marketplace.detailProduk',[
+        "namaBtn" => "penjual"
+    ]);
 });
 Route::get('/marketplace/detail-produk/hubungi-kurir', function () {
     return view('user.menu.marketplace.hubungi-kurir');
@@ -56,10 +56,14 @@ Route::get('/umkm', function () {
     return view('user.menu.umkm.allUmkm');
 });
 Route::get('/umkm-detail', function () {
-    return view('user.menu.umkm.umkmDetail');
+    return view('user.menu.umkm.umkmDetail', [
+        "namaBtn" => "umkm"
+    ]);
 });
 Route::get('/umkm-detail-produk', function () {
-    return view('user.menu.umkm.umkmDetailProduk');
+    return view('user.menu.umkm.umkmDetailProduk',[
+        "namaBtn" => "umkm"
+    ]);
 });
 // bagian menu untuk loker
 Route::get('/loker', function () {
@@ -90,7 +94,9 @@ Route::get('/layanan', function () {
     return view('user.menu.layanan.allLayanan');
 });
 Route::get('/detail-layanan', function () {
-    return view('user.menu.layanan.detail-layanan');
+    return view('user.menu.layanan.detail-layanan',[
+        "namaBtn" => "layanan"
+    ]);
 });
 // bagian menu untuk bumdes
 Route::get('/bumdes', function () {
@@ -148,8 +154,11 @@ Route::get('/toko-saya', function () {
 Route::get('/toko-edit', function () {
     return view('user.akun.tokoSaya.toko-edit');
 });
-Route::get('/toko-add', function () {
-    return view('user.akun.tokoSaya.toko-add');
+Route::get('/toko-produkAdd', function () {
+    return view('user.akun.tokoSaya.produkAdd');
+});
+Route::get('/toko-produkEdit', function () {
+    return view('user.akun.tokoSaya.produkEdit');
 });
 // pengaturan umkm
 Route::get('/petugas-umkm', function () {
@@ -227,7 +236,17 @@ Route::get('/bankSampah-pembayaran', function () {
 Route::get('/bankSampah-historyPembayaran', function () {
     return view('user.akun.pengaturanBankSampah.historyPembayaran');
 });
+// pengaturan Kurir
+Route::get('/petugas-kurir', function () {
+    return view('user.akun.pengaturanKurir.kurir');
+});
+
+// ===== verifikasi akun
+Route::get('/verivikasi-akun', function () {
+    return view('user.verivikasi-akun');
+});
 
 Auth::routes();
 
+// ======= Tampilan Admin ========
 Route::get('/home', 'HomeController@index')->name('home');
