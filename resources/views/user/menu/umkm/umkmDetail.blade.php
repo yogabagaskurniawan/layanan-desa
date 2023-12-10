@@ -3,6 +3,10 @@
 @section('content')
 @include('layouts.user.partials.footer-btn')
 
+<div class="header-bar header-center shadow-m">
+    <h2 class="m-auto">Detail UMKM</h2>
+</div>
+<div class="divider mx-4"></div>
 <div class="card card-style mb-3">
     <div class="content">
         <div class="d-flex justify-content-between align-items-center">

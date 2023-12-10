@@ -4,7 +4,10 @@
 @include('layouts.user.partials.footer-btn')
 
 
-
+<div class="header-bar header-center shadow-m">
+    <h2 class="m-auto">Detail Produk</h2>
+</div>
+<div class="divider mx-4"></div>
 <div class="card card-style">
     <img src="{{asset('user/images/pictures/marketplace-1.jpg')}}" class="img-fluid">
     <div class="content pb-0">
