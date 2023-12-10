@@ -121,7 +121,37 @@
     </div>
 </div>
 
-<div id="menu-modal-window" style="height: 580px; width: 520px; display: block;" class="offcanvas offcanvas-modal rounded-m" aria-modal="true" role="dialog">
+<div id="menu-modal-window" style="height: 480px; width: 300px; display: block;" class="offcanvas offcanvas-modal rounded-m ">
+    <div class="header-bar header-center shadow-m">
+        <h2 class="m-auto">Detail Nasabah</h2>
+        <button class="btn btn-close p-1 ms-auto" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="d-flex m-3">
+        <div class="content mt-0">
+        <div class="align-self-center" style="margin: 0; padding: 0;">
+            <h5>Data Nasabah</h5>
+            <hr>
+            <p style="margin: 0;">Nik : 7887397937375973</p>
+            <p style="margin: 0;">Nama Lengkap : Apple sgsgs</p>
+            <p style="margin: 0;">Alamat : Batang</p>
+            <p style="margin: 0;">Nomor Telephone : 085710850889</p>
+            <p style="margin: 0;">Deskripsi : mantap</p>
+        </div> 
+        <hr>
+        {{-- <div class="divider my-5"></div> --}}
+        <h3 class="text-center mb-2">Hubungi Petugas</h3>
+        <div class="my-2 d-flex justify-content-center">
+            <a href="/toko-edit" class="btn btn-xxs bg-mint-dark shadow-bg-m text-center mx-1"><i class="bi bi-whatsapp pe-3 ms-n1"></i>Whatsapp </a>
+            <a href="/toko-produkAdd" class="btn btn-xxs bg-red-dark shadow-bg-m text-center mx-1"><i class="bi bi-telephone pe-3 ms-n1"></i>Telphone </a>
+        </div>
+        </div>
+    </div>
+    {{-- <div style="text-align: center;margin-bottom: 20px;">
+        <button class="btn btn-xxs btn-success" type="submit" onclick="return confirm('konfirmasi pendaftaran?')">Konfirmasi</button>
+    </div>     --}}
+</div>
+
+{{-- <div id="menu-modal-window" style="height: 580px; width: 520px; display: block;" class="offcanvas offcanvas-modal rounded-m" aria-modal="true" role="dialog">
     <div class="d-flex m-3">
         <div class="align-self-center">
             <h2 class="font-700 mb-0">Detail surat</h2>
@@ -150,5 +180,5 @@
             <a href="/toko-produkAdd" class="btn btn-sm bg-red-dark shadow-bg-m text-center mx-1"><i class="bi bi-telephone pe-3 ms-n1"></i>Telphone </a>
         </div>
     </div>
-</div>
+</div> --}}
 @endsection

@@ -107,37 +107,4 @@
     </div>  
 </div>
 
-{{-- <div id="menu-modal-window" style="height: 550px; width: 300px; display: block;" class="offcanvas offcanvas-modal rounded-m ">
-    <div class="header-bar header-center shadow-m">
-        <h2 class="m-auto">Detail Nasabah</h2>
-        <button class="btn btn-close p-1 ms-auto" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="d-flex m-3">
-        <div class="align-self-center" style="margin: 0; padding: 0;">
-            <h5>Data Nasabah</h5>
-            <hr>
-            <p style="margin: 0;">Nama Lengkap : Slamet</p>
-            <p style="margin: 0;">RT : 1</p>
-            <p style="margin: 0;">RW : 1</p>
-            <p style="margin: 0;">Alamat : Batang</p>
-            <p style="margin: 0;">Nomor Telephone : 085710850889</p>
-            <div style="text-align: center;">
-                <button class="btn btn-xxs btn-danger" type="submit" onclick="return confirm('Nonaktifkan Nasabah?')">Nonaktifkan Nasabah</button>
-            </div> 
-            <hr>
-            <h5>Data Akun</h5>
-            <hr>
-            <p style="margin: 0;">Username : Bagas</p>
-            <p style="margin: 0;">Nama Lengkap : yoga bagas kurniawan</p>
-            <p style="margin: 0;">Alamat : Pekalongan</p>
-            <p style="margin: 0;">Nomor Telephone : 085176720024</p>
-        </div> 
-        <div id="footer-bar"xl>
-            <a class="col btn btn-full btn-l btn-3d bg-mint-light border-green-dark text-center"><i class="bi bi-whatsapp pe-3 ms-n1"></i>Chat </a>
-            <a class="col btn btn-full btn-l btn-3d bg-orange-light border-red-dark text-center"><i class="bi bi-telephone pe-3 ms-n1"></i>Hubungi </a>
-        </div>  
-    </div>
-       
-</div> --}}
-
 @endsection
