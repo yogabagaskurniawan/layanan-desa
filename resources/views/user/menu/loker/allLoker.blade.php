@@ -40,7 +40,7 @@
                         {{-- <h6 class="mt-n2  opacity-80 color-highlight">Cards are Awesome</h6> --}}
                     </div>
                     <div class="align-self-center ms-auto">
-                        <a href="/detail-loker" class="btn bg-mint-dark btn-sm">Detail</a>
+                        <a href="/detail-loker" class="btn bg-mint-dark btn-xxs">Detail</a>
                     </div>
                 </div>
                 <p>Kota Batang<span>/</span>Desa satu</p>
@@ -57,7 +57,7 @@
                         {{-- <h6 class="mt-n2  opacity-80 color-highlight">Cards are Awesome</h6> --}}
                     </div>
                     <div class="align-self-center ms-auto">
-                        <a href="/detail-loker" class="btn bg-mint-dark btn-sm">Detail</a>
+                        <a href="/detail-loker" class="btn bg-mint-dark btn-xxs">Detail</a>
                     </div>
                 </div>
                 <p>Kota Batang<span>/</span>Desa satu</p>
@@ -74,7 +74,7 @@
                         {{-- <h6 class="mt-n2  opacity-80 color-highlight">Cards are Awesome</h6> --}}
                     </div>
                     <div class="align-self-center ms-auto">
-                        <a href="/detail-loker" class="btn bg-mint-dark btn-sm">Detail</a>
+                        <a href="/detail-loker" class="btn bg-mint-dark btn-xxs">Detail</a>
                     </div>
                 </div>
                 <p>Kota Batang<span>/</span>Desa satu</p>
@@ -91,7 +91,7 @@
                         {{-- <h6 class="mt-n2  opacity-80 color-highlight">Cards are Awesome</h6> --}}
                     </div>
                     <div class="align-self-center ms-auto">
-                        <a href="/detail-loker" class="btn bg-mint-dark btn-sm">Detail</a>
+                        <a href="/detail-loker" class="btn bg-mint-dark btn-xxs">Detail</a>
                     </div>
                 </div>
                 <p>Kota Batang<span>/</span>Desa satu</p>
