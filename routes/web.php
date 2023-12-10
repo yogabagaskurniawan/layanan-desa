@@ -37,7 +37,9 @@ Route::get('/all-marketplace', function () {
     return view('user.menu.marketplace.allMarketplace');
 });
 Route::get('/marketplace/detail-produk', function () {
-    return view('user.menu.marketplace.detailProduk');
+    return view('user.menu.marketplace.detailProduk',[
+        "namaBtn" => "penjual"
+    ]);
 });
 Route::get('/marketplace/detail-produk/hubungi-kurir', function () {
     return view('user.menu.marketplace.hubungi-kurir');
@@ -54,10 +56,14 @@ Route::get('/umkm', function () {
     return view('user.menu.umkm.allUmkm');
 });
 Route::get('/umkm-detail', function () {
-    return view('user.menu.umkm.umkmDetail');
+    return view('user.menu.umkm.umkmDetail', [
+        "namaBtn" => "umkm"
+    ]);
 });
 Route::get('/umkm-detail-produk', function () {
-    return view('user.menu.umkm.umkmDetailProduk');
+    return view('user.menu.umkm.umkmDetailProduk',[
+        "namaBtn" => "umkm"
+    ]);
 });
 // bagian menu untuk loker
 Route::get('/loker', function () {
@@ -88,7 +94,9 @@ Route::get('/layanan', function () {
     return view('user.menu.layanan.allLayanan');
 });
 Route::get('/detail-layanan', function () {
-    return view('user.menu.layanan.detail-layanan');
+    return view('user.menu.layanan.detail-layanan',[
+        "namaBtn" => "layanan"
+    ]);
 });
 // bagian menu untuk bumdes
 Route::get('/bumdes', function () {

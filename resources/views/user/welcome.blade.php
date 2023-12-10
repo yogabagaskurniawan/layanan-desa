@@ -132,7 +132,8 @@
         </div>
         <div class="divider mx-4"></div>
         <div class="card card-style">
-            <img src="{{ asset('user/images/desasatu.png')}}" class="img-fluid mx-auto d-block mt-4" style="width: 550px; height: auto;">
+            {{-- <img src="{{ asset('user/images/desasatu.png')}}" class="img-fluid mx-auto d-block mt-4" style="width: 550px; height: auto;"> --}}
+            <img src="{{ asset('user/images/desasatu.png')}}" class="img-fluid mx-auto d-block mt-4" style="width: 330px; height: auto;">
             <div class="content pb-0">
                 <h3>Tentang Desa Satu</h3>
                 <div class="px-4">

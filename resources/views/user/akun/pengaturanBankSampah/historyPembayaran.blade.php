@@ -16,11 +16,6 @@
         </div>   
 
         <div class="pb-2"></div>
-    </div>
-</div>
-
-<div class="card card-style">
-    <div class="content mb-0">
         <div class="row">
             <div class="col-12">
                 <div class="form-custom form-label no-icon mb-3">
@@ -31,11 +26,6 @@
         </div>
         
         <div class="pb-2"></div>
-    </div>
-</div>
-
-<div class="card overflow-visible card-style">
-    <div class="content mb-0">
         <div class="table-responsive">
             <table class="table color-theme mb-2">
             <thead>

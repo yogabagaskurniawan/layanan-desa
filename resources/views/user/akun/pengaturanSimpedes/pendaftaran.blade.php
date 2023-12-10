@@ -16,11 +16,6 @@
         </div>   
 
         <div class="pb-2"></div>
-    </div>
-</div>
-
-<div class="card card-style">
-    <div class="content mb-0">
         <div class="row">
             <div class="col-4 form-custom">
                 <select class="form-select rounded-xs" id="c6" aria-label="Floating label select example">
@@ -39,13 +34,7 @@
                 </div>
             </div>
         </div>
-        
         <div class="pb-2"></div>
-    </div>
-</div>
-
-<div class="card overflow-visible card-style">
-    <div class="content mb-0">
         <div class="table-responsive">
             <table class="table color-theme mb-2">
             <thead>
@@ -75,7 +64,6 @@
         </div>
     </div>
 </div>
-
 <div id="menu-modal-window" style="height: 480px; width: 300px; display: block;" class="offcanvas offcanvas-modal rounded-m ">
     <div class="header-bar header-center shadow-m">
         <h2 class="m-auto">Detail Nasabah</h2>

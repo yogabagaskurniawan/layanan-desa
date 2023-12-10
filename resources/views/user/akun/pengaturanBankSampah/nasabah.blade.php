@@ -16,11 +16,6 @@
         </div>   
 
         <div class="pb-2"></div>
-    </div>
-</div>
-
-<div class="card card-style">
-    <div class="content mb-0">
         <div class="row">
             <div class="col-4 form-custom">
                 <select class="form-select rounded-xs" id="c6" aria-label="Floating label select example">
@@ -41,39 +36,34 @@
         </div>
         
         <div class="pb-2"></div>
-    </div>
-</div>
-
-<div class="card overflow-visible card-style">
-    <div class="content mb-0">
-    <p>Note: Nasabah yang berwarna merah = Nasabah tidak Aktif</p>
+        <p>Note: Nasabah yang berwarna merah = Nasabah tidak Aktif</p>
         <div class="table-responsive">
             <table class="table color-theme mb-2">
             <thead>
                 <tr>
-                  <th class="border-fade-blue" scope="col">Nama</th>
-                  <th class="border-fade-blue" scope="col">RT</th>
-                  <th class="border-fade-blue" scope="col">RW</th>
-                  {{-- <th class="border-fade-blue" scope="col">Detail</th> --}}
-                  <th class="border-fade-blue text-center" scope="col">Opsi</th>
+                    <th class="border-fade-blue" scope="col">Nama</th>
+                    <th class="border-fade-blue" scope="col">RT</th>
+                    <th class="border-fade-blue" scope="col">RW</th>
+                    {{-- <th class="border-fade-blue" scope="col">Detail</th> --}}
+                    <th class="border-fade-blue text-center" scope="col">Opsi</th>
                 </tr>
-              </thead>
-              <tbody>
+                </thead>
+                <tbody>
                 <tr class="border-fade-blue">
-                  <td class="border-0">Slamet</td>
-                  <td class="border-0">01</td>
-                  <td class="border-0">01</td>
-                  <td class="text-center">
-                      <a class="list-group-item btn btn-xxs bg-blue-dark" data-bs-toggle="offcanvas" data-bs-target="#menu-modal-window" href="#">
+                    <td class="border-0">Slamet</td>
+                    <td class="border-0">01</td>
+                    <td class="border-0">01</td>
+                    <td class="text-center">
+                        <a class="list-group-item btn btn-xxs bg-blue-dark" data-bs-toggle="offcanvas" data-bs-target="#menu-modal-window" href="#">
                         Detail
-                      </a>
-                  </td>
-                  
-                  {{-- <td class="text-center">
+                        </a>
+                    </td>
+                    
+                    {{-- <td class="text-center">
                     <a href="#" class="btn btn-xxs gradient-red">Detail</a>
-                  </td> --}}
+                    </td> --}}
                 </tr>
-              </tbody>
+                </tbody>
             </table>
         </div>
     </div>
