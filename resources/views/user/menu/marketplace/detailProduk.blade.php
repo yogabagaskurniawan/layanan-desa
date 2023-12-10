@@ -95,7 +95,7 @@
                 <p class="card-text">DesaSatu</p>
             </div>
             <div>
-                <a href="/marketplace/detail-produk/kunjungi-toko" class="btn border-green-dark color-green-dark">Lihat</a>
+                <a href="/marketplace/detail-produk/kunjungi-toko" class=" btn btn-xs border-green-dark color-green-dark">Lihat</a>
             </div>
         </div>
     </div>
