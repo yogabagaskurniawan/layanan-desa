@@ -10,7 +10,6 @@
 <div class="card card-style">
     <div class="content mb-0">
         <div class="my-2 d-flex justify-content-center">
-            {{-- <a href="/umkm-edit" class="btn btn-xxs bg-yellow-dark shadow-bg-m text-center mx-1">Edit UMKM</a> --}}
             <a href="/wisata/tambah-wisata" class="btn btn-xxs bg-blue-dark shadow-bg-m text-center mx-1">Tambah Data Wisata</a>
         </div>
         <div class="form-custom form-label no-icon mb-3">
@@ -23,7 +22,6 @@
                     <img src="{{asset('user/images/pictures/10m.jpg')}}" class="card-img-top img-fluid"
                         alt="Card Image">
                     <div class="content pb-0">
-                        {{-- <p class="font-900 mb-0 text-truncate" href="#" style="max-width: 150px;">Toge NonPestisida</p> --}}
                         <h5>Curug Genting</h5>
                         <p class="mb-0">Jam Buka / Tutup :</p>
                         <p class="mb-0">08.00 - 17.00</p>
@@ -40,7 +38,6 @@
                     <img src="{{asset('user/images/pictures/10m.jpg')}}" class="card-img-top img-fluid"
                         alt="Card Image">
                     <div class="content pb-0">
-                        {{-- <p class="font-900 mb-0 text-truncate" href="#" style="max-width: 150px;">Toge NonPestisida</p> --}}
                         <h5>Curug Genting</h5>
                         <p class="mb-0">Jam Buka / Tutup :</p>
                         <p class="mb-0">08.00 - 17.00</p>
@@ -57,7 +54,6 @@
                     <img src="{{asset('user/images/pictures/10m.jpg')}}" class="card-img-top img-fluid"
                         alt="Card Image">
                     <div class="content pb-0">
-                        {{-- <p class="font-900 mb-0 text-truncate" href="#" style="max-width: 150px;">Toge NonPestisida</p> --}}
                         <h5>Curug Genting</h5>
                         <p class="mb-0">Jam Buka / Tutup :</p>
                         <p class="mb-0">08.00 - 17.00</p>
@@ -89,9 +85,6 @@
             style="height:180px;background-image: url('{{ asset('user/images/pictures/10m.jpg') }}')"></div>
         <div class="text-center mt-2">
             <h1 class="">Curug Genting</h1>
-            {{-- <p class="mb-0 font-14">
-                <span class="text-primary font-16">Curug Genting</span>
-            </p> --}}
             <p class="mb-0">Batang</p>
             <p class="mb-0">Jam Buka / Tutup :</p>
             <p class="mb-0">08.00 - 17.00</p>

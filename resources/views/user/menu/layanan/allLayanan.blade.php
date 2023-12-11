@@ -24,25 +24,21 @@
                 </select>
             </div>
         </div>
+
         <div class="divider mx-4"></div>
-        <div class="card card-style mb-3">
-            <div class="content">
-                <div class="d-flex justify-content-between align-items-center">
-                    <div class="pt-1">
-                        <img src="{{ asset('user/images/pictures/11t.jpg') }}" class="img-fluid rounded-s" width="110">
-                    </div>
-                    <div class="ps-3 me-auto">
-                        <p class="mb-0">Kota : Batang</p>
-                        <p class="mb-0">Desa : Tulis</p>
-                        <h3 class="mb-2">
-                            APBD Desa
-                        </h3>
-                    </div>
-                    <div>
-                        <a href="/detail-layanan" class="btn btn-xs  btn bg-blue-dark">Lihat</a>
-                    </div>
+        
+        <div class="card card-style bg-5 shadow-card shadow-card-l"
+            style="height:300px;background-image: url('{{ asset('user/images/pictures/5l.jpg') }}')">
+            <div class="card-center">
+                <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
+                    <h1 class="font-13 my-n1">
+                        <a href="/detail-layanan" class="color-theme" aria-controls="balance2">Lihat</a>
+                    </h1>
                 </div>
             </div>
+            <strong class="card-top no-click font-20 p-3 color-white font-monospace">APBD Desa</strong>
+            <strong class="font-14 card-bottom no-click p-3 text-start color-white font-monospace">Kota : Batang<br> Kecamatan : Subah<br>Desa : Subah<br></strong>
+            <div class="card-overlay bg-black opacity-30"></div>
         </div>
     </div>
 </div @endsection

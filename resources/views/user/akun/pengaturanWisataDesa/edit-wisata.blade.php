@@ -10,7 +10,6 @@
     <div class="content">
         <form class="demo-animation needs-validation m-0" novalidate="">
             <div class="form-custom mb-3 form-border form-icon form-label">
-                {{-- <i class="bi bi-person-circle font-14"></i> --}}
                 <input type="text" class="form-control rounded-xs" id="c1" placeholder="Nama Wisata"
                     pattern="[A-Za-z ]{1,32}" required="">
                 <label for="c1" class="color-theme">Nama Wisata</label>
@@ -21,13 +20,11 @@
                 <span>(required)</span>
             </div>
             <div class="form-custom mb-3 form-border form-icon form-label">
-                {{-- <i class="bi bi-file-earmark-plus font-14"></i> --}}
                 <textarea class="form-control rounded-xs" placeholder="alamat" id="c7"></textarea>
                 <label for="c7" class="color-theme">Alamat</label>
                 <div class="valid-feedback">HTML5 does not offer Dates Field Validation!<!-- text for field valid--></div>
             </div>
             <div class="form-custom mb-3 form-border form-icon form-label">
-                {{-- <i class="bi bi-currency-dollar font-14"></i> --}}
                 <input type="number" class="form-control rounded-xs" id="c3" placeholder="Jam Buka"
                     pattern="[+ 0-9]{10,15}" required="">
                 <label for="c3" class="color-theme">Jam Buka</label>
@@ -38,7 +35,6 @@
                 <span>(required)</span>
             </div>
             <div class="form-custom mb-3 form-border form-icon form-label">
-                {{-- <i class="bi bi-currency-dollar font-14"></i> --}}
                 <input type="number" class="form-control rounded-xs" id="c3" placeholder="Jam Tutup"
                     pattern="[+ 0-9]{10,15}" required="">
                 <label for="c3" class="color-theme">Jam Tutup</label>
@@ -49,7 +45,6 @@
                 <span>(required)</span>
             </div>
             <div class="form-custom mb-3 form-border form-icon form-label">
-                {{-- <i class="bi bi-window-sidebar font-14"></i> --}}
                 <textarea class="form-control rounded-xs" placeholder="Deskripsi" id="c7"></textarea>
                 <label for="c7" class="color-theme">Deskripsi</label>
                 <div class="valid-feedback">HTML5 does not offer Dates Field Validation!
