@@ -28,15 +28,15 @@
 </div>
 
 <div class="card card-style">
-    <div class="container mt-4">
-        <h3 class="text-center mb-1">Masukan Saya</h3>
+    <div class="content mt-4">
+        <h3 class="text-center mb-1">Masukan / Saran Saya</h3>
         <div class="divider mx-1 my-2 mb-3"></div>
-        <div class="row mb-3">
-            <div class="col-6">
-                <a href="#" class="btn-full btn bg-green-dark"><i class="bi bi-check-circle-fill color-white pe-3 font-14"></i>Masukan</a>
-            </div>
-            <div class="col-6">
-                <a href="#" class="btn-full btn bg-green-dark"><i class="bi bi-check-circle-fill color-white pe-3 font-14"></i>Saran</a>
+        <div class="card card-style">
+            <img src="{{asset('user/images/pictures/18w.jpg')}}" class="img-fluid">
+            <div class="content pb-0 text-right">
+                <h3>Tambah Fitur</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque blanditiis placeat tempora enim hic dicta quos id sint voluptas molestiae.</p>
+                <a href="#" class="btn btn-xxs jc-right bg-red-dark shadow-bg-m btn-full ">Hapus</a>
             </div>
         </div>
     </div>
