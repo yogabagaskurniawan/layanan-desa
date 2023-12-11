@@ -35,11 +35,11 @@
                 <img src="{{ asset('user/images/assetMenu/pengaturan-kurir.png') }}" width="24px" alt="">
                 <div>Pengaturan Kurir</div>
             </a>
-            <a href="#" id="nav-homes" data-submenu="sub1" class="list-group-item">
+            <a href="/petugas-umkm" id="nav-homes" data-submenu="sub1" class="list-group-item">
                 <img src="{{ asset('user/images/assetMenu/pengaturan-umkm.png') }}" width="24px" alt="">
                 <div>Pengaturan Umkm</div>
             </a>
-            <a href="#" id="nav-homes" data-submenu="sub1" class="list-group-item">
+            <a href="/petugas-wisata" id="nav-homes" data-submenu="sub1" class="list-group-item">
                 <img src="{{ asset('user/images/assetMenu/pengaturan-wisata.png') }}" width="24px" alt="">
                 <div>Pengaturan Wisata Desa</div>
             </a>
@@ -52,6 +52,7 @@
                 <div>Petugas Bank Sampah</div>
             </a>
         </div>
+
 
         <div class="divider divider-margins mb-3 opacity-50"></div>
 
