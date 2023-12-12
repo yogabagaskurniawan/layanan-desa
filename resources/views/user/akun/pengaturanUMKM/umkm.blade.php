@@ -60,8 +60,8 @@
                     <img src="{{asset('user/images/pictures/10m.jpg')}}" class="card-img-top img-fluid"
                         alt="Card Image">
                     <div class="content pb-0">
-                        <p class="font-900 mb-0 text-truncate" href="#" style="max-width: 150px;">Toge NonPestisida</p>
-                        <h5>RP. 10.000</h5>
+                        <h4>Toge NonPestisida</h4>
+                        <p class="mb-0 font-14"><span class="text-primary font-16">RP. 10.000</span></p>
                         <a class="btn btn-xxs mb-2 bg-mint-dark shadow-bg-m text-center mx-1" data-bs-toggle="offcanvas"
                             data-bs-target="#menu-modal-window" href="#">Preview</a>
                         <div class="divider mx-1"></div>

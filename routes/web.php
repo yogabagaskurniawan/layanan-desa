@@ -246,7 +246,7 @@ Route::get('/verivikasi-akun', function () {
     return view('user.verivikasi-akun');
 });
 
-Auth::routes();
+Auth::routes(['only' => ['login', 'register']]);
 
 // ======= Tampilan Admin ========
 Route::get('/home', 'HomeController@index')->name('home');
