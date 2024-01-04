@@ -15,10 +15,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
-    <link rel="manifest" href="_manifest.json">
+    <link rel="manifest" href="{{ asset('user/_manifest.json') }}">
     <meta id="theme-check" name="theme-color" content="#FFFFFF">
     {{-- <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('user/images/pictures/logo.png') }}"> --}}
     <link rel="icon" type="image/x-icon" href="{{asset('user/images/pictures/logo.png')}}">
+    @yield('css')
 </head>
 
 <body class="theme-light">
@@ -31,32 +32,9 @@
     <div id="page">
 
         {{-- @include('layouts.user.partials.footer-bar') --}}
-
+        @yield('header')
         <!-- Page Content - Only Page Elements Here-->
-        <div class="page-content footer-clear" style="max-width: 1000px; margin: 0 auto;">
-
-            <!-- Page Title-->
-            <div class="pt-3">
-                <div class="page-title d-flex">
-                    <div class="align-self-center me-auto">
-                        <p class=" color-theme header-date"></p>
-                        <h1>Desa Satu</h1>
-                    </div>
-                    <div class="align-self-center ms-auto">
-                        <a href="#" data-bs-toggle="offcanvas" data-bs-target="#menu-highlights"
-                            class="icon bg-white color-theme rounded-m shadow-xl">
-                            <i class="bi bi-palette-fill color-black font-16"></i>
-                        </a>
-                        <a href="#" data-toggle-theme="" class="show-on-theme-dark icon bg-white color-theme rounded-m shadow-xl"><i class="bi bi-sun-fill color-yellow-dark font-16"></i></a>
-                        <a href="#" data-toggle-theme="" class="show-on-theme-light icon bg-white color-theme rounded-m shadow-xl"><i class="bi bi-moon-fill font-13"></i>
-                        <a href="/" {{-- data-bs-toggle="dropdown" --}}
-                            class="icon gradient-blue shadow-bg shadow-bg-s rounded-m">
-                            <img src="{{ asset('user/images/pictures/logo.png') }}" width="45" class="rounded-m"
-                                alt="img">
-                        </a>
-                    </div>
-                </div>
-            </div>
+        <div class="page-content " style="max-width: 1000px; margin: 0 auto;">
 
             @yield('content')
 
@@ -102,7 +80,7 @@
             @include('layouts.user.partials.menu-exchange')
         </div>
 
-        <div class="offcanvas offcanvas-bottom rounded-m offcanvas-detached" id="menu-install-pwa-ios">
+        {{-- <div class="offcanvas offcanvas-bottom rounded-m offcanvas-detached" id="menu-install-pwa-ios">
             <div class="content">
                 <img src="{{ asset('user/app/icons/icon-128x128.png') }}" alt="img" width="80"
                     class="rounded-m mx-auto my-4">
@@ -132,11 +110,12 @@
                     class="pwa-dismiss close-menu color-theme text-uppercase font-900 opacity-60 font-11 text-center d-block mt-n1">Maybe
                     later</a>
             </div>
-        </div>
+        </div> --}}
 
     </div>
     <!-- End of Page ID-->
 
     <script src="{{ asset('user/scripts/bootstrap.min.js') }}"></script>
     <script src="{{ asset('user/scripts/custom.js') }}"></script>
+    @yield('script')
 </body>

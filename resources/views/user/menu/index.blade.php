@@ -1,6 +1,7 @@
 @extends('layouts.user.main')
 
 @section('content')
+@include('layouts.user.partials.navbar')
 <svg id="header-deco" viewBox="0 0 1440 600" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150">
     <path id="header-deco-1" d="M 0,600 C 0,600 0,120 0,120 C 92.36363636363635,133.79904306220095 184.7272727272727,147.59808612440193 287,148 C 389.2727272727273,148.40191387559807 501.4545454545455,135.40669856459328 592,129 C 682.5454545454545,122.5933014354067 751.4545454545455,122.77511961722489 848,115 C 944.5454545454545,107.22488038277511 1068.7272727272727,91.49282296650718 1172,91 C 1275.2727272727273,90.50717703349282 1357.6363636363635,105.25358851674642 1440,120 C 1440,120 1440,600 1440,600 Z"></path>
     <path id="header-deco-2" d="M 0,600 C 0,600 0,240 0,240 C 98.97607655502392,258.2105263157895 197.95215311004785,276.4210526315789 278,282 C 358.04784688995215,287.5789473684211 419.16746411483257,280.5263157894737 524,265 C 628.8325358851674,249.4736842105263 777.377990430622,225.47368421052633 888,211 C 998.622009569378,196.52631578947367 1071.3205741626793,191.57894736842107 1157,198 C 1242.6794258373207,204.42105263157893 1341.3397129186603,222.21052631578948 1440,240 C 1440,240 1440,600 1440,600 Z"></path>
@@ -78,133 +79,126 @@
         </div>
     </div>
 </div>
-
-<div class="row text-center" style="margin: 60px 4px 0 4px">
-    <div class="col-4 mb-4 ">
-        <a href="/all-marketplace" class="card card-style m-0" style="height:130px;">
-            <div class="card-center">
-                {{-- <span class="icon icon-xl rounded-m gradient-green shadow-bg shadow-bg-xs"><i class="bi bi-arrow-clockwise font-24 color-white"></i></span> --}}
-                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/marketplace.png') }}" alt="img marketplace">
-                <h3 class="font-16 pt-3">Marketplace</h3>
-            </div>
-        </a>
+{{-- content --}}
+<div class="content my-0 px-1 mb-5 pb-3" style="margin-top: 20px !important">
+    <div class="d-flex">
+        <div class="align-self-center">
+            <h3 class="font-20 mb-3">Semua Menu</h3>
+        </div>
     </div>
-    <div class="col-4 mb-4 ">
-        <a href="/informasi" class="card card-style m-0" style="height:130px;">
-            <div class="card-center">
-                {{-- <span class="icon icon-xl rounded-m gradient-orange shadow-bg shadow-bg-xs"><i class="bi bi-receipt font-24 color-white"></i></span> --}}
-                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/informasi.png') }}" alt="img informasi">
-                <h3 class="font-16 pt-3">Informasi</h3>
-            </div>
-        </a>
-    </div>
-    <div class="col-4 mb-4 ">
-        <a href="/kurir" class="card card-style m-0" style="height:130px;">
-            <div class="card-center">
-                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
-                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/kurir.png') }}" alt="imag kurir">
-                <h3 class="font-16 pt-3">Kurir</h3>
-            </div>
-        </a>
-    </div>
-    <div class="col-4 mb-4 ">
-        <a href="/umkm" class="card card-style m-0" style="height:130px;">
-            <div class="card-center">
-                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
-                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/umkm.png') }}" alt="imag umkm">
-                <h3 class="font-16 pt-3">Umkm</h3>
-            </div>
-        </a>
-    </div>
-    <div class="col-4 mb-4 ">
-        <a href="/loker" class="card card-style m-0" style="height:130px;">
-            <div class="card-center">
-                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
-                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/loker.png') }}" alt="imag loker">
-                <h3 class="font-16 pt-3">Loker</h3>
-            </div>
-        </a>
-    </div>
-    <div class="col-4 mb-4 ">
-        <a href="/wisata" class="card card-style m-0" style="height:130px;">
-            <div class="card-center">
-                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
-                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/wisata.png') }}" alt="imag wisata">
-                <h3 class="font-16 pt-3">Wisata</h3>
-            </div>
-        </a>
-    </div>
-    <div class="col-4 mb-4 ">
-        <a href="/layanan" class="card card-style m-0" style="height:130px;">
-            <div class="card-center">
-                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
-                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/layanan.png') }}" alt="imag layanan">
-                <h3 class="font-16 pt-3">Layanan</h3>
-            </div>
-        </a>
-    </div>
-    <div class="col-4 mb-4 ">
-        <a href="/bumdes" class="card card-style m-0" style="height:130px;">
-            <div class="card-center">
-                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
-                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/marketplace.png') }}" alt="imag bumdes">
-                <h3 class="font-16 pt-3">Bumdes</h3>
-            </div>
-        </a>
-    </div>
-    <div class="col-4 mb-4 ">
-        <a href="/jasa" class="card card-style m-0" style="height:130px;">
-            <div class="card-center">
-                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
-                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/jasa.png') }}" alt="imag jasa">
-                <h3 class="font-16 pt-3">Jasa</h3>
-            </div>
-        </a>
-    </div>
-    <div class="col-4 mb-4 ">
-        <a href="/masukan" class="card card-style m-0" style="height:130px;">
-            <div class="card-center">
-                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
-                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/masukan.png') }}" alt="imag masukan">
-                <h3 class="font-16 pt-3">Masukan</h3>
-            </div>
-        </a>
-    </div>
-    <div class="col-4 mb-4 ">
-        <a href="/buat-surat" class="card card-style m-0" style="height:130px;">
-            <div class="card-center">
-                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
-                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/berkas.png') }}" alt="imag buat-surat">
-                <h3 class="font-16 pt-3">Buat surat</h3>
-            </div>
-        </a>
-    </div>
-    <div class="col-4 mb-4 ">
-        <a href="/simpedes" class="card card-style m-0" style="height:130px;">
-            <div class="card-center">
-                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
-                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/simpedes.png') }}" alt="imag simpedes">
-                <h3 class="font-16 pt-3">Simpedes</h3>
-            </div>
-        </a>
-    </div>
-    <div class="col-4 mb-4 ">
-        <a href="/bankSampah" class="card card-style m-0" style="height:130px;">
-            <div class="card-center">
-                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
-                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/bank-sampah.png') }}" alt="imag bank sampah">
-                <h3 class="font-16 pt-3">B-sampah</h3>
-            </div>
-        </a>
-    </div>
-    <div class="col-4 mb-4 ">
-        <a href="/desa-lain" class="card card-style m-0" style="height:130px;">
-            <div class="card-center">
-                {{-- <span class="icon icon-xl rounded-m gradient-yellow shadow-bg shadow-bg-xs"><i class="bi bi-arrow-down-circle font-24 color-white"></i></span> --}}
-                <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/desa.png') }}" alt="imag desa-lain">
-                <h3 class="font-16 pt-3">Desa lain</h3>
-            </div>
-        </a>
+    <div class="row text-center mx-0" style="margin: 0px 4px 0 4px;">
+        <div class="col-4 col-sm-3 col-md-2 my-1 px-1 ">
+            <a href="/all-marketplace" class="card card-style m-0" style="height:100px;">
+                <div class="card-center">
+                    <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" src="{{ asset('user/images/assetMenu/marketplace.png') }}" alt="img marketplace" style="width:40px !important; height: 40px !important;">
+                    <h3 class="font-14 pt-2">Marketplace</h3>
+                </div>
+            </a>
+        </div>
+        <div class="col-4 col-sm-3 col-md-2 my-1 px-1 ">
+            <a href="/informasi" class="card card-style m-0" style="height:100px;">
+                <div class="card-center">
+                    <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" style="width:40px !important; height: 40px !important;" src="{{ asset('user/images/assetMenu/informasi.png') }}" alt="img informasi">
+                    <h3 class="font-14 pt-2">Informasi</h3>
+                </div>
+            </a>
+        </div>
+        <div class="col-4 col-sm-3 col-md-2 my-1 px-1 ">
+            <a href="/kurir" class="card card-style m-0" style="height:100px;">
+                <div class="card-center">
+                    <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" style="width:40px !important; height: 40px !important;" src="{{ asset('user/images/assetMenu/kurir.png') }}" alt="imag kurir">
+                    <h3 class="font-14 pt-2">Kurir</h3>
+                </div>
+            </a>
+        </div>
+        <div class="col-4 col-sm-3 col-md-2 my-1 px-1 ">
+            <a href="/umkm" class="card card-style m-0" style="height:100px;">
+                <div class="card-center">
+                    <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" style="width:40px !important; height: 40px !important;" src="{{ asset('user/images/assetMenu/umkm.png') }}" alt="imag umkm">
+                    <h3 class="font-14 pt-2">Umkm</h3>
+                </div>
+            </a>
+        </div>
+        <div class="col-4 col-sm-3 col-md-2 my-1 px-1 ">
+            <a href="/loker" class="card card-style m-0" style="height:100px;">
+                <div class="card-center">
+                    <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" style="width:40px !important; height: 40px !important;" src="{{ asset('user/images/assetMenu/loker.png') }}" alt="imag loker">
+                    <h3 class="font-14 pt-2">Loker</h3>
+                </div>
+            </a>
+        </div>
+        <div class="col-4 col-sm-3 col-md-2 my-1 px-1 ">
+            <a href="/wisata" class="card card-style m-0" style="height:100px;">
+                <div class="card-center">
+                    <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" style="width:40px !important; height: 40px !important;" src="{{ asset('user/images/assetMenu/wisata.png') }}" alt="imag wisata">
+                    <h3 class="font-14 pt-2">Wisata</h3>
+                </div>
+            </a>
+        </div>
+        <div class="col-4 col-sm-3 col-md-2 my-1 px-1 ">
+            <a href="/layanan" class="card card-style m-0" style="height:100px;">
+                <div class="card-center">
+                    <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" style="width:40px !important; height: 40px !important;" src="{{ asset('user/images/assetMenu/layanan.png') }}" alt="imag layanan">
+                    <h3 class="font-14 pt-2">Layanan</h3>
+                </div>
+            </a>
+        </div>
+        <div class="col-4 col-sm-3 col-md-2 my-1 px-1 ">
+            <a href="/bumdes" class="card card-style m-0" style="height:100px;">
+                <div class="card-center">
+                    <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" style="width:40px !important; height: 40px !important;" src="{{ asset('user/images/assetMenu/marketplace.png') }}" alt="imag bumdes">
+                    <h3 class="font-14 pt-2">Bumdes</h3>
+                </div>
+            </a>
+        </div>
+        <div class="col-4 col-sm-3 col-md-2 my-1 px-1 ">
+            <a href="/jasa" class="card card-style m-0" style="height:100px;">
+                <div class="card-center">
+                    <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" style="width:40px !important; height: 40px !important;" src="{{ asset('user/images/assetMenu/jasa.png') }}" alt="imag jasa">
+                    <h3 class="font-14 pt-2">Jasa</h3>
+                </div>
+            </a>
+        </div>
+        <div class="col-4 col-sm-3 col-md-2 my-1 px-1 ">
+            <a href="/masukan" class="card card-style m-0" style="height:100px;">
+                <div class="card-center">
+                    <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" style="width:40px !important; height: 40px !important;" src="{{ asset('user/images/assetMenu/masukan.png') }}" alt="imag masukan">
+                    <h3 class="font-14 pt-2">Masukan</h3>
+                </div>
+            </a>
+        </div>
+        <div class="col-4 col-sm-3 col-md-2 my-1 px-1 ">
+            <a href="/buat-surat" class="card card-style m-0" style="height:100px;">
+                <div class="card-center">
+                    <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" style="width:40px !important; height: 40px !important;" src="{{ asset('user/images/assetMenu/berkas.png') }}" alt="imag buat-surat">
+                    <h3 class="font-14 pt-2">Buat surat</h3>
+                </div>
+            </a>
+        </div>
+        <div class="col-4 col-sm-3 col-md-2 my-1 px-1 ">
+            <a href="/simpedes" class="card card-style m-0" style="height:100px;">
+                <div class="card-center">
+                    <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" style="width:40px !important; height: 40px !important;" src="{{ asset('user/images/assetMenu/simpedes.png') }}" alt="imag simpedes">
+                    <h3 class="font-14 pt-2">Simpedes</h3>
+                </div>
+            </a>
+        </div>
+        <div class="col-4 col-sm-3 col-md-2 my-1 px-1 ">
+            <a href="/bankSampah" class="card card-style m-0" style="height:100px;">
+                <div class="card-center">
+                    <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" style="width:40px !important; height: 40px !important;" src="{{ asset('user/images/assetMenu/bank-sampah.png') }}" alt="imag bank sampah">
+                    <h3 class="font-14 pt-2">B-sampah</h3>
+                </div>
+            </a>
+        </div>
+        <div class="col-4 col-sm-3 col-md-2 my-1 px-1 ">
+            <a href="/desa-lain" class="card card-style m-0" style="height:100px;">
+                <div class="card-center">
+                    <img class="icon icon-xl rounded-m  shadow-bg shadow-bg-xs" style="width:40px !important; height: 40px !important;" src="{{ asset('user/images/assetMenu/desa.png') }}" alt="imag desa-lain">
+                    <h3 class="font-14 pt-2">Desa lain</h3>
+                </div>
+            </a>
+        </div>
     </div>
 </div>
 @endsection

@@ -4770,3 +4770,15 @@ input[type="range"] {
 .card-stack.card-stack-active .card:last-child {
     margin-bottom: 20px !important;
 }
+
+/* ======= my style  =====*/
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    transition: top 1.5s; /* Animasi transisi */
+}
+.hidden {
+    top: -280px; /* Menggeser navbar ke atas hingga hilang dari tampilan */
+}

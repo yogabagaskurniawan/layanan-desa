@@ -1283,3 +1283,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
     init_template();
 });
+
+//my js header
+var lastScrollTop = 0; // Menambahkan definisi variabel lastScrollTop
+
+function handleScroll() {
+    var currentScroll =
+        window.pageYOffset || document.documentElement.scrollTop;
+    var navbar = document.querySelector(".sticky-nav");
+
+    if (currentScroll > lastScrollTop) {
+        navbar.classList.add("hidden"); // Menambahkan class 'hidden' saat scroll ke bawah
+    } else {
+        navbar.classList.remove("hidden"); // Menghapus class 'hidden' saat scroll ke atas
+    }
+
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
+}
+
+window.addEventListener("scroll", handleScroll); // Mendengarkan event scroll
+
+window.addEventListener("pageshow", function (event) {
+    if (event.persisted) {
+        // Memastikan bahwa elemen 'sticky-nav' ditampilkan kembali ketika halaman ditampilkan kembali
+        var navbar = document.querySelector(".sticky-nav");
+        navbar.classList.remove("hidden");
+    }
+});
