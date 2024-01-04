@@ -152,7 +152,7 @@
             <div class="col-4 col-sm-3 col-md-2 px-0">
                 <a href="/marketplace/detail-produk" class="card card-style me-1 ms-1" style="border-radius: 12px !important" class="position-relative">
                     <span class="badge bg-primary position-absolute top-0 end-0 m-2 bg-orange-dark px-2 rounded-s font-12">Elektronik</span>
-                    <img src="{{asset('user/images/pictures/marketplace-1.jpg')}}" class="card-img-top img-fluid rounded"
+                    <img src="{{asset('user/images/pictures/marketplace-1.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;
                         alt="Card Image">
                     <div class="content pb-0 mx-2">
                         <p class="font-14 font-900 mb-0 text-truncate" href="/marketplace/detail-produk"
@@ -166,7 +166,7 @@
             <div class="col-4 col-sm-3 col-md-2 px-0">
                 <a href="/marketplace/detail-produk" class="card card-style me-1 ms-1" style="border-radius: 12px !important" class="position-relative">
                     <span class="badge bg-primary position-absolute top-0 end-0 m-2 bg-orange-dark px-2 rounded-s font-12">Makanan</span>
-                    <img src="{{asset('user/images/pictures/marketplace-1.jpg')}}" class="card-img-top img-fluid rounded"
+                    <img src="{{asset('user/images/pictures/marketplace-1.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;
                         alt="Card Image">
                     <div class="content pb-0 mx-2">
                         <p class="font-14 font-900 mb-0 text-truncate" href="/marketplace/detail-produk"
@@ -179,7 +179,7 @@
             </div>
             <div class="col-4 col-sm-3 col-md-2 px-0">
                 <a href="/marketplace/detail-produk" class="card card-style me-1 ms-1" style="border-radius: 12px !important">
-                    <img src="{{asset('user/images/pictures/marketplace-1.jpg')}}" class="card-img-top img-fluid rounded"
+                    <img src="{{asset('user/images/pictures/marketplace-1.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;
                         alt="Card Image">
                     <div class="content pb-0 mx-2">
                         <p class="font-14 font-900 mb-0 text-truncate" href="/marketplace/detail-produk"
@@ -192,7 +192,7 @@
             </div>
             <div class="col-4 col-sm-3 col-md-2 px-0">
                 <a href="/marketplace/detail-produk" class="card card-style me-1 ms-1" style="border-radius: 12px !important">
-                    <img src="{{asset('user/images/pictures/marketplace-1.jpg')}}" class="card-img-top img-fluid rounded"
+                    <img src="{{asset('user/images/pictures/marketplace-1.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;
                         alt="Card Image">
                     <div class="content pb-0 mx-2">
                         <p class="font-14 font-900 mb-0 text-truncate" href="/marketplace/detail-produk"
@@ -205,7 +205,7 @@
             </div>
             <div class="col-4 col-sm-3 col-md-2 px-0">
                 <a href="/marketplace/detail-produk" class="card card-style me-1 ms-1" style="border-radius: 12px !important">
-                    <img src="{{asset('user/images/pictures/marketplace-1.jpg')}}" class="card-img-top img-fluid rounded"
+                    <img src="{{asset('user/images/pictures/marketplace-1.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;
                         alt="Card Image">
                     <div class="content pb-0 mx-2">
                         <p class="font-14 font-900 mb-0 text-truncate" href="/marketplace/detail-produk"

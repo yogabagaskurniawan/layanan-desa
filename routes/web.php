@@ -41,9 +41,6 @@ Route::get('/marketplace/detail-produk', function () {
         "namaBtn" => "penjual"
     ]);
 });
-Route::get('/marketplace/detail-produk/hubungi-kurir', function () {
-    return view('user.menu.marketplace.hubungi-kurir');
-});
 Route::get('/marketplace/detail-produk/kunjungi-toko', function () {
     return view('user.menu.marketplace.kunjungi-toko');
 });
