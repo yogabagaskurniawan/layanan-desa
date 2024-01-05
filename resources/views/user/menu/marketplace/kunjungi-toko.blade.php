@@ -49,7 +49,7 @@
 <div class="pt-3"></div>
 <div class="card card-style overflow-visible mt-5 mx-0 rounded-0" style="border-bottom-right-radius: 22px !important;border-bottom-left-radius: 22px !important">
     <div class="mt-n5"></div>
-    <img src="{{ asset('user/images/pictures/kurir1.jpeg') }}" class="img-fluid mx-auto rounded-circle" width="100" style="border: 4px solid white; ">
+    <img src="{{ asset('user/images/pictures/kurir1.jpeg') }}" class="img-fluid mx-auto rounded-circle" width="100" style="border: 4px solid white; height: 100px;">
     <div class="content mt-0 mb-2">
         <h2 class="pt-3">Asus.Official <span class="badge bg-success rounded-s px-2 mb-1 mx-2 font-14" style="vertical-align: middle;">Aktif</span></h2>
         <p class="mb-0 font-500 font-14">Tulis, Batang</p>
