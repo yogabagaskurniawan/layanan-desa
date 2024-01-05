@@ -146,11 +146,11 @@
 
 {{-- content --}}
 <div class="card card-style mx-0" style="border-radius: 26px !important">
-    <div class="content my-0 ">
-        <h3 class="font-200 my-3">Pilihan Terbaik Anda</h3>
+    <div class="content my-0 px-2">
+        <h3 class="font-200 my-3 ms-n2">Pilihan Terbaik Anda</h3>
         <div class="row mb-0">
             <div class="col-4 col-sm-3 col-md-2 px-0">
-                <a href="/marketplace/detail-produk" class="card card-style me-1 ms-1" style="border-radius: 12px !important" class="position-relative">
+                <a href="/marketplace/detail-produk" class="card card-style mx-1 mb-2" style="border-radius: 12px !important" class="position-relative">
                     <span class="badge bg-primary position-absolute top-0 end-0 m-2 bg-orange-dark px-2 rounded-s font-12">Elektronik</span>
                     <img src="{{asset('user/images/pictures/marketplace-1.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;
                         alt="Card Image">
@@ -164,7 +164,7 @@
                 </a>
             </div>
             <div class="col-4 col-sm-3 col-md-2 px-0">
-                <a href="/marketplace/detail-produk" class="card card-style me-1 ms-1" style="border-radius: 12px !important" class="position-relative">
+                <a href="/marketplace/detail-produk" class="card card-style mx-1 mb-2" style="border-radius: 12px !important" class="position-relative">
                     <span class="badge bg-primary position-absolute top-0 end-0 m-2 bg-orange-dark px-2 rounded-s font-12">Makanan</span>
                     <img src="{{asset('user/images/pictures/marketplace-1.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;
                         alt="Card Image">
@@ -178,7 +178,7 @@
                 </a>
             </div>
             <div class="col-4 col-sm-3 col-md-2 px-0">
-                <a href="/marketplace/detail-produk" class="card card-style me-1 ms-1" style="border-radius: 12px !important">
+                <a href="/marketplace/detail-produk" class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
                     <img src="{{asset('user/images/pictures/marketplace-1.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;
                         alt="Card Image">
                     <div class="content pb-0 mx-2">
@@ -191,7 +191,7 @@
                 </a>
             </div>
             <div class="col-4 col-sm-3 col-md-2 px-0">
-                <a href="/marketplace/detail-produk" class="card card-style me-1 ms-1" style="border-radius: 12px !important">
+                <a href="/marketplace/detail-produk" class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
                     <img src="{{asset('user/images/pictures/marketplace-1.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;
                         alt="Card Image">
                     <div class="content pb-0 mx-2">
@@ -204,7 +204,7 @@
                 </a>
             </div>
             <div class="col-4 col-sm-3 col-md-2 px-0">
-                <a href="/marketplace/detail-produk" class="card card-style me-1 ms-1" style="border-radius: 12px !important">
+                <a href="/marketplace/detail-produk" class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
                     <img src="{{asset('user/images/pictures/marketplace-1.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;
                         alt="Card Image">
                     <div class="content pb-0 mx-2">
