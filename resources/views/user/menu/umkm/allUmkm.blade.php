@@ -6,6 +6,7 @@
     <a class="header-title">UMKM</a>
     <a href="#" data-toggle-theme class="show-on-theme-dark"><i class="bi bi-sun-fill color-yellow-dark font-16"></i>
     <a href="#" data-toggle-theme class="show-on-theme-light"><i class="bi bi-moon-fill font-13"></i>
+    <a href="#"></a>
 </div>
 @endsection
 

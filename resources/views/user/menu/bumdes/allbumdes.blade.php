@@ -62,7 +62,7 @@
     </div>
 </div>
 
-<div class="divider mx-3"></div>
+{{-- <div class="divider mx-3"></div> --}}
 
 <div class=" border-0 mx-0 " style="max-width: 1000px !important;">
     <div class="content mb-0">
@@ -86,7 +86,7 @@
     </div>
 </div>
 
-<div class="divider mx-3"></div>
+{{-- <div class="divider mx-3"></div> --}}
 
 <div class="card card-style mx-0" style="border-radius: 26px !important">
     <div class="content my-0 px-2">
