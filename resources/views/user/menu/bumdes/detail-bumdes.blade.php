@@ -63,7 +63,7 @@
     
     <div class="content pb-0 mt-3 mb-0">
         <h2 class="font-100 mb-0">Bumdes 1</h2>
-        <p class="mb-0 font-500 font-14">DesaSatu,<span> Tulis, Batang</span></p>
+        <p class="mb-1 font-500 font-14">DesaSatu,<span> Tulis, Batang</span></p>
         {{-- <p class="mb-0 font-500 font-14 mb-0">Tulis, Batang</p> --}}
         <h3 class="font-200 mb-0">RP. 9.000.000</h3>
         <div class="divider mx-1 my-1"></div>

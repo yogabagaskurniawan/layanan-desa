@@ -3,7 +3,7 @@
 @section('content')
 @include('layouts.user.partials.footer-bar')
 
-<div class="header-bar header-center shadow-m">
+<div class="header-bar header-center shadow-m mb-0">
     <h2 class="m-auto">Buat Lowongan Kerja</h2>
 </div>
 
