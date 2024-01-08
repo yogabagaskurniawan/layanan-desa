@@ -6,6 +6,7 @@
     <a class="header-title">Marketplace</a>
     <a href="#" data-toggle-theme class="show-on-theme-dark"><i class="bi bi-sun-fill color-yellow-dark font-16"></i>
     <a href="#" data-toggle-theme class="show-on-theme-light"><i class="bi bi-moon-fill font-13"></i>
+    <a href="#"></a>
 </div>
 {{-- modal --}}
 <div id="menu-top-detached" style="height: 360px; display: block; max-width: 1000px;" class="offcanvas offcanvas-top rounded-m offcanvas-detached m-auto" aria-modal="true" role="dialog">
@@ -70,74 +71,73 @@
 </div>
 <div class=" border-0 mx-0 " style="max-width: 1000px !important;">
     <div class="content mb-0">
-        <div class="row">
-            <div class="row justify-content-between pe-0">
-                <div class="col-10">
-                    <div class="form-custom form-label no-icon mb-3">
-                        <input type="text" class="border border-secondary form-control rounded-pill fs-6 bg-theme" id="c1" placeholder="Cari produk...">
-                        <span class="input-group-text bg-transparent border-0" id="basic-addon2"><i class="bi bi-search font-20"></i></span>
-                        <label for="c1" class="color-theme">Search</label>
-                    </div>
-                    
-                </div>
-                <div class="col p-0 w-full">
-                    <span data-bs-toggle="offcanvas" data-bs-target="#menu-top-detached" href="#" class="icon icon-xl rounded-pill border border-secondary shadow-bg shadow-bg-xs bg-theme" style="width: 100%; background-color: transparent;">
-                        <i class="bi bi-filter font-32 text-secondary"></i>
-                    </span>
+        <div class="row justify-content-between pe-0">
+            <div class="col-10">
+                <div class="form-custom form-label no-icon mb-3">
+                    <input type="text" class="border border-secondary form-control rounded-pill fs-6 bg-theme" id="c1" placeholder="Cari produk...">
+                    <span class="input-group-text bg-transparent border-0" id="basic-addon2"><i class="bi bi-search font-20"></i></span>
+                    <label for="c1" class="color-theme">Search</label>
                 </div>
                 
             </div>
-            <h3 class="font-200 my-3">Pilih Kategori Belanja</h3>
-            <div class="wrapper d-flex py-1" style="overflow-x: auto !important">
-                <div class="item me-2" >
-                    <div class=" m-0 " style="width: 100px !important;">
-                        <a href="">
-                            <img src="{{ asset('user/images/pictures/wisata1.jpeg') }}" class="img-fluid rounded" style="height: 100px">
-                            <div class="content mt-1 mb-3 pb-0">
-                                <p class="text-center font-600">Semua</p>
-                            </div>
-                        </a>
+            <div class="col-2 ps-0">
+                <span data-bs-toggle="offcanvas" data-bs-target="#menu-top-detached" href="#" class="icon icon-xl rounded-pill border border-secondary shadow-bg shadow-bg-xs bg-theme" style="width: 100%; background-color: transparent;">
+                    <i class="bi bi-filter font-28 text-secondary"></i>
+                </span>
+            </div>
+            
+        </div>
+        <h3 class="font-200 my-3">Pilih Kategori Belanja</h3>
+    </div>
+    <div class="wrapper d-flex py-1" style="overflow-x: auto !important">
+        <span class="ms-3"></span>
+        <div class="item me-2" >
+            <div class=" m-0 " style="width: 100px !important;">
+                <a href="">
+                    <img src="{{ asset('user/images/pictures/wisata1.jpeg') }}" class="img-fluid rounded" style="height: 100px">
+                    <div class="content mt-1 mb-3 pb-0">
+                        <p class="text-center font-600">Semua</p>
                     </div>
+                </a>
+            </div>
+        </div>
+        <div class="item me-2" >
+            <div class=" m-0 " style="width: 100px !important;">
+                <img src="{{ asset('user/images/pictures/wisata1.jpeg') }}" class="img-fluid rounded" style="height: 100px">
+                <div class="content mt-1 mb-3 pb-0">
+                    <p class="text-center font-600">Makanan</p>
                 </div>
-                <div class="item me-2" >
-                    <div class=" m-0 " style="width: 100px !important;">
-                        <img src="{{ asset('user/images/pictures/wisata1.jpeg') }}" class="img-fluid rounded" style="height: 100px">
-                        <div class="content mt-1 mb-3 pb-0">
-                            <p class="text-center font-600">Makanan</p>
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <div class="item me-2" >
+            <div class=" m-0 " style="width: 100px !important;">
+                <img src="{{ asset('user/images/pictures/wisata1.jpeg') }}" class="img-fluid rounded" style="height: 100px">
+                <div class="content mt-1 mb-3 pb-0">
+                    <p class="text-center font-600">Pakaian</p>
                 </div>
-                <div class="item me-2" >
-                    <div class=" m-0 " style="width: 100px !important;">
-                        <img src="{{ asset('user/images/pictures/wisata1.jpeg') }}" class="img-fluid rounded" style="height: 100px">
-                        <div class="content mt-1 mb-3 pb-0">
-                            <p class="text-center font-600">Pakaian</p>
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <div class="item me-2" >
+            <div class=" m-0 " style="width: 100px !important;">
+                <img src="{{ asset('user/images/pictures/wisata1.jpeg') }}" class="img-fluid rounded" style="height: 100px">
+                <div class="content mt-1 mb-3 pb-0">
+                    <p class="text-center font-600">Handphone</p>
                 </div>
-                <div class="item me-2" >
-                    <div class=" m-0 " style="width: 100px !important;">
-                        <img src="{{ asset('user/images/pictures/wisata1.jpeg') }}" class="img-fluid rounded" style="height: 100px">
-                        <div class="content mt-1 mb-3 pb-0">
-                            <p class="text-center font-600">Handphone</p>
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <div class="item me-2" >
+            <div class=" m-0 " style="width: 100px !important;">
+                <img src="{{ asset('user/images/pictures/wisata1.jpeg') }}" class="img-fluid rounded" style="height: 100px">
+                <div class="content mt-1 mb-3 pb-0">
+                    <p class="text-center font-600">Elektronik</p>
                 </div>
-                <div class="item me-2" >
-                    <div class=" m-0 " style="width: 100px !important;">
-                        <img src="{{ asset('user/images/pictures/wisata1.jpeg') }}" class="img-fluid rounded" style="height: 100px">
-                        <div class="content mt-1 mb-3 pb-0">
-                            <p class="text-center font-600">Elektronik</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="item me-2" >
-                    <div class=" m-0 " style="width: 100px !important;">
-                        <img src="{{ asset('user/images/pictures/wisata1.jpeg') }}" class="img-fluid rounded" style="height: 100px">
-                        <div class="content mt-1 mb-3 pb-0">
-                            <p class="text-center font-600">Snack</p>
-                        </div>
-                    </div>
+            </div>
+        </div>
+        <div class="item me-2" >
+            <div class=" m-0 " style="width: 100px !important;">
+                <img src="{{ asset('user/images/pictures/wisata1.jpeg') }}" class="img-fluid rounded" style="height: 100px">
+                <div class="content mt-1 mb-3 pb-0">
+                    <p class="text-center font-600">Snack</p>
                 </div>
             </div>
         </div>

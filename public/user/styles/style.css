@@ -1025,13 +1025,13 @@ Item Support: https://www.enableds.com/contact/
     ) !important;
 }
 
-.theme-dark .border-theme {
+/* .theme-dark .border-theme {
     border-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 .theme-light .border-theme {
     border-color: rgba(0, 0, 0, 0.1) !important;
-}
+} */
 
 /*Default Highlight Colors*/
 .splide__pagination__page.is-active {

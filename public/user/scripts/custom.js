@@ -1292,16 +1292,26 @@ function handleScroll() {
         window.pageYOffset || document.documentElement.scrollTop;
     var navbar = document.querySelector(".sticky-nav");
 
-    if (currentScroll > lastScrollTop) {
-        navbar.classList.add("hidden"); // Menambahkan class 'hidden' saat scroll ke bawah
-    } else {
-        navbar.classList.remove("hidden"); // Menghapus class 'hidden' saat scroll ke atas
+    if (navbar) {
+        // Periksa apakah elemen ada sebelum mengakses properti classList
+        if (currentScroll > lastScrollTop) {
+            navbar.classList.add("hidden"); // Menambahkan class 'hidden' saat scroll ke bawah
+        } else {
+            navbar.classList.remove("hidden"); // Menghapus class 'hidden' saat scroll ke atas
+        }
     }
 
     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll;
 }
 
-window.addEventListener("scroll", handleScroll); // Mendengarkan event scroll
+// Panggil fungsi handleScroll untuk memulai saat halaman dimuat
+window.addEventListener("scroll", handleScroll);
+handleScroll(); // Panggil fungsi handleScroll untuk memulai saat halaman dimuat
+
+// Penanganan untuk respon ke event resize
+window.addEventListener("resize", function () {
+    handleScroll();
+});
 
 window.addEventListener("pageshow", function (event) {
     if (event.persisted) {
