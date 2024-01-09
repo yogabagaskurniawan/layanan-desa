@@ -455,37 +455,104 @@ document.addEventListener("DOMContentLoaded", () => {
         darkMode();
 
         //File Upload
+        // const inputArray = document.getElementsByClassName("upload-file");
+        // if (inputArray.length) {
+        //     inputArray[0].addEventListener("change", prepareUpload, false);
+        //     function prepareUpload(event) {
+        //         if (this.files && this.files[0]) {
+        //             var img = document.getElementById("image-data");
+        //             img.src = URL.createObjectURL(this.files[0]);
+        //             img.classList.add("mt-4", "mb-3", "mx-auto");
+        //         }
+        //         const files = event.target.files;
+        //         const fileName = files[0].name;
+        //         const fileSize = (files[0].size / 1000).toFixed(2) + "kb";
+        //         const textBefore = document
+        //             .getElementsByClassName("upload-file-name")[0]
+        //             .getAttribute("data-text-before");
+        //         const textAfter = document
+        //             .getElementsByClassName("upload-file-name")[0]
+        //             .getAttribute("data-text-after");
+        //         document.getElementsByClassName(
+        //             "upload-file-name"
+        //         )[0].innerHTML =
+        //             textBefore +
+        //             " " +
+        //             fileName +
+        //             " - " +
+        //             fileSize +
+        //             " - " +
+        //             textAfter;
+        //         document
+        //             .getElementsByClassName("upload-file-name")[0]
+        //             .classList.add("pb-3");
+        //     }
+        // }
         const inputArray = document.getElementsByClassName("upload-file");
+
         if (inputArray.length) {
-            inputArray[0].addEventListener("change", prepareUpload, false);
+            for (let i = 0; i < inputArray.length; i++) {
+                inputArray[i].addEventListener("change", prepareUpload, false);
+            }
+
             function prepareUpload(event) {
-                if (this.files && this.files[0]) {
-                    var img = document.getElementById("image-data");
-                    img.src = URL.createObjectURL(this.files[0]);
-                    img.classList.add("mt-4", "mb-3", "mx-auto");
-                }
                 const files = event.target.files;
-                const fileName = files[0].name;
-                const fileSize = (files[0].size / 1000).toFixed(2) + "kb";
-                const textBefore = document
-                    .getElementsByClassName("upload-file-name")[0]
-                    .getAttribute("data-text-before");
-                const textAfter = document
-                    .getElementsByClassName("upload-file-name")[0]
-                    .getAttribute("data-text-after");
-                document.getElementsByClassName(
-                    "upload-file-name"
-                )[0].innerHTML =
-                    textBefore +
-                    " " +
-                    fileName +
-                    " - " +
-                    fileSize +
-                    " - " +
-                    textAfter;
-                document
-                    .getElementsByClassName("upload-file-name")[0]
-                    .classList.add("pb-3");
+                const imagesContainer =
+                    document.querySelector(".images-container");
+                const isMultiple = event.target.multiple;
+
+                // Hapus semua gambar yang ada di container jika tidak menggunakan atribut multiple
+                if (!isMultiple) {
+                    imagesContainer.innerHTML = "";
+                }
+
+                const maxUpload = isMultiple ? Math.min(files.length, 3) : 1; // Batasi jumlah upload maksimum menjadi 3 jika multiple
+
+                for (let i = 0; i < maxUpload; i++) {
+                    const img = document.createElement("img");
+                    img.src = URL.createObjectURL(files[i]);
+                    img.classList.add(
+                        "mt-4",
+                        "mb-3",
+                        "mx-auto",
+                        "img-fluid",
+                        "rounded"
+                    );
+                    img.width = "100";
+                    img.style.height = "100px";
+
+                    const textBefore =
+                        "<i class='bi bi-check-circle-fill color-green-dark pe-2'></i> Image:";
+                    const textAfter = " is ready.";
+                    const uploadFileName = document.createElement("span");
+                    uploadFileName.classList.add(
+                        "upload-file-name",
+                        "d-block",
+                        "text-center",
+                        "mb-2"
+                    );
+                    uploadFileName.innerHTML =
+                        textBefore +
+                        " " +
+                        files[i].name +
+                        " - " +
+                        (files[i].size / 1000).toFixed(2) +
+                        "kb" +
+                        " - " +
+                        textAfter;
+
+                    const colDiv = document.createElement("div");
+                    colDiv.classList.add(
+                        "col-md-4",
+                        "mt-1",
+                        "col-6",
+                        "text-center"
+                    );
+                    colDiv.appendChild(img);
+                    colDiv.appendChild(uploadFileName);
+
+                    imagesContainer.appendChild(colDiv);
+                }
             }
         }
 
@@ -1284,9 +1351,9 @@ document.addEventListener("DOMContentLoaded", () => {
     init_template();
 });
 
-//my js header
+//========== my js header
 var lastScrollTop = 0; // Menambahkan definisi variabel lastScrollTop
-
+// !!! header sticy nav
 function handleScroll() {
     var currentScroll =
         window.pageYOffset || document.documentElement.scrollTop;

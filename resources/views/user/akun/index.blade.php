@@ -13,24 +13,24 @@
     <div class="text-center">
         <label for="fileInput" class="position-relative">
             <input type="file" id="fileInput" class="visually-hidden">
-            <img src="{{ asset('user/images/pictures/31t.jpg') }}" alt="img" width="180" class="rounded-circle shadow-l">
-            <i class="bi bi-pencil-fill position-absolute bottom-0 bg-white rounded-circle p-3 shadow-sm" style="right: -10px; cursor: pointer;"></i>
+            <img src="{{ asset('user/images/pictures/kurir3.jpeg') }}" alt="img" style="max-width: 100px; max-height: 100px;" class="rounded-circle shadow-l">
+            <i class="bi bi-pencil-fill position-absolute bottom-0 bg-white rounded-circle p-2 shadow-sm" style="right: -4px; cursor: pointer;"></i>
         </label>
     </div>
     <div class="mt-3 d-flex justify-content-center">
         <label class="btn btn-xxs bg-blue-dark shadow-bg-m text-center mx-1">
-            <i class="bi bi-pencil-fill pe-2 ms-n1"></i>Update foto
+            Update foto
         </label>
     </div>
 
-    <h1 class="color-theme text-center font-30 pt-3 mb-1">Alexandra</h1>
-    <p class="text-center font-16">085176720024</p>
-    <div class="content">
+    {{-- <h1 class="color-theme  font-30 ">Alexandra</h1> --}}
+    <h2 class="text-center pt-3 mb-1">Alexandra</h2>
+    <p class="text-center font-16 mb-3">085176720024</p>
+    <div class="content mt-0">
         <div class="text-center">
-            <h1 class="">Update Password</h1>
-            
+            <h2 class="text-center mb-2 font-18">Update Password</h2>
         </div>
-        <div class="divider my-3"></div>
+        <div class="divider my-1"></div>
             <form class="demo-animation needs-validation m-0" novalidate="">
                 <div class="form-custom mb-3 form-border form-icon form-label">
                     <i class="bi bi-shield-lock font-14"></i>

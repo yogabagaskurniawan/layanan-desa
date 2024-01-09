@@ -123,6 +123,9 @@ Route::get('/jasa-saya', function () {
 Route::get('/masukan', function () {
     return view('user.menu.masukan.form-masukan');
 });
+Route::get('/masukan-user', function () {
+    return view('user.menu.masukan.masukan-user');
+});
 // bagian menu untuk buat surat
 Route::get('/buat-surat', function () {
     return view('user.menu.buatSurat.form-buat-surat');
