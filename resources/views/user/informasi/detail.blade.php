@@ -6,7 +6,7 @@
 <div class="pt-3 sticky-nav">
     <div class="page-title pb-3 d-flex align-items-center mx-0" style="max-width: 1000px !important;">
         <div class="me-auto align-self-center">
-            <a href="/informasi" class="me-3 ms-3 icon icon-xs bg-theme rounded-s shadow-m">
+            <a href="/informasi" class="me-3 ms-0 icon icon-xs bg-theme rounded-s shadow-m">
                 <i class="bi bi-chevron-left color-theme font-14"></i>
             </a>
         </div>
@@ -41,59 +41,88 @@
     </div>
 </div>
 
-<div class="card card-style">
-    <img src="http://127.0.0.1:8000/user\images\pictures\18w.jpg" class="img-fluid">
-    <div class="content pb-0">
-        <div class="text-center">
-            <p class="mb-1">Selasa, 2 januari 2022</p>
-            <p class="mb-1">Batang</p>
-            <p class="mb-1">Desa Satu</p>
-            {{-- <p class="mb-1">Alamat : Jl. Duren</p> --}}
+<div class="card card-style mx-0 mb-3 position-relative rounded-0" style="border-bottom-right-radius: 26px !important;border-bottom-left-radius: 26px !important">
+    <img src="{{ asset('user/images/informasi.jpg')}}" class="card-img-top m-auto" style="height: 220px; max-width: 700px; border-bottom-right-radius: 20px;border-bottom-left-radius: 20px">
+    <div class="logo-and-button">
+        <div class="logo" style="position: absolute; top: 208px; left: 50%; transform: translate(-50%, -50%);">
+            <img src="http://127.0.0.1:8000/user/images/desasatu.png" alt="Logo" width="100" style="height: 100px">
         </div>
-        <div class="divider mx-1 my-2"></div>
-        <h3 class="text-center mb-1">Kumpulan Desa</h3>
-        <p>By accessing this web site, you are agreeing to be bound by these
-            web site Terms and Conditions of Use, all applicable laws and regulations,
-            and agree that you are responsible for compliance with any applicable local
-            laws. If you do not agree with any of these terms, you are prohibited from
-            using or accessing this site. The materials contained in this web site are
-            protected by applicable copyright and trade mark law.</p>
+    </div>
+    <div class="content pb-0 mt-5 pt-2 mb-3">
+        <h4 class="mb-0">Desa Satu</h4>
+        <p class="mb-0 font-500 font-14">Senin 3 januari 2022 , Batang</p>
+        <div class="divider mx-1 my-1"></div>
+        <h4 class="mb-0">Kumpulan Desa</h4>
+        <p class="font-500 font-14">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magni
+            ullam beatae corrupti molestias commodi facilis reiciendis eaque assumenda eos!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magni
+            ullam beatae corrupti molestias commodi facilis reiciendis eaque assumenda eos!
+        </p>
     </div>
 </div>
 
 <div class="card card-style">
-    <div class="header-bar header-center shadow-m">
-        <h2 class="m-auto">Informasi Lainnya</h2>
-    </div>
+    <div class="content">
 
-        <div class="divider mx-4"></div>
-        
-        <div class="card card-style bg-5 shadow-card shadow-card-l" style="height:300px;background-image: url('http://127.0.0.1:8000/user/images/pictures/5l.jpg')">
-            <div class="card-center">
-                <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
-                    <h1 class="font-13 my-n1">
-                        <a href="/detail-informasi" class="color-theme" aria-controls="balance2">Lihat</a>
-                    </h1>
+        <div class="card card-style mx-0" style="border-radius: 26px !important">
+            <div class="content mb-0 mt-0 px-2">
+                <h3 class="font-200 my-3 ms-n2">Informasi Lainnya</h3>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4 card card-style px-1 mx-0 mb-3 position-relative">
+                        <img src="{{ asset('user/images/informasi.jpg')}} " class="card-img-top" style="height: 150px">
+                        <div class="logo-and-button">
+                            <div class="logo" style="position: absolute; top: 140px; left: 52px; transform: translate(-50%, -50%);">
+                                <img src="http://127.0.0.1:8000/user/images/desasatu.png" alt="Logo" width="74" style="height: 74px">
+                            </div>
+                            <div class="detail-button" style="position: absolute; top: 150px; right: 16px; transform: translateY(-50%);">
+                                <a href="/detail-informasi" class="btn btn-xxs bg-mint-dark text-center mx-1">Detail</a>
+                            </div>
+                        </div>
+                        <div class="content pb-0 mt-4 pt-3 mb-3">
+                            <h4 class="mb-0">Kumpulan Desa</h4>
+                            <p class="mb-0">Desa Satu Kota Batang</p>
+                            <p>Tanggal : Selasa-2-januari-2022</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 card card-style px-1 mx-0 mb-3 position-relative">
+                        <img src="{{ asset('user/images/informasi.jpg')}} " class="card-img-top" style="height: 150px">
+                        <div class="logo-and-button">
+                            <div class="logo" style="position: absolute; top: 140px; left: 52px; transform: translate(-50%, -50%);">
+                                <img src="http://127.0.0.1:8000/user/images/desadua.png" alt="Logo" width="74" style="height: 74px">
+                            </div>
+                            <div class="detail-button" style="position: absolute; top: 150px; right: 16px; transform: translateY(-50%);">
+                                <a href="/detail-informasi" class="btn btn-xxs bg-mint-dark text-center mx-1">Detail</a>
+                            </div>
+                        </div>
+                        <div class="content pb-0 mt-4 pt-3 mb-3">
+                            <h4 class="mb-0">Gotong Royong</h4>
+                            <p class="mb-0">Desa Dua Kota Batang</p>
+                            <p>Tanggal : Selasa-2-januari-2022</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 card card-style px-1 mx-0 mb-3 position-relative">
+                        <img src="{{ asset('user/images/informasi.jpg')}} " class="card-img-top" style="height: 150px">
+                        <div class="logo-and-button">
+                            <div class="logo" style="position: absolute; top: 140px; left: 52px; transform: translate(-50%, -50%);">
+                                <img src="http://127.0.0.1:8000/user/images/desasatu.png" alt="Logo" width="74" style="height: 74px">
+                            </div>
+                            <div class="detail-button" style="position: absolute; top: 150px; right: 16px; transform: translateY(-50%);">
+                                <a href="/detail-informasi" class="btn btn-xxs bg-mint-dark text-center mx-1">Detail</a>
+                            </div>
+                        </div>
+                        <div class="content pb-0 mt-4 pt-3 mb-3">
+                            <h4 class="mb-0">Slametan</h4>
+                            <p class="mb-0">Desa Satu Kota Batang</p>
+                            <p>Tanggal : Selasa-2-januari-2022</p>
+                        </div>
+                    </div>
                 </div>
+                <div class="pb-2"></div>
             </div>
-            <strong class="card-top no-click font-20 p-3 color-white font-monospace">Gotong Royong</strong>
-            <strong class="font-14 card-bottom no-click p-3 text-start color-white font-monospace">Kota : Batang<br> Desa : Satu<br>Tanggal : Senin-3-januari-2022<br></strong>
-            <div class="card-overlay bg-black opacity-30"></div>
-        </div>
-
-        <div class="card card-style bg-5 shadow-card shadow-card-l" style="height:300px;background-image: url('http://127.0.0.1:8000/user/images/pictures/5l.jpg')">
-            <div class="card-center">
-                <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
-                    <h1 class="font-13 my-n1">
-                        <a href="/detail-informasi" class="color-theme" aria-controls="balance2">Lihat</a>
-                    </h1>
-                </div>
-            </div>
-            <strong class="card-top no-click font-20 p-3 color-white font-monospace">Sepak Bola</strong>
-            <strong class="font-14 card-bottom no-click p-3 text-start color-white font-monospace">Kota : Batang<br> Desa : Satu<br>Tanggal : Sabtu-4-januari-2022<br></strong>
-            <div class="card-overlay bg-black opacity-30"></div>
         </div>
     </div>
 </div>
+
 
 @endsection

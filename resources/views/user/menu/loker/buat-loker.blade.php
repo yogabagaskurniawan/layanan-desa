@@ -3,11 +3,23 @@
 @section('content')
 @include('layouts.user.partials.footer-bar')
 
-<div class="header-bar header-center shadow-m mb-0">
+{{-- <div class="header-bar header-center shadow-m mb-0">
     <h2 class="m-auto">Buat Lowongan Kerja</h2>
 </div>
 
-<div class="divider mx-4"></div>
+<div class="divider mx-4"></div> --}}
+<div class="pt-3">
+    <div class="page-title d-flex pb-3">
+        <div class="align-self-center">
+            <a href="/loker" class="me-3 ms-0 icon icon-xxs bg-theme rounded-s shadow-m">
+                <i class="bi bi-chevron-left color-theme font-14"></i>
+            </a>
+        </div>
+        <div class="align-self-center me-auto">
+            <h1 class="color-theme mb-0 font-18">Buat Lowongan Kerja</h1>
+        </div>
+    </div>
+</div>
 
 <div class="card card-style">
     <div class="content">

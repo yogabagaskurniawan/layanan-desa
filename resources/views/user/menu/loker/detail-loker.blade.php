@@ -6,7 +6,7 @@
 <div class="pt-3 sticky-nav">
     <div class="page-title pb-3 d-flex align-items-center mx-0" style="max-width: 1000px !important;">
         <div class="me-auto align-self-center">
-            <a href="/loker" class="me-3 ms-3 icon icon-xs bg-theme rounded-s shadow-m">
+            <a href="/loker" class="me-3 ms-0 icon icon-xs bg-theme rounded-s shadow-m">
                 <i class="bi bi-chevron-left color-theme font-14"></i>
             </a>
         </div>
@@ -41,81 +41,35 @@
     </div>
 </div>
 
-<div class="card card-style">
-    <img src="http://127.0.0.1:8000/user\images\pictures\18w.jpg" class="img-fluid">
-    <div class="content pb-0">
-        <div class="text-center">
-            <p class="mb-1">Selasa, 2 januari 2022</p>
-            <p class="mb-1">Batang</p>
-            <p class="mb-1">Desa Satu</p>
-            {{-- <p class="mb-1">Alamat : Jl. Duren</p> --}}
+<div class="card card-style mx-0 mb-3 position-relative rounded-0" style="border-bottom-right-radius: 26px !important;border-bottom-left-radius: 26px !important">
+    <img src="{{ asset('user/images/loker.png')}}" class="card-img-top m-auto" style="height: 220px; max-width: 700px; border-bottom-right-radius: 20px;border-bottom-left-radius: 20px">
+    <div class="logo-and-button">
+        <div class="logo" style="position: absolute; top: 208px; left: 50%; transform: translate(-50%, -50%);">
+            <img src="http://127.0.0.1:8000/user/images/desasatu.png" alt="Logo" width="100" style="height: 100px">
         </div>
-        <div class="divider mx-1 my-2"></div>
-        <h3 class="text-center mb-1">Progammer</h3>
-        <p>By accessing this web site, you are agreeing to be bound by these
-            web site Terms and Conditions of Use, all applicable laws and regulations,
-            and agree that you are responsible for compliance with any applicable local
-            laws. If you do not agree with any of these terms, you are prohibited from
-            using or accessing this site. The materials contained in this web site are
-            protected by applicable copyright and trade mark law.</p>
+    </div>
+    <div class="content pb-0 mt-5 pt-2 mb-3">
+        <h4 class="mb-0">Desa Satu</h4>
+        <p class="mb-0 font-500 font-14">Senin 3 januari 2022 , Batang</p>
+        <div class="divider mx-1 my-1"></div>
+        <h4 class="mb-0">Progammer</h4>
+        <p class="font-500 font-14">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magni
+            ullam beatae corrupti molestias commodi facilis reiciendis eaque assumenda eos!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magni
+            ullam beatae corrupti molestias commodi facilis reiciendis eaque assumenda eos!
+        </p>
     </div>
 </div>
 
-<div class="card card-style">
-    <div class="header-bar header-center shadow-m">
-        <h2 class="m-auto">Loker Lainnya</h2>
-    </div>
-
-        <div class="divider mx-4"></div>
-        
-        <div class="card card-style bg-5 shadow-card shadow-card-l" style="height:300px;background-image: url('http://127.0.0.1:8000/user/images/pictures/5l.jpg')">
-            <div class="card-center">
-                <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
-                    <h1 class="font-13 my-n1">
-                        <a href="/detail-loker" class="color-theme" aria-controls="balance2">Detail</a>
-                    </h1>
-                </div>
-            </div>
-            <strong class="card-top no-click font-20 p-3 color-white font-monospace">Babu</strong>
-            <strong class="font-14 card-bottom no-click p-3 text-start color-white font-monospace">Kota : Batang<br> Desa : Satu<br>Tanggal : Senin-3-januari-2022<br></strong>
-            <div class="card-overlay bg-black opacity-30"></div>
-        </div>
-
-        <div class="card card-style bg-5 shadow-card shadow-card-l" style="height:300px;background-image: url('http://127.0.0.1:8000/user/images/pictures/5l.jpg')">
-            <div class="card-center">
-                <div class="bg-theme px-3 py-2 rounded-end d-inline-block">
-                    <h1 class="font-13 my-n1">
-                        <a href="/detail-loker" class="color-theme" aria-controls="balance2">Detail</a>
-                    </h1>
-                </div>
-            </div>
-            <strong class="card-top no-click font-20 p-3 color-white font-monospace">Masak</strong>
-            <strong class="font-14 card-bottom no-click p-3 text-start color-white font-monospace">Kota : Batang<br> Desa : Satu<br>Tanggal : Sabtu-4-januari-2022<br></strong>
-            <div class="card-overlay bg-black opacity-30"></div>
-        </div>
-
-        {{-- <div class="card card-style">
-            <div class="content">
-                <ul class="mb-0 ps-3">
-                    <li>Dibuat oleh : Admin</li>
-                    <li>Kota : Batang</li>
-                    <li>Desa : Satu</li>
-                </ul>
-            </div>
-        </div> --}}
-</div>
-
-
-<div class="card card-style">
+<div class="card card-style mx-0 mb-3 position-relative rounded-0" style="border-bottom-right-radius: 26px !important;border-bottom-left-radius: 26px !important">
     <div class="content">
         <ul class="mb-0 ps-3">
-            <li>Dibuat oleh : Admin</li>
-            <li>Kota : Batang</li>
-            <li>Desa : Satu</li>
+            <li><h5>Dibuat oleh : Admin</h5></li>
+            <li><h5>Kota : Batang</h5></li>
+            <li><h5>Desa : Satu</h5></li>
         </ul>
     </div>
 </div>
-
-
 
 @endsection
