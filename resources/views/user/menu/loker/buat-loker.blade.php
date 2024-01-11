@@ -1,5 +1,15 @@
 @extends('layouts.user.main')
 
+@section('header')
+<div class="header-bar header-fixed header-app header-auto-show m-auto" style="max-width: 1000px !important;">
+    <a href="/loker"><i class="bi bi-chevron-left font-13"></i></a>
+    <a class="header-title">Buat Lowongan Kerja</a>
+    <a href="#" data-toggle-theme class="show-on-theme-dark"><i class="bi bi-sun-fill color-yellow-dark font-16"></i>
+    <a href="#" data-toggle-theme class="show-on-theme-light"><i class="bi bi-moon-fill font-13"></i>
+    <a href="#"></a>
+</div>
+@endsection
+
 @section('content')
 @include('layouts.user.partials.footer-bar')
 

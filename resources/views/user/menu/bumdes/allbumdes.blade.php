@@ -3,7 +3,7 @@
 
 <div class="header-bar header-fixed header-app header-auto-show m-auto" style="max-width: 1000px !important;">
     <a href="/menu"><i class="bi bi-chevron-left font-13"></i></a>
-    <a class="header-title">Marketplace</a>
+    <a class="header-title">Bumdes</a>
     <a href="#" data-toggle-theme class="show-on-theme-dark"><i class="bi bi-sun-fill color-yellow-dark font-16"></i>
     <a href="#" data-toggle-theme class="show-on-theme-light"><i class="bi bi-moon-fill font-13"></i>
 </div>
@@ -24,7 +24,7 @@
             <div class="form-custom mb-3 form-floating">
                 <i class="bi bi-person-circle font-14 disabled"></i>
                 <input type="text" class="form-control rounded-xs" id="c1" placeholder="John Doe" pattern="[A-Za-z ]{1,32}" required="">
-                <label for="c1" class="color-theme">Cari Produk</label>
+                <label for="c1" class="color-theme">Cari bumdes</label>
                 <div class="valid-feedback">Excellent!<!-- text for field valid--></div>
                 <div class="invalid-feedback">Name is Missing or Invalid</div>
                 {{-- <span>(required)</span> --}}
