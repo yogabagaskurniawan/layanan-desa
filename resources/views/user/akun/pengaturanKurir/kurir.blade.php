@@ -10,18 +10,20 @@
 @include('layouts.user.partials.footer-bar')
 <div class="card card-style overflow-visible" style="margin-top: 80px">
     <div class="mt-n5"></div>
-    <div class="text-center">
-        <label for="fileInput" class="position-relative">
-            <input type="file" id="fileInput" class="visually-hidden">
-            <img src="{{ asset('user/images/pictures/kurir3.jpeg') }}" alt="img" style="max-width: 100px; max-height: 100px;" class="rounded-circle shadow-l">
-            <i class="bi bi-pencil-fill position-absolute bottom-0 bg-white rounded-circle p-2 shadow-sm" style="right: -4px; cursor: pointer;"></i>
-        </label>
-    </div>
-    <div class="mt-3 d-flex justify-content-center">
-        <label class="btn btn-xxs bg-blue-dark shadow-bg-m text-center mx-1">
-            Update foto
-        </label>
-    </div>
+    <form action="">
+        <div class="text-center">
+            <label for="fileInput" class="position-relative">
+                <input type="file" id="fileInput" class="visually-hidden">
+                <img src="{{ asset('user/images/pictures/kurir3.jpeg') }}" alt="img" style="max-width: 100px; max-height: 100px;" class="rounded-circle shadow-l">
+                <i class="bi bi-pencil-fill position-absolute bottom-0 bg-white rounded-circle p-2 shadow-sm" style="right: -4px; cursor: pointer;"></i>
+            </label>
+        </div>
+        <div class="mt-3 d-flex justify-content-center">
+            <button type="submit" class="py-1 btn btn-xxs bg-blue-dark shadow-bg-m text-center mx-1">
+                Update foto
+            </button>
+        </div>
+    </form>
 
     <h2 class="text-center pt-3 mb-1">Wanto Wardana</h2>
     <p class="text-center font-16 mb-0">Pekalongan</p>
@@ -33,7 +35,7 @@
                 <h2 class="mb-1 font-18">STATUS (OFFLINE)</h2>
             </div>
             <div class="my-2 d-flex justify-content-center">
-                <a href="/toko-edit" class="btn btn-xxs bg-red-dark shadow-bg-m text-center mx-1">Update Online</a>
+                <a href="/toko-edit" class="btn btn-xxs py-1 bg-red-dark shadow-bg-m text-center mx-1">Update Online</a>
             </div>
         </div>
         <div class="divider my-2"></div>
@@ -42,7 +44,7 @@
                 <h2 class="mb-1 font-18">STATUS (ONLINE)</h2>
             </div>
             <div class="my-2 d-flex justify-content-center">
-                <a href="/toko-edit" class="btn btn-xxs bg-mint-dark shadow-bg-m text-center mx-1">Update Ofline</a>
+                <a href="/toko-edit" class="btn btn-xxs py-1 bg-mint-dark shadow-bg-m text-center mx-1">Update Ofline</a>
             </div>
         </div>
     </div>
@@ -70,7 +72,7 @@
                     <div class="row text-center images-container"></div>
                     <div class="text-center">
                         <input type="file" class="upload-file" accept="image/*">
-                        <p class="btn btn-xxs text-uppercase rounded-s upload-file-text mb-0 border-blue-dark color-blue-dark">Upload foto profil toko</p>
+                        <p class="btn btn-xxs text-uppercase rounded-s upload-file-text mb-0 border-blue-dark color-blue-dark">Upload foto profil</p>
                         <p style="font-size:12px">Maksimal ukuran foto 3MB</p>
                     </div>
                 </div>   

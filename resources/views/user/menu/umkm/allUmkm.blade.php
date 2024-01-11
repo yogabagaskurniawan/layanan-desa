@@ -53,7 +53,7 @@
                     <div class="content pb-0 mx-2 mt-2 mb-3">
                         <h5 class="text-truncate">Toge Production</h5>
                         <p class="card-text mb-2">Tulis, Batang</p>
-                        <p class="btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%">Kunjungi</p>
+                        <p class="py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%">Kunjungi</p>
                     </div>
                 </a>
             </div>
@@ -64,7 +64,7 @@
                     <div class="content pb-0 mx-2 mt-2 mb-3">
                         <h5 class="text-truncate">Indomaret</h5>
                         <p class="card-text mb-2">Tulis, Batang</p>
-                        <p class="btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%">Kunjungi</p>
+                        <p class="py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%">Kunjungi</p>
                     </div>
                 </a>
             </div>
@@ -75,7 +75,7 @@
                     <div class="content pb-0 mx-2 mt-2 mb-3">
                         <h5 class="text-truncate">Subur Jaya</h5>
                         <p class="card-text mb-2">Tulis, Batang</p>
-                        <p class="btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%">Kunjungi</p>
+                        <p class="py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%">Kunjungi</p>
                     </div>
                 </a>
             </div>
@@ -86,7 +86,7 @@
                     <div class="content pb-0 mx-2 mt-2 mb-3">
                         <h5 class="text-truncate">Toge Production</h5>
                         <p class="card-text mb-2">Tulis, Batang</p>
-                        <p class="btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%">Kunjungi</p>
+                        <p class="py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%">Kunjungi</p>
                     </div>
                 </a>
             </div>
