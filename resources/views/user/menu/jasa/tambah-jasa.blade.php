@@ -1,11 +1,32 @@
 @extends('layouts.user.main')
 
+@section('header')
+<div class="header-bar header-fixed header-app header-auto-show m-auto" style="max-width: 1000px !important;">
+    <a href="/jasa"><i class="bi bi-chevron-left font-13"></i></a>
+    <a class="header-title">Tambah Jasa</a>
+    <a href="#" data-toggle-theme class="show-on-theme-dark"><i class="bi bi-sun-fill color-yellow-dark font-16"></i>
+    <a href="#" data-toggle-theme class="show-on-theme-light"><i class="bi bi-moon-fill font-13"></i>
+    <a href="#"></a>
+</div>
+@endsection
+
 @section('content')
 @include('layouts.user.partials.footer-bar')
-<div class="header-bar header-center shadow-m">
-    <h2 class="m-auto">Tambah Jasa</h2>
+
+<div class="pt-3">
+    <div class="page-title d-flex pb-3">
+        <div class="align-self-center">
+            <a href="/jasa" class="me-3 ms-0 icon icon-xxs bg-theme rounded-s shadow-m">
+                <i class="bi bi-chevron-left color-theme font-14"></i>
+            </a>
+        </div>
+        <div class="align-self-center me-auto">
+            <h1 class="color-theme mb-0 font-18">Tambah Jasa</h1>
+        </div>
+    </div>
 </div>
-<div class="divider mx-4"></div>
+
+
 <div class="card card-style">
     <div class="content">
         <form class="demo-animation needs-validation m-0" novalidate="">

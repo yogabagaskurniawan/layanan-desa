@@ -63,9 +63,9 @@
     
     <div class="content pb-0 mt-3 mb-0">
         <h2 class="font-100 mb-0">Bumdes 1</h2>
-        <p class="mb-1 font-500 font-14">DesaSatu,<span> Tulis, Batang</span></p>
+        <p class="mb-0 font-500 font-14">DesaSatu,<span> Tulis, Batang</span></p>
         {{-- <p class="mb-0 font-500 font-14 mb-0">Tulis, Batang</p> --}}
-        <h3 class="font-200 mb-0 my-3 mb-3">RP. 9.000.000</h3>
+        <h3 class="font-200 mb-0 mb-3">RP. 9.000.000</h3>
         <h3 class="font-200">Deskripsi Bumdes</h3>
         <p class="mb-3 font-500 font-14">
             By accessing this web site, you are agreeing to be bound by these
@@ -84,19 +84,6 @@
             using or accessing this site. The materials contained in this web site are
             protected by applicable copyright and trade mark law.
         </p>
-        {{-- <div class="d-flex justify-content-between align-items-center mb-3">
-            <div class="pt-1">
-                <img src="{{ asset('user/images/desasatu.png')}}" class="img-fluid rounded-circle" width="80">
-            </div>
-            <div class="ps-3 me-auto">
-                <h2 class="mt-n2">Desa Satu</h2>
-                <p class="card-text font-14">Tulis, Batang</p>
-            </div>
-        </div> --}}
-        {{-- <div class="mb-3 d-flex justify-content-center">
-            <a href="/marketplace/detail-produk/kunjungi-toko" class="btn btn-xxs bg-blue-dark shadow-bg-m text-center mx-1">Kunjungi Toko</a>
-            <a href="/kurir" class="btn btn-xxs bg-mint-dark shadow-bg-m text-center mx-1">Hubungi Kurir</a>
-        </div> --}}
     </div>
 </div>
 
