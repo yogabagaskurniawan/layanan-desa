@@ -10,18 +10,20 @@
 @include('layouts.user.partials.footer-bar')
 <div class="card card-style overflow-visible" style="margin-top: 80px">
     <div class="mt-n5"></div>
-    <div class="text-center">
-        <label for="fileInput" class="position-relative">
-            <input type="file" id="fileInput" class="visually-hidden">
-            <img src="{{ asset('user/images/pictures/kurir3.jpeg') }}" alt="img" style="max-width: 100px; max-height: 100px;" class="rounded-circle shadow-l">
-            <i class="bi bi-pencil-fill position-absolute bottom-0 bg-white rounded-circle p-2 shadow-sm" style="right: -4px; cursor: pointer;"></i>
-        </label>
-    </div>
-    <div class="mt-3 d-flex justify-content-center">
-        <label class="btn btn-xxs bg-blue-dark shadow-bg-m text-center mx-1">
-            Update foto
-        </label>
-    </div>
+    <form action="">
+        <div class="text-center">
+            <label for="fileInput" class="position-relative">
+                <input type="file" id="fileInput" class="visually-hidden">
+                <img src="{{ asset('user/images/pictures/kurir3.jpeg') }}" alt="img" style="max-width: 100px; max-height: 100px;" class="rounded-circle shadow-l">
+                <i class="bi bi-pencil-fill position-absolute bottom-0 bg-white rounded-circle p-2 shadow-sm" style="right: -4px; cursor: pointer;"></i>
+            </label>
+        </div>
+        <div class="mt-3 d-flex justify-content-center">
+            <button type="submit" class="py-1 btn btn-xxs bg-blue-dark shadow-bg-m text-center mx-1">
+                Update foto
+            </button>
+        </div>
+    </form>
 
     {{-- <h1 class="color-theme  font-30 ">Alexandra</h1> --}}
     <h2 class="text-center pt-3 mb-1">Alexandra</h2>
@@ -31,6 +33,7 @@
             <h2 class="text-center mb-2 font-18">Update Password</h2>
         </div>
         <div class="divider my-1"></div>
+        <div class="container mt-4 px-3 mx-auto" style="max-width: 576px">
             <form class="demo-animation needs-validation m-0" novalidate="">
                 <div class="form-custom mb-3 form-border form-icon form-label">
                     <i class="bi bi-shield-lock font-14"></i>
@@ -56,5 +59,6 @@
                 <button class="btn btn-full bg-mint-dark rounded-xs text-uppercase font-700 w-100 btn-s mt-4" type="submit">Update Password</button>
             </form>
         </div>
+    </div>
 </div>
 @endsection
