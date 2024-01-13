@@ -10,7 +10,6 @@
 </svg>
 @include('layouts.user.partials.footer-bar')
 
-<div class="page-content ">
     <!-- Main Card Slider-->
     <div class="splide single-slider slider-no-dots slider-no-arrows slider-visible" id="single-slider-1">
         <div class="splide__track">
@@ -81,40 +80,31 @@
             </div>
         </div>
     </div>
-        <div class="card card-style" style="margin: 60px 15px 0 15px; padding: 0; ">
-            <div class=" mb-3">
+        <div class="card card-style" style="margin: 50px 15px 0 15px; padding: 0; ">
+            <div class="container mt-4 px-3 mx-auto" style="max-width: 576px">
                 <div class="card-body px-0">
                     <div class="row g-3">
-                        <div class="col-3">
+                        <div class="col-4">
                             <a href="/all-marketplace">
                                 <div class="feature-card mx-auto text-center">
-                                    <img src="{{ asset('user/images/assetMenu/marketplace.png') }}" alt="" style="width: 50px; height: 50px; object-fit: cover;">
+                                    <img src="{{ asset('user/images/assetMenu/marketplace.png') }}" alt="" style="width:32px !important; height: 32px !important;">
                                     <p class="mb-0">Marketplace</p>
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-4">
                             <a href="/umkm">
                                 <div class="feature-card mx-auto text-center">
-                                    <img src="{{ asset('user/images/assetMenu/umkm.png') }}" alt="" style="width: 50px; height: 50px; object-fit: cover;">
+                                    <img src="{{ asset('user/images/assetMenu/umkm.png') }}" alt="" style="width:32px !important; height: 32px !important;">
                                     <p class="mb-0">Umkm</p>
                                 </div>
                             </a>
                         </div>
-                        <div class="col-3">
+                        <div class="col-4">
                             <a href="/layanan">
                                 <div class="feature-card mx-auto text-center">
-                                    <img src="{{ asset('user/images/assetMenu/layanan.png') }}" alt="" style="width: 50px; height: 50px; object-fit: cover;">
+                                    <img src="{{ asset('user/images/assetMenu/layanan.png') }}" alt="" style="width:32px !important; height: 32px !important;">
                                     <p class="mb-0">Layanan</p>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="col-3">
-                            <a href="/loker">
-                                <div class="feature-card mx-auto text-center">
-                                    <img src="{{ asset('user/images/assetMenu/loker.png') }}" alt="" style="width: 50px; height: 50px; object-fit: cover;">
-                                    <p class="mb-0">Loker</p>
                                 </div>
                             </a>
                         </div>
@@ -126,14 +116,11 @@
                 </div>
             </div>
         </div>
-        <div class="divider mx-4"></div>
-        <div class="card card-style">
-            {{-- <img src="{{ asset('user/images/desasatu.png')}}" class="img-fluid mx-auto d-block mt-4" style="width: 550px; height: auto;"> --}}
-            <img src="{{ asset('user/images/desasatu.png')}}" class="img-fluid mx-auto d-block mt-4" style="width: 330px; height: auto;">
+        <div class="card card-style mt-3">
+            <img src="{{ asset('user/images/desasatu.png')}}" class=" mx-auto d-block mt-4" style="width: 220px; height: 220px;">
             <div class="content pb-0">
                 <h3>Tentang Desa Satu</h3>
-                <div class="px-4">
-                    <p>Asal usul nama DESA SATU Menurut kamus Kawi-Indonesia karangan Prof. Drs. Wojowasito, 
+                    <p class="mb-0">Asal usul nama DESA SATU Menurut kamus Kawi-Indonesia karangan Prof. Drs. Wojowasito, 
                         Batang berarti : (1) Plataran, (2) Tempat yang dipertinggi, (3) Dialahkan, (4) Kata bantu bilangan.
                         Dalam bahasa Indonesia (juga bahasa Melayu) berarti sungai, dalam kamus jawa- Indonesia karangan 
                         Prawiroatmojo berarti terka, tebak. Atas dasar arti kata tersebut diatas maka dalam hubungan alami
@@ -144,72 +131,54 @@
                         yang berarti mengangkat batang kayu. Hal ini diambil dari peristiwa kepahlawanan Ki Ageng Bahurekso, yang dianggap dari
                         cikal bakal Batang.
                     </p>
-                    <hr>
+                    <div class="divider my-2"></div>
                     <p>Alamat Balai Desa : Desa Tulis Kecamatan Tulis Kabupaten Batang</p>
+            </div>
+        </div>
+        <div class="content">
+            <h3 class=" mb-4 text-center">Daftar Pengurus Desa</h3>
+            <div class="row mb-0 justify-content-center mx-1">
+                <div class="col-6 col-sm-3 col-md-2 px-0">
+                    <div class="card card-style mx-2 mb-4">
+                        <img src="{{ asset('user/images/avatar.jpg')}}" class="img-fluid" style="height: 128px !important;">
+                        <div class="content pb-0 text-center">
+                            <h3>Asin</h3>
+                            <p class="font-11 mb-2 bg-mint-dark px-2 rounded-s d-inline-block">Kepala Desa</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-3 col-md-2 px-0 ">
+                    <div class="card card-style mx-2 mb-4">
+                        <img src="{{ asset('user/images/avatar.jpg')}}" class="img-fluid" style="height: 128px !important;">
+                        <div class="content pb-0 text-center">
+                            <h3>Slamet</h3>
+                            <p class="font-11 mb-2 bg-mint-dark px-2 rounded-s d-inline-block">Wakil Desa</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-3 col-md-2 px-0 ">
+                    <div class="card card-style mx-2 mb-4 ">
+                        <img src="{{ asset('user/images/avatar.jpg')}}" class="img-fluid" style="height: 128px !important;">
+                        <div class="content pb-0 text-center">
+                            <h3>Udin</h3>
+                            <p class="font-11 mb-2 bg-mint-dark px-2 rounded-s d-inline-block">Seketaris Desa</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-3 col-md-2 px-0 ">
+                    <div class="card card-style mx-2 mb-4">
+                        <img src="{{ asset('user/images/avatar.jpg')}}" class="img-fluid" style="height: 128px !important;">
+                        <div class="content pb-0 text-center">
+                            <h3>Ahmad</h3>
+                            <p class="font-11 mb-2 bg-mint-dark px-2 rounded-s d-inline-block">Bendahara Desa</p>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="header-bar header-center shadow-m mt-0">
-            <h2 class="m-auto">Daftar Pengurus Desa</h2>
-        </div>
-
-        <div class="divider mx-4"></div>
-        
-        <div class="page-content footer-clear">
-        
-            <div class="row text-center">
-                <div class="col-6 mb-n2">
-                    <a class="card card-style me-0" style="height:180px">
-                        <div class="card-center">
-                            <img src="{{ asset('user/images/avatar.jpg')}}" alt="" style="width:80px; height:80px; object-fit: cover;">
-                            <h1 class="font-22 pt-3 mb-3">ASIN</h1>
-                        </div>
-                        <div class="card-bottom">
-                            <p class="font-11 mb-2 bg-mint-dark px-1 rounded-s d-inline-block">Kepala Desa</p>
-                            {{-- <p class="font-11 mb-0 opacity-40">Kepala Desa</p> --}}
-                        </div>
-                    </a>
-                </div>
-                <div class="col-6 mb-n2">
-                    <a class="card card-style ms-0" style="height:180px">
-                        <div class="card-center">
-                            <img src="{{ asset('user/images/avatar.jpg')}}" alt="" style="width:80px; height:80px; object-fit: cover;">
-                            <h1 class="font-22 pt-3 mb-3">NARTO</h1>
-                        </div>
-                        <div class="card-bottom">
-                            <p class="font-11 mb-2 bg-mint-dark px-1 rounded-s d-inline-block">Wakil Desa</p>
-                            {{-- <p class="font-11 mb-0 opacity-40">Wakil Desa</p> --}}
-                        </div>
-                    </a>
-                </div>
-                <div class="col-6 mb-n2">
-                    <a class="card card-style me-0" style="height:180px">
-                        <div class="card-center">
-                            <img src="{{ asset('user/images/avatar.jpg')}}" alt="" style="width:80px; height:80px; object-fit: cover;">
-                            <h1 class="font-22 pt-3 mb-3">SLAMET</h1>
-                        </div>
-                        <div class="card-bottom">
-                            <p class="font-11 mb-2 bg-mint-dark px-1 rounded-s d-inline-block">Bendahara Desa</p>
-                            {{-- <p class="font-11 mb-0 opacity-40">Bendahara Desa</p> --}}
-                        </div>
-                    </a>
-                </div>
-                <div class="col-6 mb-n2">
-                    <a class="card card-style ms-0" style="height:180px">
-                        <div class="card-center">
-                            <img src="{{ asset('user/images/avatar.jpg')}}" alt="" style="width:80px; height:80px; object-fit: cover;">
-                            <h1 class="font-22 pt-3 mb-3">OMPLOK</h1>
-                        </div>
-                        <div class="card-bottom">
-                            <p class="font-11 mb-2 bg-mint-dark px-1 rounded-s d-inline-block">Sekretaris</p>
-                            {{-- <p class="font-11 mb-0 opacity-40">Sekretaris</p> --}}
-                        </div>
-                    </a>
-                </div>
-            </div>
-        
-        </div>
-</div>
 
 @endsection

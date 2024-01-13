@@ -70,8 +70,8 @@
         <div class="col-4 col-sm-3 col-md-2 px-0">
             <a href="/detail-jasa" class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
                 {{-- <span class="badge bg-primary position-absolute top-0 end-0 m-2 bg-orange-dark px-2 rounded-s font-12">Elektronik</span> --}}
-                <img src="{{ asset('user/images/pictures/jasa.jpg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                    alt=" card="" image"="">
+                <img src="{{ asset('user/images/pictures/jasa.jpg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                    alt="">
                 <div class="content pb-0 mx-2">
                     <h4 class="mb-0  text-truncate">Jasa Tukang</h4>
                     <h5  class="mb-0">Rp. 400.000</h5>
@@ -82,8 +82,8 @@
         <div class="col-4 col-sm-3 col-md-2 px-0">
             <a href="/detail-jasa" class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
                 {{-- <span class="badge bg-primary position-absolute top-0 end-0 m-2 bg-orange-dark px-2 rounded-s font-12">Makanan</span> --}}
-                <img src="{{ asset('user/images/pictures/jasa.jpg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                    alt=" card="" image"="">
+                <img src="{{ asset('user/images/pictures/jasa.jpg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                    alt="">
                 <div class="content pb-0 mx-2">
                     <h4 class="mb-0  text-truncate">Jasa Masak</h4>
                     <h5  class="mb-0">Rp. 400.000</h5>
@@ -93,8 +93,8 @@
         </div>
         <div class="col-4 col-sm-3 col-md-2 px-0">
             <a href="/detail-jasa" class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
-                <img src="{{ asset('user/images/pictures/jasa.jpg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                    alt=" card="" image"="">
+                <img src="{{ asset('user/images/pictures/jasa.jpg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                    alt="">
                 <div class="content pb-0 mx-2">
                     <h4 class="mb-0  text-truncate">Jasa Fotografi</h4>
                     <h5  class="mb-0">Rp. 400.000</h5>

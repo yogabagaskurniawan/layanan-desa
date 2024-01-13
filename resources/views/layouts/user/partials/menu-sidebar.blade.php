@@ -19,36 +19,48 @@
 
         <!-- Main Menu List-->
         <div class="list-group list-custom list-menu-large">
-            <a href="index-waves.html" id="nav-welcome" class="list-group-item">
+            {{-- <a href="index-waves.html" id="nav-welcome" class="list-group-item">
                 <img src="{{ asset('user/images/assetMenu/menuadmin.png') }}" width="24px" alt="">
                 <div>Menu Admin</div>
+            </a> --}}
+            <a href="" id="nav-welcome" class="list-group-item">
+                <i class="bi bg-red-dark shadow-bg shadow-bg-xs bi-house-door-fill"></i>
+                <div>Menu Admin</div>
+                <span class="badge bg-danger rounded-pill ms-2">99</span>
             </a>
             <a href="/akun" id="nav-pages" class="list-group-item">
-                <img src="{{ asset('user/images/assetMenu/akun.png') }}" width="24px" alt="">
+                {{-- <img src="{{ asset('user/images/assetMenu/akun.png') }}" width="24px" alt=""> --}}
+                <i class="bi bg-green-dark shadow-bg shadow-bg-xs bi-person-fill"></i>
                 <div>Akun</div>
             </a>
             <a href="/toko-saya" id="nav-homes" data-submenu="sub1" class="list-group-item">
-                <img src="{{ asset('user/images/assetMenu/toko-saya.png') }}" width="24px" alt="">
+                {{-- <img src="{{ asset('user/images/assetMenu/toko-saya.png') }}" width="24px" alt=""> --}}
+                <i class="bi bg-blue-dark shadow-bg shadow-bg-xs bi-shop-window"></i>
                 <div>Toko Saya</div>
             </a>
             <a href="/petugas-kurir" id="nav-homes" data-submenu="sub1" class="list-group-item">
-                <img src="{{ asset('user/images/assetMenu/pengaturan-kurir.png') }}" width="24px" alt="">
+                {{-- <img src="{{ asset('user/images/assetMenu/pengaturan-kurir.png') }}" width="24px" alt=""> --}}
+                <i class="bi bg-brown-dark shadow-bg shadow-bg-xs bi-file-earmark-person"></i>
                 <div>Pengaturan Kurir</div>
             </a>
             <a href="/petugas-umkm" id="nav-homes" data-submenu="sub1" class="list-group-item">
-                <img src="{{ asset('user/images/assetMenu/pengaturan-umkm.png') }}" width="24px" alt="">
+                {{-- <img src="{{ asset('user/images/assetMenu/pengaturan-umkm.png') }}" width="24px" alt=""> --}}
+                <i class="bi bg-magenta-dark shadow-bg shadow-bg-xs bi-shop"></i>
                 <div>Pengaturan Umkm</div>
             </a>
             <a href="/petugas-wisata" id="nav-homes" data-submenu="sub1" class="list-group-item">
-                <img src="{{ asset('user/images/assetMenu/pengaturan-wisata.png') }}" width="24px" alt="">
+                {{-- <img src="{{ asset('user/images/assetMenu/pengaturan-wisata.png') }}" width="24px" alt=""> --}}
+                <i class="bi bg-yellow-dark shadow-bg shadow-bg-xs bi-image-alt"></i>
                 <div>Pengaturan Wisata Desa</div>
             </a>
             <a href="/petugas-simpedes" id="nav-homes" data-submenu="sub1" class="list-group-item">
-                <img src="{{ asset('user/images/assetMenu/petugas-simpedes.png') }}" width="24px" alt="">
+                {{-- <img src="{{ asset('user/images/assetMenu/petugas-simpedes.png') }}" width="24px" alt=""> --}}
+                <i class="bi bg-orange-dark shadow-bg shadow-bg-xs bi-save2-fill"></i>
                 <div>Petugas Simpedas</div>
             </a>
             <a href="/petugas-bankSampah" id="nav-homes" data-submenu="sub1" class="list-group-item">
-                <img src="{{ asset('user/images/assetMenu/akun.png') }}" width="24px" alt="">
+                {{-- <img src="{{ asset('user/images/assetMenu/akun.png') }}" width="24px" alt=""> --}}
+                <i class="bi bg-mint-dark shadow-bg shadow-bg-xs bi-recycle"></i>
                 <div>Petugas Bank Sampah</div>
             </a>
         </div>
@@ -56,19 +68,23 @@
 
         <div class="divider divider-margins mb-3 opacity-50"></div>
 
+        <div class="list-group list-custom list-menu-large">
+            <a href="/login" class="list-group-item">
+                {{-- <img src="{{ asset('user/images/assetMenu/akun.png') }}" width="24px" alt=""> --}}
+                <i class="bi bg-blue-dark shadow-bg shadow-bg-xs bi-person-check-fill"></i>
+                <div>Masuk</div>
+            </a>
+            <a href="/register" class="list-group-item">
+                {{-- <img src="{{ asset('user/images/assetMenu/akun.png') }}" width="24px" alt=""> --}}
+                <i class="bi bg-magenta-dark shadow-bg shadow-bg-xs bi-person-plus-fill"></i>
+                <div>Daftar</div>
+            </a>
+        </div>
         <!-- Useful Links-->
         <div class="list-group list-custom list-menu-small">
             <a href="/logout" class="list-group-item">
                 <i class="bi bi-box-arrow-right font-16"></i>
                 <div>Log Out</div>
-            </a>
-            <a href="/login" class="list-group-item">
-                <img src="{{ asset('user/images/assetMenu/akun.png') }}" width="24px" alt="">
-                <div>Masuk</div>
-            </a>
-            <a href="/register" class="list-group-item">
-                <img src="{{ asset('user/images/assetMenu/akun.png') }}" width="24px" alt="">
-                <div>Daftar</div>
             </a>
             <a href="/verivikasi-akun" class="list-group-item">
                 <i class="bi bi-box-arrow-right font-16"></i>

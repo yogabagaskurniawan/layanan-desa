@@ -81,8 +81,8 @@
         <div class="row mb-0">
             <div class="col-4 col-sm-3 col-md-2 px-0">
                 <div class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
-                    <img src="{{ asset('user/images/pictures/wisata1.jpeg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                        alt=" card="" image"="">
+                    <img src="{{ asset('user/images/pictures/wisata1.jpeg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                        alt="">
                     <div class="content pb-0 mt-2 mx-2">
                         <h5 class="text-truncate mb-0">Curug Genting</h5>
                         <h5 class="text-truncate">Rp 9.000</h5>
@@ -100,8 +100,8 @@
             </div>
             <div class="col-4 col-sm-3 col-md-2 px-0">
                 <div class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
-                    <img src="{{ asset('user/images/pictures/wisata1.jpeg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                        alt=" card="" image"="">
+                    <img src="{{ asset('user/images/pictures/wisata1.jpeg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                        alt="">
                     <div class="content pb-0 mt-2 mx-2">
                         <h5 class="text-truncate mb-0">Curug Genting</h5>
                         <h5 class="text-truncate">Rp 9.000</h5>
@@ -119,8 +119,8 @@
             </div>
             <div class="col-4 col-sm-3 col-md-2 px-0">
                 <div class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
-                    <img src="{{ asset('user/images/pictures/wisata1.jpeg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                        alt=" card="" image"="">
+                    <img src="{{ asset('user/images/pictures/wisata1.jpeg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                        alt="">
                     <div class="content pb-0 mt-2 mx-2">
                         <h5 class="text-truncate mb-0">Curug Genting</h5>
                         <h5 class="text-truncate">Rp 9.000</h5>

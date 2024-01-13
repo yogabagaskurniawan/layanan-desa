@@ -25,6 +25,7 @@
             <p style="margin: 0;">Deskripsi : mantap</p>
         </div> 
         <hr>
+        <h3 class="text-center mb-2">Surat telah dicetak</h3>
         <h3 class="text-center mb-2">Hubungi Petugas</h3>
         <div class="my-2 d-flex justify-content-center">
             <a href="" class="btn btn-xxs bg-mint-dark shadow-bg-m text-center mx-1"><i class="bi bi-whatsapp pe-3 ms-n1"></i>Whatsapp </a>
