@@ -53,7 +53,6 @@
 
 @section('content')
 @include('layouts.user.partials.footer-bar')
-
 <div class="pt-3 sticky-nav">
     <div class="page-title pb-3 d-flex align-items-center mx-0" style="max-width: 1000px !important;">
         <div class="align-self-center ms-auto">
@@ -89,7 +88,7 @@
             ullam beatae corrupti molestias commodi facilis reiciendis eaque assumenda eos!
         </p>
         <div class="mt-3 d-flex justify-content-center">
-            <a href="/umkm-edit" class="btn btn-xxs bg-yellow-dark shadow-bg-m text-center mx-1">Edit UMKM</a>
+            {{-- <a href="/umkm-edit" class="btn btn-xxs bg-yellow-dark shadow-bg-m text-center mx-1">Edit profil UMKM</a> --}}
             <a href="/umkm/tambah-produk" class="btn btn-xxs bg-blue-dark shadow-bg-m text-center mx-1">Tambah Produk UMKM</a>
         </div>
     </div>

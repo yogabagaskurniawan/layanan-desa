@@ -88,10 +88,10 @@
 <div class="card card-style overflow-visible" style="margin-top: 80px">
     <div class="mt-n5"></div>
     <div class="text-center mb-4">
-        <img src="{{ asset('/user/images/pictures/logo.png') }}" alt="img" width="300" class="" style="max-width: 500px; max-height: 500px;">
+        <img src="{{ asset('/user/images/pictures/logo.png') }}" alt="img"  width="256" class="" style="max-height: 256px;">
     </div>
     <div class="content">
-        <h1 class="mb-3 pt-2">Buat Akun</h1>
+        <h3 class="mb-3 pt-2" >Buat Akun</h3>
         <div class="form-custom form-label form-border form-icon mb-3 bg-transparent">
             <i class="bi bi-person-circle font-13"></i>
             <input type="text" class="form-control rounded-xs" id="c1" placeholder="Username">
@@ -120,10 +120,10 @@
         </div>
         <a href="index.html" class="btn btn-full gradient-highlight shadow-bg shadow-bg-s mt-4">Daftar</a>
         <div class="row">
-            <div class="col-6 text-start">
+            <div class="col-3 text-start">
             </div>
-            <div class="col-6 text-end">
-                <p class="font-11 color-theme opacity-40 pt-4 d-block font-14">Belum punya akun?<a href="/login"> Masuk</a></p>
+            <div class="col-9 text-end">
+                <p class="font-11 color-theme opacity-40 pt-4 d-block font-14">Sudah punya akun?<a href="/login"> Masuk</a></p>
             </div>
         </div>
     </div>

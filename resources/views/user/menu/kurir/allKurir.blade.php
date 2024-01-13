@@ -39,7 +39,7 @@
                     <div class="content pb-0 mx-2 mt-2 mb-3">
                         <h5 class="text-truncate">Abdul Ali</h5>
                         <p class="card-text mb-2">Tulis, Batang</p>
-                        <a href="" class="py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%"><i class="bi bi-whatsapp me-1"></i>Whatshapp</a>
+                        <a href="" class="font-8 py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%"><i class="bi bi-whatsapp me-1"></i>Whatshapp</a>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                     <div class="content pb-0 mx-2 mt-2 mb-3">
                         <h5 class="text-truncate">Abdul Ali</h5>
                         <p class="card-text mb-2">Tulis, Batang</p>
-                        <a href="" class="py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%"><i class="bi bi-whatsapp me-1"></i>Whatshapp</a>
+                        <a href="" class="font-8 py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%"><i class="bi bi-whatsapp me-1"></i>Whatshapp</a>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                     <div class="content pb-0 mx-2 mt-2 mb-3">
                         <h5 class="text-truncate">Abdul Ali</h5>
                         <p class="card-text mb-2">Tulis, Batang</p>
-                        <a href="" class="py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%"><i class="bi bi-whatsapp me-1"></i>Whatshapp</a>
+                        <a href="" class="font-8 py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%"><i class="bi bi-whatsapp me-1"></i>Whatshapp</a>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@
                     <div class="content pb-0 mx-2 mt-2 mb-3">
                         <h5 class="text-truncate">Abdul Ali</h5>
                         <p class="card-text mb-2">Tulis, Batang</p>
-                        <a href="" class="py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%"><i class="bi bi-whatsapp me-1"></i>Whatshapp</a>
+                        <a href="" class="font-8 py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%"><i class="bi bi-whatsapp me-1"></i>Whatshapp</a>
                     </div>
                 </div>
             </div>

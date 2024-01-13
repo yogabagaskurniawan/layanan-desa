@@ -3,7 +3,7 @@
 @section('header')
 <div class="header-bar header-fixed header-app header-auto-show m-auto" style="max-width: 1000px !important;">
     <a href="/petugas-umkm"><i class="bi bi-chevron-left font-13"></i></a>
-    <a class="header-title">Edit produk</a>
+    <a class="header-title">Edit profil UMKM</a>
     <a href="#" data-toggle-theme class="show-on-theme-dark"><i class="bi bi-sun-fill color-yellow-dark font-16"></i>
     <a href="#" data-toggle-theme class="show-on-theme-light"><i class="bi bi-moon-fill font-13"></i>
     <a href="#"></a>
@@ -22,7 +22,7 @@
             </a>
         </div>
         <div class="align-self-center me-auto">
-            <h1 class="color-theme mb-0 font-18">Edit produk</h1>
+            <h1 class="color-theme mb-0 font-18">Edit profil UMKM</h1>
         </div>
     </div>
 </div>
@@ -77,54 +77,9 @@
                         <p style="font-size:12px">Maksimal ukuran foto 3MB</p>
                     </div>
                 </div>     
-                <button class="btn btn-full bg-mint-dark rounded-xs text-uppercase font-700 w-100 btn-s mt-4" type="submit">Update UMKM</button>
+                <button class="btn btn-full bg-mint-dark rounded-xs text-uppercase font-700 w-100 btn-xxs mt-4" type="submit">Update UMKM</button>
             </form>
         </div>
     </div>
 </div>
-
-{{-- <div class="card card-style">
-    <div class="content">
-        <form class="demo-animation needs-validation m-0" novalidate="">
-            <div class="form-custom mb-3 form-border form-icon form-label">
-                <input type="tel" class="form-control rounded-xs" id="c3" placeholder="Nama UMKM" pattern="[+ 0-9]{10,15}" required="">
-                <label for="c3" class="color-theme">Nama UMKM</label>
-                <div class="valid-feedback">Name looks good!<!-- text for field valid--></div>
-                <div class="invalid-feedback">Name is missing or is invalid.</div>
-                <span>(required)</span>
-            </div>
-            <div class="form-custom mb-3 form-border form-icon form-label">
-                <textarea class="form-control rounded-xs" placeholder="alamat" id="c7"></textarea>
-                <label for="c7" class="color-theme">Alamat</label>
-                <div class="valid-feedback">HTML5 does not offer Dates Field Validation!<!-- text for field valid--></div>
-            </div>
-            <div class="form-custom mb-3 form-border form-icon form-label">
-                <textarea class="form-control rounded-xs" placeholder="Deskripsi" id="c7"></textarea>
-                <label for="c7" class="color-theme">Deskripsi</label>
-                <div class="valid-feedback">HTML5 does not offer Dates Field Validation!<!-- text for field valid--></div>
-            </div>
-            <div class="form-custom mb-3 form-border form-icon form-label">
-                <input type="tel" class="form-control rounded-xs" id="c3" placeholder="nomor telephone / whatshapp" pattern="[+ 0-9]{10,15}" required="">
-                <label for="c3" class="color-theme">Nomor Telephone / Whatshapp</label>
-                <div class="valid-feedback">Phone Number looks good!<!-- text for field valid--></div>
-                <div class="invalid-feedback">Phone Number is missing or is invalid.</div>
-                <span>(required)</span>
-            </div>
-            <div class="file-data">
-                <img id="image-data" src="{{ asset('user/images/empty.png') }}" class="img-fluid rounded-s" alt="img">
-                <span class="upload-file-name d-block text-center"
-                      data-text-before="<i class='bi bi-check-circle-fill color-green-dark pe-2'></i> Image:"
-                      data-text-after=" is ready.">
-                </span>
-                <div class="text-center">
-                    <input type="file" class="upload-file" accept="image/*">
-                    <p class="btn btn-xxs text-uppercase rounded-s upload-file-text mb-0 border-blue-dark color-blue-dark">Upload gambar</p>
-                    <p style="font-size:12px">Maksimal ukuran foto 3MB</p>
-                </div>
-            </div>
-            <button class="btn btn-full bg-mint-dark rounded-xs text-uppercase font-700 w-100 btn-s mt-4" type="submit">Update</button>
-        </form>
-    </div>
-</div> --}}
-
 @endsection

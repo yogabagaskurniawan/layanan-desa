@@ -31,8 +31,8 @@
     </div>
 </div>
 
-<div class="card card-style">
-    <div class="content">
+<div class="card card-style mt-3 mx-0 pb-4">
+    <div class="container mt-4 px-3 mx-auto" style="max-width: 576px">
         <form class="demo-animation needs-validation m-0" novalidate="">
             <div class="form-custom mb-3 form-border form-icon form-label">
                 <i class="bi bi-person-circle font-14"></i>
@@ -59,13 +59,15 @@
                 <span>(required)</span>
             </div>
             
-            <div class="text-center">
-                <input type="file" class="upload-file" accept="image/*">
-                <p class="btn btn-xxs text-uppercase rounded-s upload-file-text mb-0 border-blue-dark color-blue-dark">Upload gambar</p>
-                <p style="font-size:12px">Maksimal ukuran foto 3MB</p>
-            </div>
-            
-            <button class="btn btn-full bg-mint-dark rounded-xs text-uppercase font-700 w-100 btn-s mt-4" type="submit">Daftar</button>
+            <div class="file-data">
+                <div class="row text-center images-container"></div>
+                <div class="text-center">
+                    <input type="file" class="upload-file" accept="image/*">
+                    <p class="btn btn-xxs text-uppercase rounded-s upload-file-text mb-0 border-blue-dark color-blue-dark">Upload gambar</p>
+                    <p style="font-size:12px" class="mb-0">Maksimal ukuran foto 3MB</p>
+                </div>
+            </div> 
+            <button class="btn btn-full bg-mint-dark rounded-xs text-uppercase font-700 w-100 btn-xxs mt-4" type="submit">Buat</button>
         </form>
     </div>
 </div>

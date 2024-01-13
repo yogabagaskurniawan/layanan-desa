@@ -85,7 +85,7 @@
                         <a href="" class="badge bg-danger badge-sm rounded-pill">Hapus</a>
                     </div>
                 </div>
-                <button class="btn btn-full bg-mint-dark rounded-xs text-uppercase font-700 w-100 btn-s mt-4" type="submit">Update Produk</button>
+                <button class="btn btn-full bg-mint-dark rounded-xs text-uppercase font-700 w-100 btn-xxs mt-4" type="submit">Update Produk</button>
             </form>
         </div>
     </div>

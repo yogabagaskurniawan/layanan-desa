@@ -49,7 +49,6 @@
 @section('content')
 @include('layouts.user.partials.footer-bar')
 
-<div class="page-content " style="max-width: 1000px; margin: 0 auto;">
 
     <div class="pt-3">
         <div class="page-title d-flex pb-3">
@@ -148,7 +147,6 @@
         </div>
     </div>
 
-</div>
 
 
 @endsection

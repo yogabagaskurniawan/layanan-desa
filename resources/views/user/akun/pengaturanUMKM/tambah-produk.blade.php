@@ -61,7 +61,7 @@
                         <p style="font-size:12px">Maksimal ukuran foto 3MB Maksimal 3 foto</p>
                     </div>
                 </div>           
-                <button class="btn btn-full bg-mint-dark rounded-xs text-uppercase font-700 w-100 btn-s mt-4" type="submit">Upload Produk</button>
+                <button class="btn btn-full bg-mint-dark rounded-xs text-uppercase font-700 w-100 btn-xxs mt-4" type="submit">Upload Produk</button>
             </form>
         </div>
     </div>

@@ -61,68 +61,58 @@
         </p>
     </div>
 </div>
-
-<div class="card card-style">
-    <div class="content">
-
-        <div class="card card-style mx-0" style="border-radius: 26px !important">
-            <div class="content mb-0 mt-0 px-2">
-                <h3 class="font-200 my-3 ms-n2">Informasi Lainnya</h3>
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-lg-4 card card-style px-1 mx-0 mb-3 position-relative">
-                        <img src="{{ asset('user/images/informasi.jpg')}} " class="card-img-top" style="height: 150px">
-                        <div class="logo-and-button">
-                            <div class="logo" style="position: absolute; top: 140px; left: 52px; transform: translate(-50%, -50%);">
-                                <img src="http://127.0.0.1:8000/user/images/desasatu.png" alt="Logo" width="74" style="height: 74px">
-                            </div>
-                            <div class="detail-button" style="position: absolute; top: 150px; right: 16px; transform: translateY(-50%);">
-                                <a href="/detail-informasi" class="btn btn-xxs bg-mint-dark text-center mx-1">Detail</a>
-                            </div>
-                        </div>
-                        <div class="content pb-0 mt-4 pt-3 mb-3">
-                            <h4 class="mb-0">Kumpulan Desa</h4>
-                            <p class="mb-0">Desa Satu Kota Batang</p>
-                            <p>Tanggal : Selasa-2-januari-2022</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-4 card card-style px-1 mx-0 mb-3 position-relative">
-                        <img src="{{ asset('user/images/informasi.jpg')}} " class="card-img-top" style="height: 150px">
-                        <div class="logo-and-button">
-                            <div class="logo" style="position: absolute; top: 140px; left: 52px; transform: translate(-50%, -50%);">
-                                <img src="http://127.0.0.1:8000/user/images/desadua.png" alt="Logo" width="74" style="height: 74px">
-                            </div>
-                            <div class="detail-button" style="position: absolute; top: 150px; right: 16px; transform: translateY(-50%);">
-                                <a href="/detail-informasi" class="btn btn-xxs bg-mint-dark text-center mx-1">Detail</a>
-                            </div>
-                        </div>
-                        <div class="content pb-0 mt-4 pt-3 mb-3">
-                            <h4 class="mb-0">Gotong Royong</h4>
-                            <p class="mb-0">Desa Dua Kota Batang</p>
-                            <p>Tanggal : Selasa-2-januari-2022</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-4 card card-style px-1 mx-0 mb-3 position-relative">
-                        <img src="{{ asset('user/images/informasi.jpg')}} " class="card-img-top" style="height: 150px">
-                        <div class="logo-and-button">
-                            <div class="logo" style="position: absolute; top: 140px; left: 52px; transform: translate(-50%, -50%);">
-                                <img src="http://127.0.0.1:8000/user/images/desasatu.png" alt="Logo" width="74" style="height: 74px">
-                            </div>
-                            <div class="detail-button" style="position: absolute; top: 150px; right: 16px; transform: translateY(-50%);">
-                                <a href="/detail-informasi" class="btn btn-xxs bg-mint-dark text-center mx-1">Detail</a>
-                            </div>
-                        </div>
-                        <div class="content pb-0 mt-4 pt-3 mb-3">
-                            <h4 class="mb-0">Slametan</h4>
-                            <p class="mb-0">Desa Satu Kota Batang</p>
-                            <p>Tanggal : Selasa-2-januari-2022</p>
-                        </div>
-                    </div>
+<div class="content mb-1 mt-0 px-2">
+    <h3 class="font-200 my-3 ms-n2">Informasi Lainnya</h3>
+    <div class="row">
+        <div class="col-12 col-sm-6 col-lg-4 card card-style px-1 mx-0 mb-3 position-relative">
+            <img src="{{ asset('user/images/informasi.jpg')}} " class="card-img-top" style="height: 150px">
+            <div class="logo-and-button">
+                <div class="logo" style="position: absolute; top: 140px; left: 52px; transform: translate(-50%, -50%);">
+                    <img src="http://127.0.0.1:8000/user/images/desasatu.png" alt="Logo" width="74" style="height: 74px">
                 </div>
-                <div class="pb-2"></div>
+                <div class="detail-button" style="position: absolute; top: 150px; right: 16px; transform: translateY(-50%);">
+                    <a href="/detail-informasi" class="btn btn-xxs bg-mint-dark text-center mx-1">Detail</a>
+                </div>
+            </div>
+            <div class="content pb-0 mt-4 pt-3 mb-3">
+                <h4 class="mb-0">Kumpulan Desa</h4>
+                <p class="mb-0">Desa Satu Kota Batang</p>
+                <p>Tanggal : Selasa-2-januari-2022</p>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 card card-style px-1 mx-0 mb-3 position-relative">
+            <img src="{{ asset('user/images/informasi.jpg')}} " class="card-img-top" style="height: 150px">
+            <div class="logo-and-button">
+                <div class="logo" style="position: absolute; top: 140px; left: 52px; transform: translate(-50%, -50%);">
+                    <img src="http://127.0.0.1:8000/user/images/desadua.png" alt="Logo" width="74" style="height: 74px">
+                </div>
+                <div class="detail-button" style="position: absolute; top: 150px; right: 16px; transform: translateY(-50%);">
+                    <a href="/detail-informasi" class="btn btn-xxs bg-mint-dark text-center mx-1">Detail</a>
+                </div>
+            </div>
+            <div class="content pb-0 mt-4 pt-3 mb-3">
+                <h4 class="mb-0">Gotong Royong</h4>
+                <p class="mb-0">Desa Dua Kota Batang</p>
+                <p>Tanggal : Selasa-2-januari-2022</p>
+            </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4 card card-style px-1 mx-0 mb-3 position-relative">
+            <img src="{{ asset('user/images/informasi.jpg')}} " class="card-img-top" style="height: 150px">
+            <div class="logo-and-button">
+                <div class="logo" style="position: absolute; top: 140px; left: 52px; transform: translate(-50%, -50%);">
+                    <img src="http://127.0.0.1:8000/user/images/desasatu.png" alt="Logo" width="74" style="height: 74px">
+                </div>
+                <div class="detail-button" style="position: absolute; top: 150px; right: 16px; transform: translateY(-50%);">
+                    <a href="/detail-informasi" class="btn btn-xxs bg-mint-dark text-center mx-1">Detail</a>
+                </div>
+            </div>
+            <div class="content pb-0 mt-4 pt-3 mb-3">
+                <h4 class="mb-0">Slametan</h4>
+                <p class="mb-0">Desa Satu Kota Batang</p>
+                <p>Tanggal : Selasa-2-januari-2022</p>
             </div>
         </div>
     </div>
+    <div class="pb-2"></div>
 </div>
-
-
 @endsection

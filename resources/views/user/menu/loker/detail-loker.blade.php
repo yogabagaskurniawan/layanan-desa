@@ -53,17 +53,12 @@
         <p class="mb-0 font-500 font-14">Senin 3 januari 2022 , Batang</p>
         <div class="divider mx-1 my-1"></div>
         <h4 class="mb-0">Progammer</h4>
-        <p class="font-500 font-14">
+        <p class="font-500 font-14 mb-3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magni
             ullam beatae corrupti molestias commodi facilis reiciendis eaque assumenda eos!
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magni
             ullam beatae corrupti molestias commodi facilis reiciendis eaque assumenda eos!
         </p>
-    </div>
-</div>
-
-<div class="card card-style mx-0 mb-3 position-relative rounded-0" style="border-bottom-right-radius: 26px !important;border-bottom-left-radius: 26px !important">
-    <div class="content">
         <ul class="mb-0 ps-3">
             <li><h5>Dibuat oleh : Admin</h5></li>
             <li><h5>Kota : Batang</h5></li>
@@ -71,5 +66,4 @@
         </ul>
     </div>
 </div>
-
 @endsection
