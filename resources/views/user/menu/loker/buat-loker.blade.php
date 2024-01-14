@@ -31,7 +31,7 @@
     </div>
 </div>
 
-<<<<<<< HEAD
+
 <div class="card card-style mx-0 mt-3 pt-3">
     <div class="container px-3 mx-auto" style="max-width: 576px">
         <div class="content">
