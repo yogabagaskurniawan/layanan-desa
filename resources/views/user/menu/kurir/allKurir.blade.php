@@ -34,24 +34,24 @@
             <div class="col-4 col-sm-3 col-md-2 px-0">
                 <div class="card card-style mx-1 mb-2" style="border-radius: 12px !important" class="position-relative">
                     <span class="badge bg-success position-absolute top-0 end-0 m-2 bg-success-dark px-2 rounded-s font-12">Aktif</span>
-                    <img src="{{ asset('user/images/pictures/kurir1.jpeg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;
+                    <img src="{{ asset('user/images/pictures/kurir1.jpeg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
                         alt="Card Image">
                     <div class="content pb-0 mx-2 mt-2 mb-3">
                         <h5 class="text-truncate">Abdul Ali</h5>
                         <p class="card-text mb-2">Tulis, Batang</p>
-                        <a href="" class="py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%"><i class="bi bi-whatsapp me-1"></i>Whatshapp</a>
+                        <a href="" class="font-8 py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%"><i class="bi bi-whatsapp me-1"></i>Whatshapp</a>
                     </div>
                 </div>
             </div>
             <div class="col-4 col-sm-3 col-md-2 px-0">
                 <div class="card card-style mx-1 mb-2" style="border-radius: 12px !important" class="position-relative">
                     <span class="badge bg-danger position-absolute top-0 end-0 m-2 bg-danger-dark px-2 rounded-s font-12">Tidak Aktif</span>
-                    <img src="{{ asset('user/images/pictures/kurir1.jpeg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;
+                    <img src="{{ asset('user/images/pictures/kurir1.jpeg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
                         alt="Card Image">
                     <div class="content pb-0 mx-2 mt-2 mb-3">
                         <h5 class="text-truncate">Abdul Ali</h5>
                         <p class="card-text mb-2">Tulis, Batang</p>
-                        <a href="" class="py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%"><i class="bi bi-whatsapp me-1"></i>Whatshapp</a>
+                        <a href="" class="font-8 py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%"><i class="bi bi-whatsapp me-1"></i>Whatshapp</a>
                     </div>
                 </div>
             </div>
@@ -61,24 +61,24 @@
             <div class="col-4 col-sm-3 col-md-2 px-0">
                 <div class="card card-style mx-1 mb-2" style="border-radius: 12px !important" class="position-relative">
                     <span class="badge bg-success position-absolute top-0 end-0 m-2 bg-success-dark px-2 rounded-s font-12">Aktif</span>
-                    <img src="{{ asset('user/images/pictures/kurir2.jpeg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;
+                    <img src="{{ asset('user/images/pictures/kurir2.jpeg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
                         alt="Card Image">
                     <div class="content pb-0 mx-2 mt-2 mb-3">
                         <h5 class="text-truncate">Abdul Ali</h5>
                         <p class="card-text mb-2">Tulis, Batang</p>
-                        <a href="" class="py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%"><i class="bi bi-whatsapp me-1"></i>Whatshapp</a>
+                        <a href="" class="font-8 py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%"><i class="bi bi-whatsapp me-1"></i>Whatshapp</a>
                     </div>
                 </div>
             </div>
             <div class="col-4 col-sm-3 col-md-2 px-0">
                 <div class="card card-style mx-1 mb-2" style="border-radius: 12px !important" class="position-relative">
                     <span class="badge bg-success position-absolute top-0 end-0 m-2 bg-success-dark px-2 rounded-s font-12">Aktif</span>
-                    <img src="{{ asset('user/images/pictures/kurir2.jpeg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;
+                    <img src="{{ asset('user/images/pictures/kurir2.jpeg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
                         alt="Card Image">
                     <div class="content pb-0 mx-2 mt-2 mb-3">
                         <h5 class="text-truncate">Abdul Ali</h5>
                         <p class="card-text mb-2">Tulis, Batang</p>
-                        <a href="" class="py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%"><i class="bi bi-whatsapp me-1"></i>Whatshapp</a>
+                        <a href="" class="font-8 py-1 btn btn-xxs bg-mint-dark shadow-bg-m text-center" style="width: 100%"><i class="bi bi-whatsapp me-1"></i>Whatshapp</a>
                     </div>
                 </div>
             </div>

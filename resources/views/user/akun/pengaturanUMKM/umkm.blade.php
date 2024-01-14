@@ -53,7 +53,6 @@
 
 @section('content')
 @include('layouts.user.partials.footer-bar')
-
 <div class="pt-3 sticky-nav">
     <div class="page-title pb-3 d-flex align-items-center mx-0" style="max-width: 1000px !important;">
         <div class="align-self-center ms-auto">
@@ -89,7 +88,7 @@
             ullam beatae corrupti molestias commodi facilis reiciendis eaque assumenda eos!
         </p>
         <div class="mt-3 d-flex justify-content-center">
-            <a href="/umkm-edit" class="btn btn-xxs bg-yellow-dark shadow-bg-m text-center mx-1">Edit UMKM</a>
+            {{-- <a href="/umkm-edit" class="btn btn-xxs bg-yellow-dark shadow-bg-m text-center mx-1">Edit profil UMKM</a> --}}
             <a href="/umkm/tambah-produk" class="btn btn-xxs bg-blue-dark shadow-bg-m text-center mx-1">Tambah Produk UMKM</a>
         </div>
     </div>
@@ -113,8 +112,8 @@
         <div class="col-4 col-sm-3 col-md-2 px-0">
             <div class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
                 <span class="badge bg-primary position-absolute top-0 end-0 m-2 bg-orange-dark px-2 rounded-s font-12">Elektronik</span>
-                <img src="{{ asset('user/images/pictures/marketplace-1.jpg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                    alt=" card="" image"="">
+                <img src="{{ asset('user/images/pictures/marketplace-1.jpg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                    alt="">
                 <div class="content pb-0 mx-2">
                     <p class="font-14 font-900 mb-0 text-truncate" style="max-width: 150px;">Toge Pestisida</p>
                     <h5 class="text-truncate">Rp 9.000</h5>
@@ -129,8 +128,8 @@
         <div class="col-4 col-sm-3 col-md-2 px-0">
             <div class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
                 <span class="badge bg-primary position-absolute top-0 end-0 m-2 bg-orange-dark px-2 rounded-s font-12">Elektronik</span>
-                <img src="http://127.0.0.1:8000/user/images/pictures/marketplace-1.jpg" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                    alt=" card="" image"="">
+                <img src="http://127.0.0.1:8000/user/images/pictures/marketplace-1.jpg" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                    alt="">
                 <div class="content pb-0 mx-2">
                     <p class="font-14 font-900 mb-0 text-truncate" style="max-width: 150px;">Toge NonPestisida</p>
                     <h5 class="text-truncate">Rp 9.000</h5>

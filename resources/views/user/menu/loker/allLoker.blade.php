@@ -12,9 +12,6 @@
 
 @section('content')
 @include('layouts.user.partials.footer-bar')
-
-<div class="page-content " style="max-width: 1000px; margin: 0 auto;">
-
     <div class="pt-3">
         <div class="page-title d-flex pb-3">
             <div class="align-self-center">
@@ -44,7 +41,6 @@
             </div>
         </div>
     </div>
-
     <div class="card card-style mx-0" style="border-radius: 26px !important">
         <div class="content mb-0 mt-0 px-2">
             <h3 class="font-200 my-3 ms-n2">Semua Lowongan Kerja</h3>
@@ -101,7 +97,5 @@
         <div class="pb-2"></div>
         </div>
     </div>
-
-</div>
 
 @endsection

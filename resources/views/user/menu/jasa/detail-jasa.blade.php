@@ -50,10 +50,11 @@
     </div>
     <div class="content pb-0 mt-5 pt-2 mb-3">
         <h4 class="mb-0">Desa Satu</h4>
-        <p class="mb-0 font-500 font-14">Batang</p>
-        <h3 class="font-300 mb-0">RP. 400.000</h3>
-        <div class="divider mx-1 my-1"></div>
-        <h4 class="mb-0">Fotografi</h4>
+        <p class="mb-0 font-500 font-14">Tulis,Batang</p>
+        <h3 class="font-200 mb-0 mb-3 font-16">RP. 400.000</h3>
+        {{-- <div class="divider mx-1 my-1"></div> --}}
+        {{-- <h4 class="mb-0">Fotografi</h4> --}}
+        <h3 class="font-200">Fotografi</h3>
         <p class="font-500 font-14">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magni
             ullam beatae corrupti molestias commodi facilis reiciendis eaque assumenda eos!
@@ -69,10 +70,10 @@
         <div class="col-4 col-sm-3 col-md-2 px-0">
             <a href="/detail-jasa" class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
                 {{-- <span class="badge bg-primary position-absolute top-0 end-0 m-2 bg-orange-dark px-2 rounded-s font-12">Elektronik</span> --}}
-                <img src="{{ asset('user/images/pictures/jasa.jpg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                    alt=" card="" image"="">
+                <img src="{{ asset('user/images/pictures/jasa.jpg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                    alt="">
                 <div class="content pb-0 mx-2">
-                    <h4 class="mb-0">Jasa Tukang</h4>
+                    <h4 class="mb-0  text-truncate">Jasa Tukang</h4>
                     <h5  class="mb-0">Rp. 400.000</h5>
                     <p>Desa Satu,<span> Kota Batang</span></p>
                 </div>
@@ -81,10 +82,10 @@
         <div class="col-4 col-sm-3 col-md-2 px-0">
             <a href="/detail-jasa" class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
                 {{-- <span class="badge bg-primary position-absolute top-0 end-0 m-2 bg-orange-dark px-2 rounded-s font-12">Makanan</span> --}}
-                <img src="{{ asset('user/images/pictures/jasa.jpg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                    alt=" card="" image"="">
+                <img src="{{ asset('user/images/pictures/jasa.jpg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                    alt="">
                 <div class="content pb-0 mx-2">
-                    <h4 class="mb-0">Jasa Masak</h4>
+                    <h4 class="mb-0  text-truncate">Jasa Masak</h4>
                     <h5  class="mb-0">Rp. 400.000</h5>
                     <p>Desa Satu,<span> Kota Batang</span></p>
                 </div>
@@ -92,10 +93,10 @@
         </div>
         <div class="col-4 col-sm-3 col-md-2 px-0">
             <a href="/detail-jasa" class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
-                <img src="{{ asset('user/images/pictures/jasa.jpg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                    alt=" card="" image"="">
+                <img src="{{ asset('user/images/pictures/jasa.jpg') }}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                    alt="">
                 <div class="content pb-0 mx-2">
-                    <h4 class="mb-0">Jasa Fotografi</h4>
+                    <h4 class="mb-0  text-truncate">Jasa Fotografi</h4>
                     <h5  class="mb-0">Rp. 400.000</h5>
                     <p>Desa Satu,<span> Kota Batang</span></p>
                 </div>

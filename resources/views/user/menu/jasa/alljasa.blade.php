@@ -49,7 +49,6 @@
 @section('content')
 @include('layouts.user.partials.footer-bar')
 
-<div class="page-content " style="max-width: 1000px; margin: 0 auto;">
 
     <div class="pt-3">
         <div class="page-title d-flex pb-3">
@@ -78,7 +77,7 @@
                     </div>
                     <div class="col p-0 w-full">
                         <span data-bs-toggle="offcanvas" data-bs-target="#menu-top-detached" href="#" class="icon icon-xl rounded-pill border border-secondary shadow-bg shadow-bg-xs bg-theme" style="width: 100%; background-color: transparent;">
-                            <i class="bi bi-filter font-32 text-secondary"></i>
+                            <i class="bi-sliders font-20 text-secondary"></i>
                         </span>
                     </div>  
 
@@ -148,7 +147,6 @@
         </div>
     </div>
 
-</div>
 
 
 @endsection

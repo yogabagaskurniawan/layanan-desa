@@ -3,7 +3,7 @@
 @section('header')
 <div class="header-bar header-fixed header-app header-auto-show m-auto" style="max-width: 1000px !important;">
     <a href="/petugas-umkm"><i class="bi bi-chevron-left font-13"></i></a>
-    <a class="header-title">Edit produk</a>
+    <a class="header-title">Edit produk UMKM</a>
     <a href="#" data-toggle-theme class="show-on-theme-dark"><i class="bi bi-sun-fill color-yellow-dark font-16"></i>
     <a href="#" data-toggle-theme class="show-on-theme-light"><i class="bi bi-moon-fill font-13"></i>
     <a href="#"></a>
@@ -21,7 +21,7 @@
             </a>
         </div>
         <div class="align-self-center me-auto">
-            <h1 class="color-theme mb-0 font-18">Edit produk</h1>
+            <h1 class="color-theme mb-0 font-18">Edit produk UMKM</h1>
         </div>
     </div>
 </div>
@@ -74,7 +74,7 @@
                         <a href="" class="badge bg-danger badge-sm rounded-pill">Hapus</a>
                     </div>
                 </div>
-                <button class="btn btn-full bg-mint-dark rounded-xs text-uppercase font-700 w-100 btn-s mt-4" type="submit">Update Produk</button>
+                <button class="btn btn-full bg-mint-dark rounded-xs text-uppercase font-700 w-100 btn-xxs mt-4" type="submit">Update Produk</button>
             </form>
         </div>
     </div>

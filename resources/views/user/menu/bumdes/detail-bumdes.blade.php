@@ -96,8 +96,8 @@
         <div class="col-4 col-sm-3 col-md-2 px-0">
             <a href="/detail-bumdes" class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
                 {{-- <span class="badge bg-primary position-absolute top-0 end-0 m-2 bg-orange-dark px-2 rounded-s font-12">Elektronik</span> --}}
-                <img src="{{ asset('user/images/bumdes.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                    alt=" card="" image"="">
+                <img src="{{ asset('user/images/bumdes.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                    alt="">
                 <div class="content pb-0 mx-2">
                     <p class="font-14 font-900 mb-0 text-truncate" href="/detail-bumdes" style="max-width: 150px;">Bumdes 1 </p>
                     <h5 class="text-truncate">Rp 9.000.000</h5>
@@ -108,8 +108,8 @@
         <div class="col-4 col-sm-3 col-md-2 px-0">
             <a href="/detail-bumdes" class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
                 {{-- <span class="badge bg-primary position-absolute top-0 end-0 m-2 bg-orange-dark px-2 rounded-s font-12">Makanan</span> --}}
-                <img src="{{ asset('user/images/bumdes.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                    alt=" card="" image"="">
+                <img src="{{ asset('user/images/bumdes.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                    alt="">
                 <div class="content pb-0 mx-2">
                     <p class="font-14 font-900 mb-0 text-truncate" href="/detail-bumdes" style="max-width: 150px;">Bumdes 2</p>
                     <h5 class="text-truncate">Rp 9.000.000</h5>
@@ -119,8 +119,8 @@
         </div>
         <div class="col-4 col-sm-3 col-md-2 px-0">
             <a href="/detail-bumdes" class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
-                <img src="{{ asset('user/images/bumdes.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                    alt=" card="" image"="">
+                <img src="{{ asset('user/images/bumdes.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                    alt="">
                 <div class="content pb-0 mx-2">
                     <p class="font-14 font-900 mb-0 text-truncate" href="/detail-bumdes" style="max-width: 150px;">Bumdes 3</p>
                     <h5 class="text-truncate">Rp 9.000.000</h5>
@@ -130,8 +130,8 @@
         </div>
         <div class="col-4 col-sm-3 col-md-2 px-0">
             <a href="/detail-bumdes" class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
-                <img src="{{ asset('user/images/bumdes.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                    alt=" card="" image"="">
+                <img src="{{ asset('user/images/bumdes.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                    alt="">
                 <div class="content pb-0 mx-2">
                     <p class="font-14 font-900 mb-0 text-truncate" href="/detail-bumdes" style="max-width: 150px;">Bumdes 4</p>
                     <h5 class="text-truncate">Rp 9.000.000</h5>
@@ -141,8 +141,8 @@
         </div>
         <div class="col-4 col-sm-3 col-md-2 px-0">
             <a href="/detail-bumdes" class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
-                <img src="{{ asset('user/images/bumdes.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                    alt=" card="" image"="">
+                <img src="{{ asset('user/images/bumdes.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                    alt="">
                 <div class="content pb-0 mx-2">
                     <p class="font-14 font-900 mb-0 text-truncate" href="/detail-bumdes" style="max-width: 150px;">Bumdes 5</p>
                     <h5 class="text-truncate">RP.90.000.000</h5>

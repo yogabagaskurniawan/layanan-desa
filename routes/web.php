@@ -134,6 +134,12 @@ Route::get('/buat-surat', function () {
 Route::get('/simpedes', function () {
     return view('user.menu.simpedes.form-simpedes');
 });
+Route::get('/tambah-saldo', function () {
+    return view('user.menu.simpedes.tambah-saldo');
+});
+Route::get('/tarik-saldo', function () {
+    return view('user.menu.simpedes.tarik-saldo');
+});
 // bagian menu untuk bank Sampah
 Route::get('/bankSampah', function () {
     return view('user.menu.bankSampah.form-bankSampah');
@@ -142,6 +148,7 @@ Route::get('/bankSampah', function () {
 Route::get('/desa-lain', function () {
     return view('user.menu.desaLain.all-desa-lain');
 });
+
 
 // !!! bagian akun
 Route::get('/akun', function () {

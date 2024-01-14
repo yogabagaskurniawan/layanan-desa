@@ -72,7 +72,7 @@
                 <div class="valid-feedback">Excellent!<!-- text for field valid--></div>
                 <div class="invalid-feedback">Name is Missing or Invalid</div>
             </div>
-            <button class="btn btn-full bg-blue-dark rounded-xs text-uppercase font-700 w-100 btn-s my-4" type="submit">Daftar</button>
+            <button class="btn btn-full bg-blue-dark rounded-xs text-uppercase font-700 w-100 btn-xxs my-4" type="submit">Daftar</button>
         </form>
     </div>
 </div>
@@ -81,35 +81,34 @@
         <h3 class="mb-2">
             Tanjiro
         </h3>
-        <p class="mb-0">Alamat : Jl. Duren RT.1/RW.1</p>
-        <p class="mb-0">Desa : Tulis</p>
-        <p class="mb-0">Kecamatan : Tulis</p>
-        <p class="mb-0">Kota : Batang</p>
-        <p class="mb-0">Notice: Biaya Penanganan Rp.10,000</p>
+        <p class="mb-0">Jl. Duren RT.1/RW.1 Tulis Batang</p>
+        <p class="mb-0">Biaya Penanganan Rp.10,000</p>
     </div>
     <div class="divider mx-1 my-2"></div>
-    <h2 class="text-center mt-2">Status <span class="badge bg-success rounded-s px-2 mb-1 mx-2 font-14" style="vertical-align: middle;">Aktif</span></h2>
+    <h3 class="text-center mt-2">Status <span class="badge bg-success rounded-s px-2 mb-1 mx-2 font-12" style="vertical-align: middle;">Aktif</span></h3>
     <div class="content text-center mt-3">
         <h3 class="mb-2">Histori Pengambilan Sampah</h3>
-        <div class="border border-blue-dark rounded-s overflow-hidden">
-            <table class="table color-theme border-blue-dark mb-0">
-                <thead class="rounded-s bg-blue-dark border-l">
-                    <tr class="color-white">
-                        <th scope="col">
-                            <h5 class="color-white font-15 mb-0">Tanggal</h5>
-                        </th>
-                        <th scope="col">
-                            <h5 class="color-white font-15 mb-0">Pengambil</h5>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1/2/23</td>
-                        <td>Tisna</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="mx-auto" style="max-width: 576px">
+            <div class="border border-blue-dark rounded-xs overflow-hidden">
+                <table class="table color-theme border-blue-dark mb-0">
+                    <thead class="rounded-s bg-blue-dark border-l">
+                        <tr class="color-white">
+                            <th scope="col">
+                                <h5 class="color-white font-15 mb-0">Tanggal</h5>
+                            </th>
+                            <th scope="col">
+                                <h5 class="color-white font-15 mb-0">Pengambil</h5>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1/2/23</td>
+                            <td>Tisna</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
 </div>

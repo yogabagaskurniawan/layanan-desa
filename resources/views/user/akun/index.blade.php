@@ -56,7 +56,7 @@
                     <div class="valid-feedback">Phone Number looks good!<!-- text for field valid--></div>
                     <div class="invalid-feedback">Phone Number is missing or is invalid.</div>
                 </div>
-                <button class="btn btn-full bg-mint-dark rounded-xs text-uppercase font-700 w-100 btn-s mt-4" type="submit">Update Password</button>
+                <button class="btn btn-full bg-mint-dark rounded-xs text-uppercase font-700 w-100 btn-xxs mt-4" type="submit">Update Password</button>
             </form>
         </div>
     </div>

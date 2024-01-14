@@ -48,11 +48,11 @@
                 <div class="row text-center images-container"></div>
                 <div class="text-center">
                     <input type="file" class="upload-file" accept="image/*">
-                    <p class="btn btn-xxs text-uppercase rounded-s upload-file-text mb-0 border-blue-dark color-blue-dark">Upload foto profil toko</p>
+                    <p class="btn btn-xxs text-uppercase rounded-s upload-file-text mb-0 border-blue-dark color-blue-dark">Upload gambar</p>
                     <p style="font-size:12px">Maksimal ukuran foto 3MB</p>
                 </div>
             </div> 
-            <button class="btn btn-full bg-blue-dark rounded-xs text-uppercase font-700 w-100 btn-s my-4" type="submit">Kirim Masukan</button>
+            <button class="btn btn-full bg-blue-dark rounded-xs text-uppercase font-700 w-100 btn-xxs my-4" type="submit">Kirim Masukan</button>
         </form>
         <h3 class="text-center mb-1 pt-4">Masukan / Saran Saya</h3>
         <div class="divider mx-1 my-2 mb-3"></div>

@@ -48,8 +48,8 @@
             <div class="row mb-0">
                 <div class="col-4 col-sm-3 col-md-2 px-0 mb-2">
                     <a href="#" class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
-                        <img src="{{ asset('user/images/pictures/24.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                            alt=" card="" image"="">
+                        <img src="{{ asset('user/images/pictures/24.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                            alt="">
                         <div class="content pb-0 mx-2 mt-2 mb-3">
                             <h5 class="text-truncate">DesaSatu</h5>
                             <p class="card-text mb-2">Tulis, Batang</p>
@@ -59,8 +59,8 @@
                 </div>
                 <div class="col-4 col-sm-3 col-md-2 px-0 mb-2">
                     <a href="#" class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
-                        <img src="{{ asset('user/images/pictures/24.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                            alt=" card="" image"="">
+                        <img src="{{ asset('user/images/pictures/24.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                            alt="">
                         <div class="content pb-0 mx-2 mt-2 mb-3">
                             <h5 class="text-truncate">DesaSatu</h5>
                             <p class="card-text mb-2">Tulis, Batang</p>
@@ -70,8 +70,8 @@
                 </div>
                 <div class="col-4 col-sm-3 col-md-2 px-0 mb-2">
                     <a href="#" class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
-                        <img src="{{ asset('user/images/pictures/24.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                            alt=" card="" image"="">
+                        <img src="{{ asset('user/images/pictures/24.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                            alt="">
                         <div class="content pb-0 mx-2 mt-2 mb-3">
                             <h5 class="text-truncate">DesaDua</h5>
                             <p class="card-text mb-2">Tulis, Batang</p>
@@ -81,8 +81,8 @@
                 </div>
                 <div class="col-4 col-sm-3 col-md-2 px-0 mb-2">
                     <a href="#" class="card card-style mx-1 mb-2" style="border-radius: 12px !important">
-                        <img src="{{ asset('user/images/pictures/24.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;
-                            alt=" card="" image"="">
+                        <img src="{{ asset('user/images/pictures/24.jpg')}}" class="card-img-top img-fluid rounded" style="height: 113px !important;"
+                            alt="">
                         <div class="content pb-0 mx-2 mt-2 mb-3">
                             <h5 class="text-truncate">DesaDua</h5>
                             <p class="card-text mb-2">Tulis, Batang</p>

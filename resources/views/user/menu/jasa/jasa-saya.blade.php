@@ -13,7 +13,6 @@
 @section('content')
 @include('layouts.user.partials.footer-bar')
 
-<div class="page-content " style="max-width: 1000px; margin: 0 auto;">
 
     <div class="pt-3">
         <div class="page-title d-flex pb-3">
@@ -27,14 +26,18 @@
             </div>
         </div>
     </div>
-
+    <div class=" border-0 mx-0 " style="max-width: 1000px !important;">
+        <div class="content mb-0">
+            <div class="row">
+                <div class="col-12 mb-3 d-flex justify-content-center">
+                    <a href="/tambah-jasa" class="btn btn-xxs bg-blue-dark shadow-bg-m text-center mx-1">Tambah jasa</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="card card-style mx-0" style="border-radius: 26px !important">
-        <div class="content mb-0 mt-0 px-2"><br>
-            {{-- <h3 class="font-200 my-3 ms-n2">Semua Lowongan Kerja Saya Buat</h3> --}}
-            <div class="my-2 d-flex justify-content-center">
-                <a href="/tambah-jasa" class="btn btn-xxs bg-mint-dark shadow-bg-m text-center mx-1">Tambah Jasa</a>
-            </div><br>
-                <div class="row">
+        <div class="content mb-0 pt-2 px-2">
+            <div class="row">
                     <div class="col-12 col-sm-6 col-lg-4 card card-style px-1 mx-0 mb-3 position-relative">
                         <img src="{{ asset('user/images/pictures/jasa.jpg') }} " class="card-img-top" style="height: 150px">
                         <div class="logo-and-button">
@@ -88,7 +91,6 @@
         </div>
     </div>
 
-</div>
 
 
 @endsection

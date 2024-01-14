@@ -84,10 +84,10 @@
 <div class="card card-style overflow-visible" style="margin-top: 80px">
     <div class="mt-n5"></div>
     <div class="text-center mb-4">
-        <img src="{{ asset('/user/images/pictures/logo.png') }}" alt="img" width="300" class="" style="max-width: 500px; max-height: 500px;">
+        <img src="{{ asset('/user/images/pictures/logo.png') }}" alt="img" width="256" class="" style="max-height: 256px;">
     </div>
     <div class="content">
-        <h1 class="mb-3 pt-2">Masuk ke Akun</h1>
+        <h3 class="mb-3 pt-2" >Masuk ke Akun</h3>
         <div class="form-custom mb-3 form-border form-icon form-label">
             <i class="bi bi-telephone-fill font-12"></i>
             <input type="tel" class="form-control rounded-xs" id="c3" placeholder="nomor handphone" pattern="[+ 0-9]{10,15}" required="">
@@ -104,15 +104,15 @@
         </div>
         <div class="form-check form-check-custom">
             <input class="form-check-input" type="checkbox" name="type" value="" id="c2a">
-            <label class="form-check-label font-12" for="c2a">Remember this account</label>
+            <label class="form-check-label font-12" for="c2a">Ingat saya</label>
             <i class="is-checked color-highlight font-13 bi bi-check-circle-fill"></i>
             <i class="is-unchecked color-highlight font-13 bi bi-circle"></i>
         </div>
         <a href="index.html" class="btn btn-full gradient-highlight shadow-bg shadow-bg-s mt-4">Masuk</a>
         <div class="row">
-            <div class="col-6 text-start">
+            <div class="col-3 text-start">
             </div>
-            <div class="col-6 text-end">
+            <div class="col-9 text-end">
                 <p class="font-11 color-theme opacity-40 pt-4 d-block font-14">Belum punya akun?<a href="/register"> Daftar Sekarang</a></p>
             </div>
         </div>
